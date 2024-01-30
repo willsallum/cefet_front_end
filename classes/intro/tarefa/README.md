@@ -118,7 +118,7 @@
     tipo assim: "html tag del" (sem as áspas)
 
     ![](../../../images/documentation-alternatives.png) <!-- {.push-right style="height: 125px"} -->
-    
+
       Prefira sempre a página MDN (informação confiável, completa e sem propagandas)
 
 **Entrega**
@@ -126,7 +126,7 @@
   - Além disso, você deve compactar a pasta com todos os seus arquivos em
     um arquivo `.zip` e então **enviar esse arquivo via [Moodle][moodle]**
 
-- *[MDN]: Mozilla Developer Network*
-- [google]: http://google.com
-- [bing]: http://bing.com
-- [moodle]: http://ava.cefetmg.br
+*[MDN]: Mozilla Developer Network*
+[google]: http://google.com
+[bing]: http://bing.com
+[moodle]: http://ava.cefetmg.br
