@@ -121,7 +121,7 @@
 
       Prefira sempre a página MDN (informação confiável, completa e sem propagandas)
 
->[!IMPORTANTE]
+>[!IMPORTANT]
 >**Entrega**
 >  - Você deve **mostrar ao professor** o seu exercício para ganhar o visto.
 >  - Além disso, você deve compactar a pasta com todos os seus arquivos em
