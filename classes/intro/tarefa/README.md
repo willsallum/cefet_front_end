@@ -124,7 +124,7 @@
 >[!IMPORTANT]
 >**Entrega**
 >  - Você deve **mostrar ao professor** o seu exercício para ganhar o visto.
->  - Além disso, você deve compactar a pasta com todos os seus arquivos em um arquivo `.zip` e então **enviar esse arquivo via [Moodle] [moodle]**
+>  - Além disso, caso seja determinado pelo professor, você deve compactar a pasta com todos os seus arquivos em um arquivo `.zip` e então **enviar esse arquivo via [Moodle] [moodle]**
 
 *[MDN]: Mozilla Developer Network*
 [google]: http://google.com
