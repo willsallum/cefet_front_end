@@ -558,7 +558,7 @@ ovelha.inicializa();
 <!-- { "layout": "circling-balloons" } -->
 ## As três linguagens
 
-- ![Logomarca do HTML](../../images/logo-html.svg)
+![Logomarca do HTML](../../images/logo-html.svg)
 
   Linguagem:
     - HTML: Hypertext Markup Language
@@ -566,7 +566,7 @@ ovelha.inicializa();
   O que faz:
     - Conteúdo e estrutura da página (*e.g.*, o texto, imagens)
 
-- ![Logomarca do CSS](../../images/logo-css.svg)
+ ![Logomarca do CSS](../../images/logo-css.svg)
 
   Linguagem:
     - CSS: Cascading Stylesheets
@@ -574,7 +574,7 @@ ovelha.inicializa();
   O que faz:
     - Apresentação (estilos) da página (*e.g.*, core, tamanhos, detalhes)
 
-- ![Logomarca do JavaScript](../../images/logo-javascript.svg)
+ ![Logomarca do JavaScript](../../images/logo-javascript.svg)
 
   Linguagem:
     - JavaScript
@@ -654,6 +654,7 @@ ovelha.inicializa();
 ## Tim, o coração valente, tinha uma dúvida
 
 ![](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-left} -->
+
 Quero que **qualquer pessoa**, em **qualquer computador** (arquitetura, sistema
 operacional, rede), em qualquer lugar, consiga **visualizar documentos um do
 outro**.
@@ -713,6 +714,7 @@ Alternativas
 ## Tim, o coração valente, tinha uma dúvida
 
 ![](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-left} -->
+
 Agora que especifiquei um formato de arquivo robusto, preciso de um **programa
 que seja capaz de renderizar** seu conteúdo e permitir a **navegação** de um
 arquivo html para outro.
@@ -727,6 +729,7 @@ arquivo html para outro.
 ## Tim, o coração valente, tinha uma dúvida
 
 ![](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-left} -->
+
 Até agora, consigo visualizar os arquivos `.html` no meu computador, usando um
 navegador. Mas quero poder acessar **arquivos de qualquer um que se disponha a
 deixar o computador ligado**, em qualquer parte do mundo.
@@ -754,6 +757,7 @@ deixar o computador ligado**, em qualquer parte do mundo.
 Quero poder **transmitir** essas páginas web de um servidor para meu navegador.
 
 ![](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-left} -->
+
 Tenho o protocolo TCP/IP à minha disposição, mas preciso **transmitir mais do
 que apenas o conteúdo dos arquivos**. Por exemplo, como faço caso o arquivo
 solicitado não exista? **Em que "língua"** que o servidor web e o navegador vão
@@ -769,13 +773,13 @@ solicitado não exista? **Em que "língua"** que o servidor web e o navegador v�
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-<!-- <!-- ::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin.invert-colors-dark-mode -->
+<!-- ::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin.invert-colors-dark-mode -->
 ![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-<!-- <!-- :::
+<!-- ::: -->
 
 ---
 <!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']"} -->
