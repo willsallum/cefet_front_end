@@ -67,11 +67,11 @@ Dúvidas:
 ---
 <!-- {"layout": "centered"} -->
 
-::: figure .embedded-caption
+<!-- <!-- ::: figure .embedded-caption -->
 <figcaption class="caption-bottom centered">A Internet em 1986</figcaption>
 
 ![Diagrama lógico da ARPANET em 1986](../../images/arpanet-1986.png) <!-- {.slide-contain} -->
-:::
+<!-- <!-- :::
 
 ---
 ## Linha do Tempo (2/2)
@@ -94,9 +94,9 @@ Dúvidas:
 # Dúvida...
 ## Mas se a Web surgiu apenas em 1989, o que era a Internet antes dela?
 
-::: figure .floating-portrait-container
+<!-- ::: figure .floating-portrait-container -->
 ![O Filosoraptor](../../images/philosoraptor.jpg) <!-- {.portrait} -->
-:::
+<!-- ::: -->
 
 ---
 ## A era Pré-web
@@ -108,40 +108,40 @@ Dúvidas:
 
 ---
 <!-- {"layout": "centered"} -->
-::: figure
+<!-- ::: figure -->
 ![Tela do cliente de E-mail ELM](../../images/email-elm.png)
 <figcaption>Cliente de E-mail ELM (1986)</figcaption>
-:::
+<!-- ::: -->
 
 ---
 <!-- {"layout": "centered"} -->
-::: figure
+<!-- ::: figure -->
 ![Tela do cliente de E-mail Pine](../../images/email-pine.png)
 <figcaption>Cliente de E-mail Pine (1989)</figcaption>
-:::
+<!-- ::: -->
 
 ---
 <!-- {"layout": "centered"} -->
-::: figure
+<!-- ::: figure -->
 ![Tela do BBS Koala Country](../../images/bbs-koala-country.jpg)
 <figcaption>BBS Koala Country (1989)</figcaption>
-:::
+<!-- :::
 
 ---
 <!-- {"layout": "centered"} -->
-::: figure
+<!-- ::: figure
 <figcaption>Usenet GNUs</figcaption>
 
 ![Tela do Usenet GNUs](../../images/usenet-gnus.png) <!-- {style="height: 500px"} -->
-:::
+<!-- ::: -->
 
 ---
 <!-- {"layout": "centered"} -->
-::: figure
+<!-- ::: figure -->
 <figcaption>Gopher de Jospeh Maistre</figcaption>
 
 ![Tela do gopher de Jospeh Maistre](../../images/gopher-jospeh-maistre.png) <!-- {style="height: 500px"} -->
-:::
+<!-- ::: -->
 
 ---
 ## A era Pré-web
@@ -208,12 +208,12 @@ Segundo Andrew Tanembaum (autor de vários livros de Computação):
 <!-- { "layout": "2-column-highlight-and-content" , "hash": "o-que-compoe-web"} -->
 ## O que **compõe** uma página web?
 
-::: figure . height: 90%
+<!-- ::: figure . height: 90% -->
 <figcaption><a href="https://fegemo.github.io/cefet-web-ovelhas/racas-raras.html" target="_blank"><code>racas-raras.html</code></a></figcaption>
 <iframe src="https://fegemo.github.io/cefet-web-ovelhas/racas-raras.html" height="90%" width="100%">
   ![Tela da página sobre raças de ovelhas](../../images/cefet-web-ovelhas.png)
 </iframe>
-:::
+<!-- :::
 
 - Uma página web é formada por **arquivos**:
   - **01** arquivo no formato HTML (*e.g.*, `racas-raras.html`)
@@ -617,9 +617,9 @@ ovelha.inicializa();
 ---
 ## Tim, o Coração Valente
 
-- ::: figure .floating-portrait-container.push-right
+<!-->- <!-- ::: figure .floating-portrait-container.push-right -->
   ![Tim Berners-Lee](../../images/tim-berners-lee.jpg) <!-- {.portrait} -->
-  :::
+  <!-- ::: -->
   **Físico**, trabalhando no CERN, **Tim Berners-Lee** percebeu a necessidade
   dos físicos de compartilhar informação e a falta de máquinas ou formatos
   comuns
@@ -768,13 +768,13 @@ solicitado não exista? **Em que "língua"** que o servidor web e o navegador v�
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin.invert-colors-dark-mode
+<!-- <!-- ::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin.invert-colors-dark-mode -->
 ![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-:::
+<!-- <!-- :::
 
 ---
 <!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']"} -->
