@@ -114,7 +114,7 @@
 # Atividade Prática <small>(4/4)</small>
 
 **Pesquisando**
-  - Pesquise na Web (_e.g._, ![Google](google), [Bing][bing]) sobre essas _tags_,
+  - Pesquise na Web (_e.g._, [Google] [google], [Bing] [bing]) sobre essas _tags_,
     tipo assim: "html tag del" (sem as áspas)
 
     ![](../../../images/documentation-alternatives.png) <!-- {.push-right style="height: 125px"} -->
@@ -124,10 +124,9 @@
 >[!IMPORTANT]
 >**Entrega**
 >  - Você deve **mostrar ao professor** o seu exercício para ganhar o visto.
->  - Além disso, você deve compactar a pasta com todos os seus arquivos em
-    um arquivo `.zip` e então **enviar esse arquivo via [Moodle][moodle]**
+>  - Além disso, você deve compactar a pasta com todos os seus arquivos em um arquivo `.zip` e então **enviar esse arquivo via [Moodle] [moodle]**
 
 *[MDN]: Mozilla Developer Network*
-[google]:http://google.com
-[bing]:http://bing.com
-[moodle]:http://ava.cefetmg.br
+[google]: http://google.com
+[bing]: http://bing.com
+[moodle]: http://ava.cefetmg.br
