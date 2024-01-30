@@ -127,6 +127,6 @@
     um arquivo `.zip` e então **enviar esse arquivo via [Moodle][moodle]**
 
 *[MDN]: Mozilla Developer Network*
-[google]: http://google.com
-[bing]: http://bing.com
-[moodle]: http://ava.cefetmg.br
+![google]: http://google.com
+![bing]: http://bing.com
+![moodle]: http://ava.cefetmg.br
