@@ -38,8 +38,9 @@ Fato:
   - A **Internet** <!-- {.alternate-color} --> é a maior rede de computadores
   - A **Web** é "um dos programas" (o maior) na Internet
 
+![](../../images/philosoraptor.jpg) <!-- {.portrait.push-right} -->
+
 Dúvidas:
-  ![](../../images/philosoraptor.jpg) <!-- {.portrait.push-right} -->
   - (a) Internet é com "I" ou com "i"?
   - (b) Como surgiu a Internet?
 
@@ -71,7 +72,7 @@ Dúvidas:
 <figcaption class="caption-bottom centered">A Internet em 1986</figcaption>
 
 ![Diagrama lógico da ARPANET em 1986](../../images/arpanet-1986.png) <!-- {.slide-contain} -->
-<!-- <!-- :::
+<!-- ::: -->
 
 ---
 ## Linha do Tempo (2/2)
@@ -129,7 +130,7 @@ Dúvidas:
 
 ---
 <!-- {"layout": "centered"} -->
-<!-- ::: figure
+<!-- ::: figure -->
 <figcaption>Usenet GNUs</figcaption>
 
 ![Tela do Usenet GNUs](../../images/usenet-gnus.png) <!-- {style="height: 500px"} -->
@@ -208,12 +209,12 @@ Segundo Andrew Tanembaum (autor de vários livros de Computação):
 <!-- { "layout": "2-column-highlight-and-content" , "hash": "o-que-compoe-web"} -->
 ## O que **compõe** uma página web?
 
-<!-- ::: figure . height: 90% -->
+<!-- ::: figure . height: 90% 
 <figcaption><a href="https://fegemo.github.io/cefet-web-ovelhas/racas-raras.html" target="_blank"><code>racas-raras.html</code></a></figcaption>
-<iframe src="https://fegemo.github.io/cefet-web-ovelhas/racas-raras.html" height="90%" width="100%">
+<iframe src="https://fegemo.github.io/cefet-web-ovelhas/racas-raras.html" height="90%" width="100%"> -->
   ![Tela da página sobre raças de ovelhas](../../images/cefet-web-ovelhas.png)
-</iframe>
-<!-- :::
+<!-- </iframe> ->
+<!-- ::: -->
 
 - Uma página web é formada por **arquivos**:
   - **01** arquivo no formato HTML (*e.g.*, `racas-raras.html`)
