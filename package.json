@@ -1,18 +1,18 @@
 {
-  "name": "cefet-front-end",
+  "name": "cefet_front_end",
   "version": "1.0.0",
-  "homepage": "https://github.com/fegemo/cefet-front-end",
+  "homepage": "https://github.com/willsallum/cefet_front_end",
   "bugs": {
-    "url": "https://github.com/fegemo/cefet-front-end/issues"
+    "url": "https://github.com/willsallum/cefet_front_end/issues"
   },
   "author": {
-    "name": "Flávio Coutinho",
-    "email": "fegemo@gmail.com",
-    "url": "https://github.com/fegemo"
+    "name": "William Sallum",
+    "email": "profsallum.cefetmg@gmail.com",
+    "url": "https://github.com/willsallum"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fegemo/cefet-front-end.git"
+    "url": "git://github.com/willisallum/cefet_front_end.git"
   },
   "dependencies": {
     "bespoke": "^1.1.0",
@@ -23,9 +23,9 @@
     "bespoke-hash": "^1.1.0",
     "bespoke-keys": "^1.1.0",
     "bespoke-markdownit": "^1.2.0",
-    "bespoke-progress": "github:fegemo/bespoke-progress#slide-number",
+    "bespoke-progress": "github:willsallum/bespoke-progress#slide-number",
     "bespoke-qrcode": "^1.0.0",
-    "bespoke-scale": "github:fegemo/bespoke-scale",
+    "bespoke-scale": "github:willsallum/bespoke-scale",
     "bespoke-search": "^1.0.0",
     "bespoke-simple-overview": "^1.1.1",
     "bespoke-state": "^1.0.0",
