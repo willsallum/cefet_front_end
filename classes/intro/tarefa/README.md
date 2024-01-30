@@ -114,7 +114,7 @@
 # Atividade Prática <small>(4/4)</small>
 
 **Pesquisando**
-  - Pesquise na Web (_e.g._, [Google][google], [Bing][bing]) sobre essas _tags_,
+  - Pesquise na Web (_e.g._, ![Google](google), [Bing][bing]) sobre essas _tags_,
     tipo assim: "html tag del" (sem as áspas)
 
     ![](../../../images/documentation-alternatives.png) <!-- {.push-right style="height: 125px"} -->
