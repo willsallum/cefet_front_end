@@ -25,39 +25,39 @@
 # Fatos importantes
 
 Surgimento:
-  ~ A **Internet** <!-- {.alternate-color} --> surgiu em 1969 com o nome
+  - A **Internet** <!-- {.alternate-color} --> surgiu em 1969 com o nome
     de ARPANET
-  ~ A **Web** surgiu entre 1989 e 1993
+  - A **Web** surgiu entre 1989 e 1993
 
 Criadores:
-  ~ A **Internet** <!-- {.alternate-color} --> foi criada por pesquisadores
+  - A **Internet** <!-- {.alternate-color} --> foi criada por pesquisadores
     nos EUA
-  ~ A **Web** foi criada por um pesquisador na Europa
+  - A **Web** foi criada por um pesquisador na Europa
 
 Fato:
-  ~ A **Internet** <!-- {.alternate-color} --> é a maior rede de computadores
-  ~ A **Web** é "um dos programas" (o maior) na Internet
+  - A **Internet** <!-- {.alternate-color} --> é a maior rede de computadores
+  - A **Web** é "um dos programas" (o maior) na Internet
 
 Dúvidas:
-  ~ ![](../../images/philosoraptor.jpg) <!-- {.portrait.push-right} -->
-    (a) Internet é com "I" ou com "i"?
-  ~ (b) Como surgiu a Internet?
+  ![](../../images/philosoraptor.jpg) <!-- {.portrait.push-right} -->
+  - (a) Internet é com "I" ou com "i"?
+  - (b) Como surgiu a Internet?
 
 ---
 ## Linha do Tempo (1/2)
 
 1969
-  ~ Larry Roberts estabelece 1º link da **ARPANET**
+  - Larry Roberts estabelece 1º link da **ARPANET**
 
 1974
-  ~ Bob Kahn e Vint Cerf **especificam os protocolos TCP/IP**
+  - Bob Kahn e Vint Cerf **especificam os protocolos TCP/IP**
 
 1983
-  ~ Bob Kahn e Vint Cerf implantam a **família de protocolos
+  - Bob Kahn e Vint Cerf implantam a **família de protocolos
     TCP/IP na ARPANET**
 
 1974 - 1990
-  ~ Outras **grandes redes se conectaram a ARPANET**
+  - Outras **grandes redes se conectaram a ARPANET**
     (CSNET, NIPRNET, SPAN, NSN, ESNet, NSFNET, MILNET, SATNET, WIDEBRAND)
 
 *[CSNET]: Computer Science Network*
@@ -77,15 +77,15 @@ Dúvidas:
 ## Linha do Tempo (2/2)
 
 1988 - 1989
-  ~ Surgimento dos primeiros provedores de acesso ao
+  - Surgimento dos primeiros provedores de acesso ao
     público geral (ISP), dando forma à **Internet** (_case-sensitive_)
 
 1992
-  ~ O governo americano permitiu a conexão da Internet com
+  - O governo americano permitiu a conexão da Internet com
     outras redes que não eram exclusivamente de pesquisa
 
 **1989 - 1993**
-  ~ Tim Berners-Lee **cria a WWW** em CERN
+  - Tim Berners-Lee **cria a WWW** em CERN
     (_European Organization for Nuclear Research_) e a deixa aberta ao público
     geral
 
@@ -101,7 +101,7 @@ Dúvidas:
 ---
 ## A era Pré-web
 
-- Correio eletrônico (E-mail, ~1965)
+- Correio eletrônico (E-mail, -1965)
 - BBS (_Bulletin Board System_, 1978), Usenet (1980), FTP (1985)
 - WAIS, Archie, Veronica (mecanismos de busca)
 - Gopher (1991)
@@ -164,17 +164,17 @@ Dúvidas:
 <!-- {ul:.content} -->
 
 ---
-## Definição **(~~in~~formal)** de Web
+## Definição **(--in--formal)** de Web
 
 - **World Wide Web**, ou WWW, traduz em "teia mundial"
   - Normalmente falamos apenas: a **Web**
 
 1ª definição
-  ~ É o que estamos vendo e interagindo quando abrimos um navegador
+  - É o que estamos vendo e interagindo quando abrimos um navegador
     (Chrome, Firefox etc.)
 
 2ª definição
-  ~ Um conjunto de documentos de **hipermídia** **interconectados**, tipicamente
+  - Um conjunto de documentos de **hipermídia** **interconectados**, tipicamente
     acessados pela Internet. Esses documentos são as **páginas web**.
     - **Hipermídia**: conteúdo digital que envolve texto, imagens, sons,
       vídeos etc.
@@ -195,11 +195,11 @@ Segundo Andrew Tanembaum (autor de vários livros de Computação):
 <!-- {blockquote:.centered} -->
 
 "Arcabouço arquitetural"
-  ~ Conjunto de regras para a descrição, visualização e transmissão das
+  - Conjunto de regras para a descrição, visualização e transmissão das
     páginas web
 
 "Conteúdo relacionado"
-  ~ As páginas podem conter referências (_links_, ou melhor, _hyperlinks_) para
+  - As páginas podem conter referências (_links_, ou melhor, _hyperlinks_) para
     outras páginas
 
 <!-- {dl:.width-40} -->
@@ -560,26 +560,26 @@ ovelha.inicializa();
 - ![Logomarca do HTML](../../images/logo-html.svg)
 
   Linguagem:
-    ~ HTML: Hypertext Markup Language
+    - HTML: Hypertext Markup Language
 
   O que faz:
-    ~ Conteúdo e estrutura da página (*e.g.*, o texto, imagens)
+    - Conteúdo e estrutura da página (*e.g.*, o texto, imagens)
 
 - ![Logomarca do CSS](../../images/logo-css.svg)
 
   Linguagem:
-    ~ CSS: Cascading Stylesheets
+    - CSS: Cascading Stylesheets
 
   O que faz:
-    ~ Apresentação (estilos) da página (*e.g.*, core, tamanhos, detalhes)
+    - Apresentação (estilos) da página (*e.g.*, core, tamanhos, detalhes)
 
 - ![Logomarca do JavaScript](../../images/logo-javascript.svg)
 
   Linguagem:
-    ~ JavaScript
+    - JavaScript
 
   O que faz:
-    ~ Comportamento dinâmico na página (*e.g.*, a ovelhita)
+    - Comportamento dinâmico na página (*e.g.*, a ovelhita)
 
 ---
 <!-- {
@@ -668,12 +668,12 @@ e outras coisas legais.
   **seleciona-se um texto** e **marca suas partes dando a ele estrutura**
 
   Texto puro:
-    ~ ```html
+    - ```html
       Este é um texto sem ênfases.
       ```
 
   Texto html:
-    ~ ```html
+    - ```html
       Este é um texto com um trecho <em>enfatizado</em>.
       ```
 
@@ -697,15 +697,15 @@ e outras coisas legais.
 ## **Evolução** do HTML e outras **alternativas**
 
 Versões
-  ~ 1993: HTML 1.0
-  ~ 1995: HTML 2.0
-  ~ 1997: HTML 3.2
-  ~ 1997: HTML 4.0
-  ~ 2008 - hoje: **HTML 5** ![](../../images/seta-o-cara.png) <!-- {.on-line.bouncing-left} -->
+  - 1993: HTML 1.0
+  - 1995: HTML 2.0
+  - 1997: HTML 3.2
+  - 1997: HTML 4.0
+  - 2008 - hoje: **HTML 5** ![](../../images/seta-o-cara.png) <!-- {.on-line.bouncing-left} -->
 
 Alternativas
-  ~ 2000: XHTML 1.0 ![](../../images/seta-meh.png) <!-- {.on-line.bouncing-left.delay-1} -->
-  ~ 2001: XHTML 1.1 ![](../../images/seta-meh.png) <!-- {.on-line.bouncing-left.delay-2} -->
+  - 2000: XHTML 1.0 ![](../../images/seta-meh.png) <!-- {.on-line.bouncing-left.delay-1} -->
+  - 2001: XHTML 1.1 ![](../../images/seta-meh.png) <!-- {.on-line.bouncing-left.delay-2} -->
 
 ---
 <!-- {"layout": "main-point", "state": "emphatic"} -->
