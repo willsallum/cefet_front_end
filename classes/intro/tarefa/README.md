@@ -121,18 +121,13 @@
 
       Prefira sempre a página MDN (informação confiável, completa e sem propagandas)
 
-**Entrega**
+>[!IMPORTANT]
+>**Entrega**
   - Você deve **mostrar ao professor** o seu exercício para ganhar o visto.
   - Além disso, você deve compactar a pasta com todos os seus arquivos em
     um arquivo `.zip` e então **enviar esse arquivo via [Moodle][moodle]**
 
 *[MDN]: Mozilla Developer Network*
-~~~[google]: 
-http://google.com
-~~~
-~~~[bing]: 
-http://bing.com
-~~~
-~~~[moodle]: 
-http://ava.cefetmg.br
-~~~
+[google]: http://google.com
+[bing]: http://bing.com
+[moodle]: http://ava.cefetmg.br
