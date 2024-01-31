@@ -25,14 +25,7 @@
      `background-color`, `font-family`
 
 ---
-<!-- {"layout": "centered-horizontal"} -->
-# Atividade de Hoje
 
-![Coding Dojo](../../images/coding-dojo.png)
-
-Vamos fazer nosso primeiro **Code Dojo** :japanese_castle:!
-
----
 <!-- {"layout": "centered"} -->
 # Hoje veremos
 
