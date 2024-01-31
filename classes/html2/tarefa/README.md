@@ -11,11 +11,11 @@ Vamos fazer nosso primeiro **Code Dojo** :japanese_castle:!
 # O que é Coding Dojo? 
 
 **Dojo**
-~ Local de treinamento :japanese_castle: (em japonês)
-~ Termo usado em artes marciais
+- Local de treinamento :japanese_castle: (em japonês)
+- Termo usado em artes marciais
 
 **Coding Dojo**
-~ Local de treinamento para **codificar**
+- Local de treinamento para **codificar**
 
 
 ---
@@ -23,15 +23,15 @@ Vamos fazer nosso primeiro **Code Dojo** :japanese_castle:!
 Codificação **em grupo**, em que o aluno pode desempenhar um dos três papeis:
 
 **Piloto**:
-  ~ Aluno que está programando
+  - Aluno que está programando
 
 **Copiloto**:
-  ~ Auxilia a programação ao lado do piloto
-  ~ Pode ser chamada para ser **piloto**
+  - Auxilia a programação ao lado do piloto
+  - Pode ser chamada para ser **piloto**
 
 **Platéia**:
-  ~ Observa o código, auxilia quando necessário
-  ~ Pode ser chamada para ser **piloto** ou **copiloto**
+  - Observa o código, auxilia quando necessário
+  - Pode ser chamada para ser **piloto** ou **copiloto**
 
 ---
 ## Regras do Coding Dojo
@@ -62,7 +62,7 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 1. Descompacte esse arquivo
 1. Em um editor de texto (ex: VS Code), abra a pasta `code-dojo` inteira
 1. ![](../../../images/coding-dojo-estrutura-de-pastas.png) <!-- {.push-right} -->
-   <u>Ao final</u> da atividade, a estrutura de pastas será assim:
+1. Ao final da atividade, a estrutura de pastas será assim:
 
 [baixar-imagens]: https://fegemo.github.io/cefet-front-end/assignments/code-dojo-1/code-dojo.zip
 
@@ -74,20 +74,19 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 - Escreva as **tags principais no arquivo** (html, head  e body)
 - **Coloque o título** (na aba do navegador) `Coding Dojo` <!-- {ul:.bullet} -->
 
-::: did-you-know .bullet
+
 **Dikentinha**: no VS Code, dentro de um arquivo já salvo no formato `.html`,
 digite a palavra `html` e selecione a opção `html:5` (ou aperta <kbd>TAB</kbd>)
 para autocompletar com o esqueleto básico de todo arquivo HTML.
-:::
 
 ---
 ## 1. Criação da Página
 
 - **Utilize a propriedade charset** da tag `meta` (dentro do `head`) para garantir que o html seja lido da forma correta:
 `<meta charset="utf-8">`
-- Exiba um **ícone** para a página
 ![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo1.png) <!-- {.bordered.rounded.push-right style="height: 120px;"} -->
 
+- Exiba um **ícone** para a página
   - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png`
   - Salve todas as imagens em uma pasta separada
 - Para **testar**, escreva e exiba a frase `Coding dojo é muito legal` dentro do `<body>...</body>`
@@ -96,9 +95,9 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ## 2. Título (primeiro nível) e estilos da página
 
 
-- ![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo2.png) <!-- {.bordered.rounded.push-right style="height: 240px;"} -->
+![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo2.png) <!-- {.bordered.rounded.push-right style="height: 240px;"} -->
 
-  Título (primeiro nível):
+- Título (primeiro nível):
 	- Cor da fonte: Azul (`blue`)
 	- Centralizado
 - Corpo da página:
@@ -152,9 +151,9 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ---
 ## 6. Inserção de imagens
 
-- ![Página exibindo o sexto passo](../../../images/coding-dojo-1-passos/passo6.png) <!-- {.bordered.rounded.push-right style="height: 420px;"} -->
+![Página exibindo o sexto passo](../../../images/coding-dojo-1-passos/passo6.png) <!-- {.bordered.rounded.push-right style="height: 420px;"} -->
 
-  Insira a imagem `logotipo.png` após o primeiro título
+- Insira a imagem `logotipo.png` após o primeiro título
   - Repare que elas estão dentro da pastinha `imagens-dojo`
 - Insira a imagem `foto-de-evento.jpg` após o segundo título
 - Centralize as imagens
