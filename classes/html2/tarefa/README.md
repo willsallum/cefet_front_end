@@ -1,21 +1,14 @@
 <!-- {"layout": "centered-horizontal"} -->
 # Atividade de Hoje
 
-![Coding Dojo](../../../images/coding-dojo.png)
+![Coding Dojo](../../../images/coding-dojo.png)<!-- {.push-left style="height: 100px;"} -->
 
 Vamos fazer nosso primeiro **Code Dojo** :japanese_castle:!
 
 ---
 
 <!-- {"layout": "centered"} -->
-# Coding Dojo
-
-![Coding Dojo](../../../images/coding-dojo.png)
-
-
----
-<!-- {"layout": "centered"} -->
-# O que é Coding Dojo? ![Coding Dojo](../../../images/coding-dojo.png)<!-- {.push-left style="height: 100px;"} -->
+# O que é Coding Dojo? 
 
 **Dojo**
 ~ Local de treinamento :japanese_castle: (em japonês)
