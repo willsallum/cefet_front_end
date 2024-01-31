@@ -60,7 +60,9 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 1. Baixe um [arquivo compactado][baixar-imagens] com as imagens
 1. Descompacte esse arquivo
 1. Em um editor de texto (ex: VS Code), abra a pasta `code-dojo` inteira
-  ![](../../../images/coding-dojo-estrutura-de-pastas.png) <!-- {.push-right} -->
+
+  ![](../../../images/coding-dojo-estrutura-de-pastas.png) <!-- {.push-center} -->
+  
 1. Ao final da atividade, a estrutura de pastas será assim:
 
 [baixar-imagens]: https://fegemo.github.io/cefet-front-end/assignments/code-dojo-1/code-dojo.zip
