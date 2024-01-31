@@ -19,7 +19,7 @@ Vamos fazer nosso primeiro **Code Dojo** :japanese_castle:!
 
 
 ---
-# Coding Dojo ![Coding Dojo](../../../images/coding-dojo.png)<!-- {.push-left style="height: 100px;"} -->
+# Coding Dojo 
 Codificação **em grupo**, em que o aluno pode desempenhar um dos três papeis:
 
 **Piloto**:
@@ -52,9 +52,6 @@ Codificação **em grupo**, em que o aluno pode desempenhar um dos três papeis:
 ---
 <!-- {"layout": "centered-horizontal"} -->
 # Coding Dojo
-
-
-![Coding Dojo](../../../images/coding-dojo.png)
 
 Exercício: fazer uma página explicando o que é Coding Dojo
 
@@ -90,6 +87,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 `<meta charset="utf-8">`
 - Exiba um **ícone** para a página
 ![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo1.png) <!-- {.bordered.rounded.push-right style="height: 120px;"} -->
+
   - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png`
   - Salve todas as imagens em uma pasta separada
 - Para **testar**, escreva e exiba a frase `Coding dojo é muito legal` dentro do `<body>...</body>`
@@ -99,6 +97,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 
 - ![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo2.png) <!-- {.bordered.rounded.push-right style="height: 240px;"} -->
+
   Título (primeiro nível):
 	- Cor da fonte: Azul (`blue`)
 	- Centralizado
@@ -116,6 +115,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 	- Cor da fonte: Azul (`blue`)
 	- Texto alinhado à esquerda
   ![Página exibindo o terceiro passo](../../../images/coding-dojo-1-passos/passo3.png) <!-- {.bordered.rounded.push-right style="height: 280px;"} -->
+
 - Da página `Coding Dojo` da Wikipedia:
   - Primeiro parágrafo: use o texto da Wikipédia de "Dojo é uma palavra..." até "...treinamento de programação."
   - Segundo parágrafo: use o texto da Wikipédia de "Nessa dinâmica, todas..." até "...dos pilotos anteriores."
@@ -125,12 +125,14 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 - **Apenas o primeiro parágrafo** deve ser:
   ![Página exibindo o quarto passo](../../../images/coding-dojo-1-passos/passo4.png) <!-- {.bordered.rounded.push-right.bullet style="height: 250px;"} -->
+
   - Cor de fundo: Azure
   - Borda: 1 pixel pontilhada e preta
   - Espaçamento entre o texto e a borda: 10px
     - Espaçamento possível usando a propriedade `padding`
 
 1. Refletindo: será necessário criar um `id`. Sugestões: <!-- {ol:.no-padding.no-margin.no-bullets.note.info.bullet} -->
+
    - `paragrafo-1`: ❌ pq não é bom o nome indicar a ordem do elemento
    - `Introdução`: ❌ pq contém maiúsculas e caracteres especiais
    - `introducao`: ✅ pq não indica ordem, mas sim a função do elemento
@@ -141,6 +143,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 - Deixar a primeira aparição da palavra **Coding Dojo** com uma grafia mais forte
 ![Página exibindo o quinto passo](../../../images/coding-dojo-1-passos/passo5.png) <!-- {.bordered.rounded.push-right style="height: 300px;"} -->
+
 - Marcar a definição de **Coding Dojo** no texto
 - Deixar enfatizado o trecho: "método de aprendizagem"
 - Escrever e riscar a palavra "JoJo", como na imagem
@@ -150,6 +153,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ## 6. Inserção de imagens
 
 - ![Página exibindo o sexto passo](../../../images/coding-dojo-1-passos/passo6.png) <!-- {.bordered.rounded.push-right style="height: 420px;"} -->
+
   Insira a imagem `logotipo.png` após o primeiro título
   - Repare que elas estão dentro da pastinha `imagens-dojo`
 - Insira a imagem `foto-de-evento.jpg` após o segundo título
@@ -161,6 +165,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 - Insira um link, no final da página, para voltar ao topo da página
 ![Página exibindo o sétimo passo](../../../images/coding-dojo-1-passos/passo7.png) <!-- {.bordered.rounded.bullet.push-right style="width: 300px;"} -->
+
 - Insira um link para a página da Wikipédia sobre Coding Dojo:
   `https://pt.wikipedia.org/wiki/Coding_Dojo`
 - Para o link interno (1º), será necessário criar um `id` para o primeiro elemento da página (o `<h1>`).
@@ -173,6 +178,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 - Crie uma pasta chamada `outras-paginas` e, dentro dela, um arquivo HTML
   chamado `links.html`
 ![Página exibindo o oitavo passo](../../../images/coding-dojo-1-passos/passo8.png) <!-- {.bordered.rounded.push-right style="height: 125px;"} -->
+
 - No início do HTML, especifique a versão: `<!DOCTYPE html>`
 - Crie as _tags_ principais desta página
 - Utilize o atributo `charset` da _tag_ `meta` (dentro do `head`) para
@@ -188,6 +194,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 - Deixe um espaçamento entre a borda e o texto de 10 pixels (use a propriedade `padding`)
 - Crie uma lista não numerada de itens
 ![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo9.png) <!-- {.bordered.rounded.push-right style="width: 400px;"} -->
+
 - Cada item da lista contém 1 link:
   - `http://www.devmedia.com.br/o-que-e-o-coding-dojo/30517`
   - `http://flaviosilveira.com/2011/coding-dojo-o-que-e-e-como-participar/`
