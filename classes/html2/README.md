@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **HTML** parte 2
-## Coding Dojo :japanese_castle:, Mais _tags_ HTML<br>e Entendendo regras CSS
+## Mais _tags_ HTML<br>e Entendendo regras CSS
 
 ---
 # Na última aula... (1/2)
