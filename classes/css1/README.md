@@ -102,10 +102,10 @@
 - Instale uma extensão (_plugin_ ou _add-on_) para **atualizar automaticamente o navegador** sempre que salvar um arquivo
   
   VS Code <!-- {dl:.width-30} -->
-  ~ Live Server ([link][live-server])
+  - Live Server ([link][live-server])
 
   Atom
-  ~ Atom Live Server ([link][atom-live-server])
+  - Atom Live Server ([link][atom-live-server])
 - Efeito colateral: estará acessando o site usando um **servidor web**
 
 [live-server]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
@@ -229,20 +229,20 @@
 ## Valores do DOCTYPE
 
 HTML 4.01
-~ ```xml
+- ```xml
   <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
   ```
 
 XHTML 1.1
-~ ```xml
+- ```xml
   <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
   ```
 
 HTML5
-~ ```xml
+- ```xml
   <!DOCTYPE html>
   ```
 
