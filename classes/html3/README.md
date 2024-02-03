@@ -38,7 +38,7 @@
 <!-- {"embedSVG": "img[src$='.svg']", "embeddedStyles": ".css-rule-anatomy:not(.selector,.declaration.property,.value) .other-rule { opacity: 1 !important; } .css-rule-anatomy.rule .other-rule path { fill: #999 !important; } .css-rule-anatomy.rule .rule,.css-rule-anatomy.selector .selector,.css-rule-anatomy.declaration .declaration,.css-rule-anatomy.property .property,.css-rule-anatomy.value .value { opacity: 1 !important; }"} -->
 # Na última aula... (3/4)
 
-- ![Regra e seletor CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.declaration.selector.push-right style="width: 300px" data-viewbox="56 0 144 120"} -->
+![Regra e seletor CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.declaration.selector.push-right style="width: 300px" data-viewbox="56 0 144 120"} -->
   
   Formato de uma regra **CSS**
   - **Regra**: conjunto de declarações aplicadas em alguém
@@ -52,7 +52,7 @@
 
 - Colocação de bordas por meio da propriedade `border`, ou então
   `border-width`, `border-style` e `border-color`
-- ![](../../images/margin-auto.png) <!-- {.push-right} -->
+![](../../images/margin-auto.png) <!-- {.push-right} -->
 
   Para **centralizar imagens**:
   ```css
@@ -113,9 +113,9 @@
 <!-- {"hash": "tags-basicas-de-tabela"} -->
 ## **_Tags_ básicas** de uma Tabela
 
-- ![Exemplo de Tabela Exibindo suas Tags](../../images/table-tags.svg) <!-- {.push-right.invert-colors-dark-mode width="500" height="218"} -->
+![Exemplo de Tabela Exibindo suas Tags](../../images/table-tags.svg) <!-- {.push-right.invert-colors-dark-mode width="500" height="218"} -->
 
-  Tabelas são criadas com as tags:
+- Tabelas são criadas com as tags:
   - **`<table>...</table>`**
   - **`<tr>...</tr>`**, linha da tabela
   - **`<td></td>`**, célula de dados
@@ -148,8 +148,8 @@ Repare que, por padrão, as células `<th>` ficam em <span style="font-weight: b
 </table>
 ```
 
-- ![](../../images/table-colspan.png) <!-- {.push-right.invert-colors-dark-mode} -->
-  **`colspan="X"`** faz com que aquela **célula ocupe `X` colunas**
+![](../../images/table-colspan.png) <!-- {.push-right.invert-colors-dark-mode} -->
+- **`colspan="X"`** faz com que aquela **célula ocupe `X` colunas**
   - Para mesclar células "para baixo", usamos **`rowspan="Y"`**, onde `Y` é o
     **número de linhas** que a célula vai ocupar
 - Exemplos: de [`colspan`](https://jsfiddle.net/fegemo/o6gsb0t9/) e
@@ -158,7 +158,7 @@ Repare que, por padrão, as células `<th>` ficam em <span style="font-weight: b
 ---
 ## A tabela do nosso exemplo
 
-<iframe width="65%" height="375" src="//jsfiddle.net/danielhasan/nmrbhqkb/17/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="325" src="//jsfiddle.net/danielhasan/nmrbhqkb/17/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0" class="flex-align-center"></iframe>
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -195,7 +195,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
 
-<iframe width="65%" height="375px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/19/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="325px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/19/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -240,7 +240,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ---
 ## Tabela do nosso exemplo (<ins>completa</ins>)
 
-<iframe width="65%" height="375px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/10/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="325px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/10/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
 OBS: chegou a hora de estilizar!
 
 ---
@@ -306,9 +306,9 @@ OBS: chegou a hora de estilizar!
   <pre class="hljs hljs-html compact-code-more"><code>td {
     border: 1px solid black;
   }</code></pre>
-- <iframe width="39%" height="200px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/24/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right; margin-top: 2em"></iframe>
+<iframe width="39%" height="200px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/24/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right; margin-top: 2em"></iframe>
   
-  Para mudarmos isso, adicionamos `border-collapse: collapse` à regra CSS
+- Para mudarmos isso, adicionamos `border-collapse: collapse` à regra CSS
   da tabela: <!-- {li:.two-column-code} --> <!-- {ul:.bulleted-0} -->
   <pre class="hljs hljs-html compact-code-more two-column-code"><code>td {
     border: 1px solid black;
@@ -338,7 +338,7 @@ OBS: chegou a hora de estilizar!
 <!-- {"layout": "2-column-content"} -->
 ## Margem e _Padding_ - Exemplo
 
-<iframe width="100%" height="450" src="https://jsfiddle.net/fegemo/ovt08qcb/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="400" src="https://jsfiddle.net/fegemo/ovt08qcb/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 - Todo elemento pode ter: <!-- {ul:.bulleted-0} -->
   1. `padding` (esp. interno)
   1. uma borda
@@ -387,8 +387,8 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 ## Outras propriedades CSS para texto
 
 **`font-size`** <!-- {dl:.full-width.width-20} -->
-  <iframe width="280px" height="400px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
-    Define o tamanho da fonte, ex: <code>18px</code>
+  <iframe width="280px" height="300px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
+- Define o tamanho da fonte, ex: <code>18px</code>
 
 **`font-weight`**
   - Define a espessura da fonte
@@ -414,7 +414,7 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 <!-- {"layout": "2-column-content"} -->
 ## Estilizando a tabela do nosso exemplo
 
-<iframe width="98%" height="400" src="https://jsfiddle.net/fegemo/yezb7ebo/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="98%" height="300" src="https://jsfiddle.net/fegemo/yezb7ebo/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <iframe width="98%" height="400" src="https://jsfiddle.net/fegemo/yezb7ebo/embedded/css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
