@@ -113,7 +113,7 @@
 
 ---
 <!-- {"layout": "section-header", "hash": "doctype-e-codificacao"} -->
-# Codificação e DOCTYPE
+# Doctype e Codificação
 
 - Codificação do arquivo
   - Como um texto é armazenado em seu computador?
