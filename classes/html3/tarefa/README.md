@@ -9,7 +9,6 @@
 
 <!-- {ul:.content} -->
 
----
 <!-- {"backdrop": "piratas"} -->
 
 ---
@@ -87,7 +86,7 @@ body {
 - **Jeito certo**: definir a altura **do elemento `body` <ins>e do
   `html`</ins>** como `100%`:
   ![](../../../images/ocupando-toda-altura-disponivel-body-html.png) <!-- {.push-right style="height: 134px; margin-top: 1em;"} -->
-  
+
   ```css
   html, body {
     min-height: 100%;
