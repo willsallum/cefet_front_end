@@ -115,6 +115,7 @@
 
 <!-- {"layout": "section-header", "hash": "doctype-e-codificacao"} -->
 # Doctype e Codificação
+##  DOCTYPE no topo de cada documento HTML
 
 - Codificação do arquivo
   - Como um texto é armazenado em seu computador?
