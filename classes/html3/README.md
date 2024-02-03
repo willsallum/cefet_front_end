@@ -11,7 +11,7 @@
   `<a href="caminho-do-recurso">nome</a>`
   - Link interno da página referenciando o `id` do elemento:
     ```html
-    <a href="#banda-calypso">Ir para banda Calypso</a>
+    <a href="#banda-calypso">Ir para banda Calypso</a>pdf~
     ...
     <h2 id="banda-calypso">Calypso</a>
     ```
@@ -29,10 +29,10 @@
 - Alguns elementos são `inline` e outros são `block`
 
   **`block`**
-  ~ fazem quebra de linha (e.g., `<blockquote>`, `<p>` etc.)
+  - fazem quebra de linha (e.g., `<blockquote>`, `<p>` etc.)
   
   **`inline`** <!-- {.alternate-color} -->
-  ~ não fazem quebra de linha (e.g, `<q>`, `<strong>` etc.)
+  - não fazem quebra de linha (e.g, `<q>`, `<strong>` etc.)
 
 ---
 <!-- {"embedSVG": "img[src$='.svg']", "embeddedStyles": ".css-rule-anatomy:not(.selector,.declaration.property,.value) .other-rule { opacity: 1 !important; } .css-rule-anatomy.rule .other-rule path { fill: #999 !important; } .css-rule-anatomy.rule .rule,.css-rule-anatomy.selector .selector,.css-rule-anatomy.declaration .declaration,.css-rule-anatomy.property .property,.css-rule-anatomy.value .value { opacity: 1 !important; }"} -->
@@ -328,13 +328,13 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ![Desenho de máscara de festa a fantasia](../../images/margin-and-padding.svg) <!-- {p:.flex-align-center.medium-width.invert-colors-dark-mode} --> <!-- {.full-width} -->
 
 **`padding`** 
-~ Espaçamento interno, da borda para dentro
+- Espaçamento interno, da borda para dentro
 
 **`border`**
-~ Tamanho da borda
+- Tamanho da borda
 
 **`margin`**
-~ Espaçamento externo, da borda para fora
+- Espaçamento externo, da borda para fora
 
 ---
 <!-- {"layout": "2-column-content"} -->
@@ -388,25 +388,25 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 ## Outras propriedades CSS para texto
 
 **`font-size`** <!-- {dl:.full-width.width-20} -->
-  ~ <iframe width="280px" height="400px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
+  - <iframe width="280px" height="400px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
     Define o tamanho da fonte, ex: <code>18px</code>
 
 **`font-weight`**
-  ~ Define a espessura da fonte
-  ~ Valores: `normal` <!-- {code:style="font-weight: normal"} -->,
+  - Define a espessura da fonte
+  - Valores: `normal` <!-- {code:style="font-weight: normal"} -->,
     `lighter` <!-- {code:style="font-weight: lighter"} -->,
     `bold` <!-- {code:style="font-weight: bold"} -->,
     `bolder` <!-- {code:style="font-weight: bolder"} --> ou um número
     representando sua espessura
 
 **`font-style`**
-  ~ Define o estilo da fonte
-  ~ Valores: `normal` <!-- {code:style="font-style: normal"} --> e
+  - Define o estilo da fonte
+  - Valores: `normal` <!-- {code:style="font-style: normal"} --> e
     `italic` <!-- {code:style="font-style: italic"} -->
 
 **`text-decoration`**
-  ~ Sublinha, risca ou coloca um risco acima do texto:
-  ~ Valores: `none` <!-- {code:style="text-decoration: none"} --> (nenhum),
+  - Sublinha, risca ou coloca um risco acima do texto:
+  - Valores: `none` <!-- {code:style="text-decoration: none"} --> (nenhum),
     `underline` <!-- {code:style="text-decoration: underline"} --> (sublinhado),
     `overline` <!-- {code:style="text-decoration: overline"} --> (acima do texto),
     `line-through` <!-- {code:style="text-decoration: line-through"} --> (riscado)
