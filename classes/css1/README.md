@@ -639,7 +639,7 @@ Vamos conhecer um nova propriedade: `float`
 
 ---
 <!-- {"hash": "arredondando-bordas"} -->
-# Arredondando bordas
+## Arredondando bordas
 
 - ![](../../images/borda-arredondada.png) <!-- {.push-right} -->
   Como arredondar bordas?
