@@ -61,8 +61,9 @@ Vamos conhecer um nova propriedade: `float`
 ---
 ## Como funciona o `float`
 
-- ![](../../../images/float-p1.png) <!-- {.push-right} -->
-  Um elemento flutuante é removido do fluxo tradicional e
+![](../../../images/float-p1.png) <!-- {.push-right} -->
+
+- Um elemento flutuante é removido do fluxo tradicional e
   - os elementos `block` depois dele fingem que ele não está ali
   - os elementos `inline` depois dele respeitam seu formato
 - Vamos fazer com que o parágrafo com `id="amazing"`
@@ -71,8 +72,8 @@ Vamos conhecer um nova propriedade: `float`
 ---
 ## Exemplo de `float` (1º passo)
 
-- ![](../../../images/float-p2.png)  <!-- {.push-right style="max-height: 440px;"} -->
-  Alterando a largura de um parágrafo para 200px
+![](../../../images/float-p2.png)  <!-- {.push-right style="max-height: 440px;"} -->
+- Alterando a largura de um parágrafo para 200px
   ```css
   p#amazing {
     width: 200px;
@@ -82,8 +83,8 @@ Vamos conhecer um nova propriedade: `float`
 ---
 ## Exemplo de `float` (2º passo)
 
-- ![](../../../images/float-p3.png)  <!-- {.push-right style="max-height: 350px;"} -->
-  Flutuando o parágrafo à direita
+![](../../../images/float-p3.png)  <!-- {.push-right style="max-height: 350px;"} -->
+- Flutuando o parágrafo à direita
   ```css
   p#amazing {
     width: 200px;
@@ -101,8 +102,8 @@ Vamos conhecer um nova propriedade: `float`
 <!-- {"hash": "arredondando-bordas"} -->
 ## Arredondando bordas
 
-- ![](../../../images/borda-arredondada.png) <!-- {.push-right} -->
-  Como arredondar bordas?
+![](../../../images/borda-arredondada.png) <!-- {.push-right} -->
+- Como arredondar bordas?
   - Há muitas propriedades CSS que não teremos tempo de ver no curso
   - Contudo, a Web é uma ótima fonte de informação
   - Pesquise ["como arredondar bordas em CSS" no Google][border-radius-google],
