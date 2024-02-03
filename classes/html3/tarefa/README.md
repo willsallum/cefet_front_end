@@ -87,6 +87,7 @@ body {
 - **Jeito certo**: definir a altura **do elemento `body` <ins>e do
   `html`</ins>** como `100%`:
   ![](../../../images/ocupando-toda-altura-disponivel-body-html.png) <!-- {.push-right style="height: 134px; margin-top: 1em;"} -->
+  
   ```css
   html, body {
     min-height: 100%;
@@ -147,6 +148,7 @@ body {
       background-color: rgba(0, 0, 0, 0.5);
       color: white;
     }
+
     ```
     ```html
     <p>Yarrr Harrr, marujo!!</p>
