@@ -112,6 +112,7 @@
 [atom-live-server]: https://atom.io/packages/atom-live-server
 
 ---
+
 <!-- {"layout": "section-header", "hash": "doctype-e-codificacao"} -->
 # Doctype e Codificação
 
