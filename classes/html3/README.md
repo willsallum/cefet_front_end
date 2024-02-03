@@ -158,7 +158,7 @@ Repare que, por padrão, as células `<th>` ficam em <span style="font-weight: b
 ---
 ## A tabela do nosso exemplo
 
-<iframe width="65%" height="325" src="//jsfiddle.net/danielhasan/nmrbhqkb/17/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="225" src="//jsfiddle.net/danielhasan/nmrbhqkb/17/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0" class="flex-align-center"></iframe>
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -195,7 +195,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
 
-<iframe width="65%" height="325px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/19/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="225px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/19/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -240,7 +240,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ---
 ## Tabela do nosso exemplo (<ins>completa</ins>)
 
-<iframe width="65%" height="325px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/10/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+<iframe width="65%" height="225px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/10/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
 OBS: chegou a hora de estilizar!
 
 ---
@@ -338,7 +338,7 @@ OBS: chegou a hora de estilizar!
 <!-- {"layout": "2-column-content"} -->
 ## Margem e _Padding_ - Exemplo
 
-<iframe width="100%" height="400" src="https://jsfiddle.net/fegemo/ovt08qcb/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="https://jsfiddle.net/fegemo/ovt08qcb/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 - Todo elemento pode ter: <!-- {ul:.bulleted-0} -->
   1. `padding` (esp. interno)
   1. uma borda
@@ -387,7 +387,7 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 ## Outras propriedades CSS para texto
 
 **`font-size`** <!-- {dl:.full-width.width-20} -->
-  <iframe width="280px" height="300px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
+  <iframe width="280px" height="200px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
 - Define o tamanho da fonte, ex: <code>18px</code>
 
 **`font-weight`**
