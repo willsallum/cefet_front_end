@@ -152,9 +152,7 @@ body {
     <p>Yarrr Harrr, marujo!!</p>
     ```
     <!-- {li:style="flex-grow: 1;"} -->
-
     <p style="background-color: rgba(0, 0, 0, 0.5); color: white;">Yarrr Harrr, marujo!!</p>
-
     <!-- {ul^0:.layout-split-2.no-list-icon.no-padding} -->
     <!-- {li:style="flex-grow: 1;"} -->
     <!-- {ul^1:style="width: 100%;"} -->
