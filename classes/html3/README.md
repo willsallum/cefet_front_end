@@ -74,7 +74,7 @@
 
 
 ---
-<!-- {"hash": "tabelas"} -->
+<!-- {"hash": "tabelas", "layout": "2-column-content", "embeddedStyles": "pre.hljs { max-height: 100%; }"} -->
 # Tabelas
 
 <iframe width="470" height="270" src="https://jsfiddle.net/danielhasan/nmrbhqkb/7/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
