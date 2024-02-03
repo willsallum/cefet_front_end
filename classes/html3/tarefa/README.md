@@ -124,13 +124,13 @@ body {
     color: rgba(0, 0, 255, 0.53);     /* ou #00f8: azul 53% opaco */
     ```
     <!-- {li:style="flex-grow: 1;"} -->
-  - ::: result
+
     - branco <!-- {li:style="color: rgba(255, 255, 255, 0.3)"} -->
     - branco <!-- {li:style="color: rgba(255, 255, 255, 0.7)"} -->
     - branco  <!-- {li:style="color: rgba(255, 255, 255, 1)"} -->
     - preto  <!-- {li:style="color: rgba(0, 0, 0, 0.5)"} -->
     - _azul_ <!-- {em:style="color: rgba(0, 0, 255, 0.6); font-style: normal;"} -->
-    :::
+
     <!-- {ul^1:.layout-split-2.no-list-icon.no-padding} -->
     <!-- {li:style="flex-grow: 1;"} -->
     <!-- {ul^2:style="width: 100%;"} -->
@@ -152,9 +152,9 @@ body {
     <p>Yarrr Harrr, marujo!!</p>
     ```
     <!-- {li:style="flex-grow: 1;"} -->
-  - ::: result
+
     <p style="background-color: rgba(0, 0, 0, 0.5); color: white;">Yarrr Harrr, marujo!!</p>
-    :::
+
     <!-- {ul^0:.layout-split-2.no-list-icon.no-padding} -->
     <!-- {li:style="flex-grow: 1;"} -->
     <!-- {ul^1:style="width: 100%;"} -->
