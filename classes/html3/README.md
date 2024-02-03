@@ -39,6 +39,7 @@
 # Na última aula... (3/4)
 
 - ![Regra e seletor CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.declaration.selector.push-right style="width: 300px" data-viewbox="56 0 144 120"} -->
+  
   Formato de uma regra **CSS**
   - **Regra**: conjunto de declarações aplicadas em alguém
   - **Seletor**: a quem se aplica uma regra
@@ -52,6 +53,7 @@
 - Colocação de bordas por meio da propriedade `border`, ou então
   `border-width`, `border-style` e `border-color`
 - ![](../../images/margin-auto.png) <!-- {.push-right} -->
+
   Para **centralizar imagens**:
   ```css
   img {
@@ -112,6 +114,7 @@
 ## **_Tags_ básicas** de uma Tabela
 
 - ![Exemplo de Tabela Exibindo suas Tags](../../images/table-tags.svg) <!-- {.push-right.invert-colors-dark-mode width="500" height="218"} -->
+
   Tabelas são criadas com as tags:
   - **`<table>...</table>`**
   - **`<tr>...</tr>`**, linha da tabela
@@ -156,7 +159,6 @@ Repare que, por padrão, as células `<th>` ficam em <span style="font-weight: b
 ## A tabela do nosso exemplo
 
 <iframe width="65%" height="375" src="//jsfiddle.net/danielhasan/nmrbhqkb/17/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0" class="flex-align-center"></iframe>
-
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -194,7 +196,6 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
 
 <iframe width="65%" height="375px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/19/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
-
 OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 ---
@@ -240,8 +241,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ## Tabela do nosso exemplo (<ins>completa</ins>)
 
 <iframe width="65%" height="375px" src="https://jsfiddle.net/danielhasan/nmrbhqkb/10/embedded/result,html/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
-
-~~OBS:~~ chegou a hora de estilizar!
+OBS: chegou a hora de estilizar!
 
 ---
 <!-- {"layout": "section-header", "hash": "estilizando-tabelas"} -->
@@ -290,9 +290,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
     }
     ```
     <!-- {li:style="flex-grow: 1;"} -->
-  - ::: result
     <p style="border-top: 1px solid red; border-bottom: 2px dotted blue;">Sou o mestre das bordas!</p>
-    :::
     <!-- {ul^0:.layout-split-2.no-list-icon.no-padding} -->
     <!-- {li:style="flex-grow: 1;"} -->
 - Também podemos usar a forma mais extensa. Por exemplo, `border-top-width`,
@@ -341,12 +339,12 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 ## Margem e _Padding_ - Exemplo
 
 <iframe width="100%" height="450" src="https://jsfiddle.net/fegemo/ovt08qcb/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
 - Todo elemento pode ter: <!-- {ul:.bulleted-0} -->
   1. `padding` (esp. interno)
   1. uma borda
   1. `margin` (esp. externo)
 - Versão sem atalho ou com: <!-- {li:.two-column-code.compact-code-more} -->
+
   ```css
   margin-top: 12px;
   margin-right: 3px;
@@ -369,7 +367,8 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 
 - Podemos especificar a largura dos elementos _**block**_ por meio da
   propriedade **width**
-  - ```css
+
+  ```css
     p {
       width: 260px;
     }
@@ -418,8 +417,6 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 <iframe width="98%" height="400" src="https://jsfiddle.net/fegemo/yezb7ebo/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <iframe width="98%" height="400" src="https://jsfiddle.net/fegemo/yezb7ebo/embedded/css,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
----
 
 ---
 <!-- {"layout": "centered"} -->
