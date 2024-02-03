@@ -349,6 +349,7 @@ Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
 ---
 <!-- {"hash": "incluindo-css"} -->
 # Incluindo arquivo CSS
+##  Métodos para incluir um arquivo `.css` num documento HTML
 
 - Por enquanto, colocamos o CSS **dentro do arquivo HTML**
    ```html
