@@ -40,7 +40,7 @@
 
 ![Regra e seletor CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.declaration.selector.push-right style="width: 300px" data-viewbox="56 0 144 120"} -->
   
-  Formato de uma regra **CSS**
+- Formato de uma regra **CSS**
   - **Regra**: conjunto de declarações aplicadas em alguém
   - **Seletor**: a quem se aplica uma regra
   - **Declaração**: um par de &lt;propriedade, valor&gt;
@@ -50,11 +50,11 @@
 ---
 # Na última aula... (4/4)
 
-- Colocação de bordas por meio da propriedade `border`, ou então
-  `border-width`, `border-style` e `border-color`
+- Colocação de bordas por meio da propriedade `border`, ou então `border-width`, `border-style` e `border-color`
+## Exemplo prático<!-- {.presentado} -->
 ![](../../images/margin-auto.png) <!-- {.push-right} -->
 
-  Para **centralizar imagens**:
+- Para **centralizar imagens**:
   ```css
   img {
     display: block;
