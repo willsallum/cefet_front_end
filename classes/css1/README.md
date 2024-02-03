@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **CSS** parte 1
-## Seletores de classe, Flutuação e Abelhas :honeybee:
+## Seletores de classe e Flutuação:
 
 ---
 # Na última aula...
