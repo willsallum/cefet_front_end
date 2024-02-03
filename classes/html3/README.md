@@ -301,7 +301,7 @@ OBS: chegou a hora de estilizar!
 <!-- {"hash": "propriedade-border-collapse"} -->
 ## Colocando **bordas na tabela**
 
-- <iframe width="39%" height="165" src="https://jsfiddle.net/danielhasan/nmrbhqkb/23/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="margin-top: -1em"></iframe>
+<iframe width="39%" height="165" src="https://jsfiddle.net/danielhasan/nmrbhqkb/23/embedded/result,css,html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="margin-top: -1em"></iframe>
   Ao adicionar a borda nas células de uma tabela o resultado ficaria assim ➡️:
   <pre class="hljs hljs-html compact-code-more"><code>td {
     border: 1px solid black;
@@ -374,7 +374,7 @@ OBS: chegou a hora de estilizar!
     }
     ```
     <!-- {li:style="flex-grow: 1;"} -->
-  - <iframe width="100%" height="206" src="https://jsfiddle.net/fegemo/4z6d68gw/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" style="margin-top: -1.7em"></iframe>
+  <iframe width="100%" height="206" src="https://jsfiddle.net/fegemo/4z6d68gw/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" style="margin-top: -1.7em"></iframe>
 
     <!-- {ul^0:.layout-split-2.no-list-icon.no-padding} -->
     <!-- {li:style="flex-grow: 1;"} -->
@@ -387,7 +387,7 @@ Esses elementos possuem exatamente a largura necessária para apresentar seu con
 ## Outras propriedades CSS para texto
 
 **`font-size`** <!-- {dl:.full-width.width-20} -->
-  - <iframe width="280px" height="400px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
+  <iframe width="280px" height="400px"  src="https://jsfiddle.net/fegemo/x2m8fnL6/3/embedded/result,css/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right"></iframe>
     Define o tamanho da fonte, ex: <code>18px</code>
 
 **`font-weight`**
