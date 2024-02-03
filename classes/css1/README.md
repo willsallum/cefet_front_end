@@ -249,7 +249,8 @@ HTML5
 Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
 
 ---
-<!-- {"layout": "section-header", "hash": "reaproveitando-codigo-css"} -->
+<!-- {"layout": "section-header"} --> 
+<!-- {"hash": "reaproveitando-codigo-css"} -->
 # Reaproveitando código CSS
 ## Seletor de classe, incluindo arquivo e mais sobre cores
 
