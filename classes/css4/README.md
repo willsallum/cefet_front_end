@@ -204,13 +204,13 @@ ul.horizontal > li {
 }
 ```
 
-- ::: result . text-align: center
+- result . text-align: center
   - Abacaxi <!-- {ul:.horizontal-flex-example} -->
   - Kiwi
   - Maçã
   - Uva
   - Limão
-  :::
+  
 - Colocamos `display: flex` **no pai** <!-- {ul^1:.no-bullets.no-padding.bulleted-0} -->
 - Faz os filhos se comportarem de um jeito diferente
 - Vamos usar outras propriedades (além de `display`). Ex:
@@ -219,7 +219,9 @@ ul.horizontal > li {
   1. `flex-wrap` (continuar na próxima linha ou coluna?)
 
 ---
-# Jogo [Flexbox Froggy 🌐][flex-frog] <!-- {target="_blank"} --> <span style="font-family: 'Source Code Pro', monospace; font-size: 0.25em; opacity: 0.5;">~ melhor professor de flexbox ~</span>
+<!--
+# Jogo [Flexbox Froggy 🌐][flex-frog]  <span style="font-family: 'Source Code Pro', monospace; font-size: 0.25em; opacity: 0.5;">~ melhor professor de flexbox ~</span> 
+-->
 
 ![](../../images/flexbox-froggy.webp) <!-- {.full-width.bordered.rounded} -->
 
@@ -229,55 +231,48 @@ ul.horizontal > li {
 <!-- {"layout": "2-column-content", "hash": "como-funciona-o-flexbox"} -->
 ## Como funciona o flexbox <small>(1/3)</small>
 
-1. <!-- {li:.no-bullets.no-padding.no-margin} -->
-   ![](../../images/flex-diagram.svg) <!-- {.full-width} -->
+![](../../images/flex-diagram.svg) <!-- {.full-width} -->
 1. Ideia: habilidade do elemento alterar o tamanho de seus filhos (e ordem) para ocupar o espaço disponível <!-- {ol:start="0"} -->
 1. Há propriedades para o **elemento flex** e para seus **filhos** <!-- {.alternate-color} -->
    - Apenas o pai tem `display: flex`
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
-  **`flex-direction`** define o **eixo principal** e o contraeixo
-- ![](../../images/flex-direction.svg) <!-- {.large-width.centered.block} -->
+
+**`flex-direction`** define o **eixo principal** e o contraeixo
+![](../../images/flex-direction.svg) <!-- {.large-width.centered.block} -->
 - **`flex-wrap`** se precisar quebra linha?
-- ![](../../images/flex-wrap.svg) <!-- {.large-width.centered.block} -->
+![](../../images/flex-wrap.svg) <!-- {.large-width.centered.block} -->
 
 ---
 <!-- {"layout": "3-column-content"} -->
 ## Como funciona o flexbox <small>(2/3)</small>
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
-  **`justify-content`** distribui espaço em branco no eixo principal
-- ![](../../images/justify-content.svg) <!-- {.medium-width.centered.block} -->
+**`justify-content`** distribui espaço em branco no eixo principal
+![](../../images/justify-content.svg) <!-- {.medium-width.centered.block} -->
 
-1. <!-- {ol:.no-bullets.no-padding.no-margin} -->
-   **`align-items`** alinhamento no contraeixo
-1. ![](../../images/align-items.svg) <!-- {.large-width.centered.block} -->
+**`align-items`** alinhamento no contraeixo
+![](../../images/align-items.svg) <!-- {.large-width.centered.block} -->
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
-  **`align-content`** distribui espaço em branco no contraeixo
-- ![](../../images/align-content.svg) <!-- {.large-width.centered.block} -->
+**`align-content`** distribui espaço em branco no contraeixo
+![](../../images/align-content.svg) <!-- {.large-width.centered.block} -->
 - Só se `flex-wrap` !== `nowrap`
 
 ---
 <!-- {"layout": "3-column-content"} -->
 ## Como funcionam os **filhos** de flexbox  <!-- {.alternate-color} -->   <small>(3/3)</small>
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
-  **`flex`** <!-- {.alternate-color} --> define o peso do elemento no eixo na hora de definir seu tamanho
-- ![](../../images/flex-grow.svg) <!-- {.large-width.centered.block} -->
+**`flex`** <!-- {.alternate-color} --> define o peso do elemento no eixo na hora de definir seu tamanho
+![](../../images/flex-grow.svg) <!-- {.large-width.centered.block} -->
 - ⬆️ na verdade, é atalho para `flex-grow`, `flex-shrink` e `flex-basis`
 
-1. <!-- {ol:.no-bullets.no-padding.no-margin} -->
-   **`align-self`** <!-- {.alternate-color} --> alinhamento no contraeixo apenas deste filho
-1. ![](../../images/align-self.svg) <!-- {.large-width.centered.block.bullet} -->
+**`align-self`** <!-- {.alternate-color} --> alinhamento no contraeixo apenas deste filho
+![](../../images/align-self.svg) <!-- {.large-width.centered.block.bullet} -->
 1. **`gap`** define um espaço mínimo entre filhos
    <!-- {li:.bullet} -->
-   - ![](../../images/gap.svg)  <!-- {.medium-width} -->
+  ![](../../images/gap.svg)  <!-- {.medium-width} -->
      <!-- {ul:.no-bullets} -->
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
-  **`order`** <!-- {.alternate-color} --> define uma ordem diferente da do código fonte
-- ![](../../images/order.svg) <!-- {.large-width.centered.block} -->
+**`order`** <!-- {.alternate-color} --> define uma ordem diferente da do código fonte
+![](../../images/order.svg) <!-- {.large-width.centered.block} -->
 
 ---
 <!-- {"layout": "section-header", "hash": "grid"} -->
@@ -340,12 +335,10 @@ ul.horizontal > li {
      grid-row: 3 / 4;
    }
    ```
-   ::: result .full-width height: 250px; display: grid; grid-template-rows: 60px 1fr auto; grid-template-columns: 90px 1fr;
    <header style="background: lightblue; grid-column: 1/3;"></header>
    <nav style="background: black; grid-column: 1/2; grid-row: 2/3;"></nav>
    <section style="background: green; grid-column: 2/3; grid-row: 2/3;"></section>
    <footer style="background: gray; grid-column: 1/3; grid-row: 3/4; min-height: 40px;"></footer>
-   :::
 
 ---
 <!-- {"layout": "main-point", "state": "emphatic"} -->
@@ -392,9 +385,8 @@ ul.horizontal > li {
     grid-template-rows: 25% 100px auto;
   }
   ```
-- ![](../../images/grid-template-columns-rows.svg) <!-- {.medium-width.centered.block} -->
+![](../../images/grid-template-columns-rows.svg) <!-- {.medium-width.centered.block} -->
 
-1. <!-- {ol:.no-bullets.no-padding.no-margin} -->
    **`grid-column`**<!-- {.alternate-color} -->, **`grid-row`** <!-- {.alternate-color} --> especifica as <u>calhas</u> da célula onde o filho será colocado 
    ```css
    .item-a {
@@ -402,13 +394,12 @@ ul.horizontal > li {
      grid-row: 1 / 3;
    }
    ```
-1. ![](../../images/grid-column-row.svg) <!-- {.medium-width.centered.block} -->
+![](../../images/grid-column-row.svg) <!-- {.medium-width.centered.block} -->
 
 ---
 <!-- {"layout": "2-column-content", "classes": "compact-code-more"} -->
 ## Como funciona o Grid <small>(2/3)</small>
 
-- <!-- {ul:.no-bullets.no-padding.no-margin} -->
   **`grid-template-areas`** dá nomes às áreas da grid
   ```css
   .container {
@@ -424,7 +415,6 @@ ul.horizontal > li {
   - Um `.` é uma célula vazia
   - `repeat(n, valor)` é um atalho
 
-1. <!-- {ol:.no-bullets.no-padding.no-margin.two-column-code} -->
    **`grid-area`**<!-- {.alternate-color} --> especifica nome da <u>área</u> onde o filho será colocado 
    ```css
    .item-a {
@@ -440,7 +430,7 @@ ul.horizontal > li {
      grid-area: footer;
    }
    ```
-1. ![](../../images/grid-template-areas.svg) <!-- {.medium-width.centered.block} -->
+![](../../images/grid-template-areas.svg) <!-- {.medium-width.centered.block} -->
 <!-- {li:.no-bullets.no-padding} -->
 
 ---
