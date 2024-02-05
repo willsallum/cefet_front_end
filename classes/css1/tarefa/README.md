@@ -1,6 +1,6 @@
 <!-- {"layout": "section-header", "hash": "abelhas-e-suas-castas"} -->
-# Abelhas :honeybee: e suas castas
-## :honey_pot: :honey_pot: :honey_pot: :honey_pot: :honey_pot:
+# Abelhas e suas castas
+## Abelhas
 
 - A atividade das abelhas
 - Flutuando coisas
@@ -11,7 +11,7 @@
 <!-- {"backdrop": "pratica-abelhas"} -->
 
 ---
-# Abelhas :honeybee: e suas castas
+# Abelhas e suas castas
 
 1. [Baixe as imagens e páginas](https://github.com/fegemo/cefet-front-end-bees/archive/master.zip)
    que serão usados
