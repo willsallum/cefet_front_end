@@ -238,4 +238,4 @@ Seguem algumas sugestões para melhorar o visual das páginas:
          }
          ```
 
-[seletor-estado]: https://fegemo.github.io/cefet-front-end/classes/css2/#desafio-seletor-estado
+[seletor-estado]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-estado

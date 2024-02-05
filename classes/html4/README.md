@@ -32,18 +32,18 @@
 - Além de selecionar por _tag_, id ou classe, há diversos **outros seletores**:
 
 descend./filho <!-- {dl:.no-margin} -->
-  ~ `p strong`: todo `<strong>` descendente de `<p>` (filho, neto etc.)
-  ~ `p > strong`: todo `<strong>` filho direto de `<p>`
+  - `p strong`: todo `<strong>` descendente de `<p>` (filho, neto etc.)
+  - `p > strong`: todo `<strong>` filho direto de `<p>`
 
 atributo
-  ~ `img[alt]`: toda `<img>` que tem atributo `alt="..."`
-  ~ `a[href$=".html"]`: todo `<a>` apontando para um `.html` etc.
+  - `img[alt]`: toda `<img>` que tem atributo `alt="..."`
+  - `a[href$=".html"]`: todo `<a>` apontando para um `.html` etc.
 
 estado do link
-  ~ `a:link`, `a:visited`, `a:hover`, `a:active`
+  - `a:link`, `a:visited`, `a:hover`, `a:active`
 
 negação
-  ~ `img:not([alt])`: `<img>` sem o atributo `alt`
+  - `img:not([alt])`: `<img>` sem o atributo `alt`
 
 ---
 <!-- {"layout": "centered"} -->
@@ -189,10 +189,10 @@ h1, h2 {
   a mesma função** que `div`, porém `inline`
   <!-- {.underline.upon-activation.delay-1200} -->
 
-::: figure .figure-slides.no-margin.flex-align-center.invert-colors-dark-mode
+
 ![](../../images/span-exemplo-nome-preco-produto-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/span-exemplo-nome-preco-produto-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
+
 
 - Como estilizar o nome e o preço do produto? <!-- {ul:.bulleted} -->
   - Se usarmos `<div>`, vai quebrar linha (ele é `block`)
@@ -218,11 +218,11 @@ h1, h2 {
     padding-left: 20px;   color: #ff3399; /* rosa choque */
   }
   ```
-  ::: result
+
   O <span class="artista">Chimbinha</span> é rei, mas
   <span class="artista">Joelma</span> é diva
   intergalática.
-  :::
+
   <!-- {ul:.no-list-icon} -->
 
 ---
@@ -265,34 +265,34 @@ h1, h2 {
   do _conteúdo da caixa_, <!-- {em:.box-model-part style="background: #8bb4c0;"} -->
   e não da caixa inteira
 
-::: figure .figure-slides.flex-align-center.clean.invert-colors-dark-mode
+
 ![](../../images/box-model-product-0.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-1.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-3.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-4.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-5.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
-:::
+
 
 ---
 <!-- {"layout": "tall-figure-right"} -->
 ## **Dimensionando** um elemento
 
-::: did-you-know .push-right width: 320px; margin-right: 6px;
+
 Elementos `inline` ignoram os valores de:
 - `width`, `height`
 - `margin-top`
 - `margin-bottom`
-:::
+
 
 - Se sabemos a dimensão total de um elemento, que também contém
   `padding` e/ou `border`, como calcular seus (`width`, `height`)?
-  ::: figure .figure-slides.push-right.invert-colors-dark-mode
+
   ![](../../images/box-model-determine-dimensions-1.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded} -->
   ![](../../images/box-model-determine-dimensions-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded} -->
   ![](../../images/box-model-determine-dimensions-3.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded} -->
   ![](../../images/box-model-determine-dimensions-4.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded} -->
-  :::
+
 - Contudo, fazer essa conta "nós mesmos" pode resultar em erros... <!-- {li:.bullet} -->
   - É possível mudar isso!
 
@@ -310,17 +310,17 @@ Elementos `inline` ignoram os valores de:
       _border_ <!-- {.box-model-part style="background: #fddc9a;"} -->
     - Esta forma é mais intuitiva :thumbsup: :thumbsup: :thumbsup: <!-- {ul^2:style="margin-bottom: 0.25em"} -->
 
-::: did-you-know .push-right width: 284px; margin-left: 6px; padding-right: 0.5em
+
 As **margens** do elemento formam um **espaçamento externo** e não usam
 espaço dentro da caixa.
-:::
 
-::: figure .clean.span-columns.figure-slides.max-width.centered.invert-colors-dark-mode margin:0 auto; width: calc(100% - 290px); clear: both;
+
+
 ![](../../images/box-model-product-0.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-border-box-1.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-border-box-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
-:::
+
 
 ---
 <!-- {"layout": "section-header", "hash": "revisitando-o-float", "embeddedStyles": ".guia-do-mochileiro { position: fixed; bottom: -225px; left: calc(50% + 20px); transition: all 200ms ease-out; } .guia-do-mochileiro-container { cursor: help; } .guia-do-mochileiro-container:hover .guia-do-mochileiro { bottom: -10px; box-shadow: 6px 3px 6px rgba(0, 0, 0, .5), -6px 3px 6px rgba(0, 0, 0, .5); }"} -->
@@ -358,11 +358,11 @@ espaço dentro da caixa.
 ---
 ## Flutuando elementos com **`float`**
 
-- ::: figure .figure-slides.push-right
+
   <div class="bullet figure-step bullet-no-anim"><img src="../../images/float-p1.png"><figcaption>Sem float</figcaption></div>
 
   <div class="bullet figure-step bullet-no-anim"><img src="../../images/float-p3.png"><figcaption>Com float</figcaption></div>
-  :::
+
   Flutuando o parágrafo à direita: <!-- {ul:.compact-code} -->
   ```css
   p#amazing {
@@ -416,27 +416,26 @@ espaço dentro da caixa.
 - Queremos colocar os preços à direita
 <!-- {ul:.no-margin} -->
 
-::: figure .figure-slides.no-margin
 ![](../../images/exemplo-float-problema-remocao-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/exemplo-float-problema-remocao-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
+
 <!-- {figure:.no-margin} -->
 
 - 1ª tentativa:
-  ::: figure .figure-slides.no-margin
+
   <pre class="bullet figure-step bullet-no-anim no-margin"><code>.preco { float: right; }</code></pre>
   <pre class="bullet figure-step bullet-no-anim no-margin" style="right: 0;"><code>.preco { float: right; }
   .item  { float: left;  }</code></pre>
-  :::
+
 <!-- {ul:.no-margin.bullet} -->
 
-::: figure .figure-slides.no-margin
+
 ![](../../images/exemplo-float-problema-remocao-3a.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/exemplo-float-problema-remocao-3b.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/exemplo-float-problema-remocao-4a.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/exemplo-float-problema-remocao-4b.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/exemplo-float-problema-remocao-4c.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
+
 <!-- {figure:.no-margin.bullet} -->
 
 - Corrigindo:
