@@ -171,19 +171,19 @@
 - Existem vários formatos de imagens suportados por navegadores: <!-- {.bullet} -->
 
 **JPEG** (ou JPG) <!-- {strong:.alternate-color} -->  <!-- {dl:.bulleted} -->
-~ bom para **fotos** tiradas do mundo real, que possuem muita variação de cor. Não possui
+- bom para **fotos** tiradas do mundo real, que possuem muita variação de cor. Não possui
   transparência
 
 **GIF** <!-- {strong:.alternate-color} -->
-~ **transparência** de 1 bit e suporta **animações** de quadros
-~ apenas 256 cores na imagem (muito pouco!!)
+- **transparência** de 1 bit e suporta **animações** de quadros
+- apenas 256 cores na imagem (muito pouco!!)
 
 **PNG** <!-- {strong:.alternate-color} -->
-~ **transparência** de 8 bits e suporta **mais cores** que GIF
-~ bom formato para imagens com pouca variação de cor
+- **transparência** de 8 bits e suporta **mais cores** que GIF
+- bom formato para imagens com pouca variação de cor
 
 **SVG** <!-- {strong:.alternate-color} -->
-~ imagens **vetoriais** que não perdem qualidade se **ampliadas**
+- imagens **vetoriais** que não perdem qualidade se **ampliadas**
 
 *[JPEG]: Joint Photographic Experts Group*
 *[GIF]: Graphics Interchange Format*
@@ -196,18 +196,14 @@
 
 **GIF**: Um pixel é totalmente transparente ou totalmente opaco
 
-::: figure .no-margin
 ![Exemplo de transparência usando GIF](../../images/gif-transparency-2.gif) <!-- {p:.center-aligned} -->
 ![Exemplo de transparência usando GIF](../../images/gif-transparency.gif)
-:::
 
 **PNG**: Opacidade pode variar entre 0 (transparente) e 255 (opaco), ou
 0% e 100%
 
-::: figure .no-margin
 ![Exemplo de transparência usando PNG](../../images/png-transparency-2.png) <!-- {p:.center-aligned} -->
 ![Exemplo de transparência usando PNG](../../images/png-transparency.png)
-:::
 
 ---
 <!-- {"layout": "2-column-content-zigzag"} -->
@@ -216,17 +212,13 @@
 Imagem _bitmap_ (JPG, GIF, PNG) original (pequena) e aumentada
 (fica "**estourada**")
 
-::: figure .no-margin
 ![Exemplo de transparencia usando PNG](../../images/imagem-bitmap.png) <!-- {p:.center-aligned} -->
 ![Exemplo de transparencia usando PNG](../../images/imagem-bitmap.png)<!-- {style="width: 100px"} -->
-:::
 
 Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 
-::: figure .no-margin
 ![Exemplo de transparencia usando PNG](../../images/imagem-vetorial.svg) <!-- {p:.center-aligned} -->
 ![Exemplo de transparencia usando PNG](../../images/imagem-vetorial.svg)<!-- { style="width: 100px"} -->
-:::
 
 ---
 <!-- {"layout": "section-header", "hash": "video-e-audio"} -->
@@ -283,25 +275,25 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 ## Opções (atributos) de **video**
 
 `controls`
-  ~ mostra um conjunto de controles
+  - mostra um conjunto de controles
 
 `autoplay`
-  ~ começa a executar o vídeo assim que a página carregar
+  - começa a executar o vídeo assim que a página carregar
 
 `muted`
-  ~ tira o som
+  - tira o som
 
 `preload="..."`
-  ~ começa a baixar o vídeo assim que a página carrega
-  ~ `preload="none"`: não pré-carrega
-  ~ `preload="metadata"`: pré-carrega apenas metadados
-  ~ `preload="auto"`: pré-carrega todo o vídeo
+  - começa a baixar o vídeo assim que a página carrega
+  - `preload="none"`: não pré-carrega
+  - `preload="metadata"`: pré-carrega apenas metadados
+  - `preload="auto"`: pré-carrega todo o vídeo
 
 `loop="x"`
-  ~ quantas vezes o vídeo deve ser executado (0 = infinitas)
+  - quantas vezes o vídeo deve ser executado (0 = infinitas)
 
 `poster="http://..."`
-  ~ URL de uma imagem mostrada antes do vídeo ser executado
+  - URL de uma imagem mostrada antes do vídeo ser executado
 
 - Também há os atributos `width="x"` e `height="y"`
 
@@ -412,8 +404,8 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 ---
 ## Usando fontes "mais facinho"
 
-- ![](../../images/google-fonts.png) <!-- {.push-right.small-width} -->
-  Gerar os formatos de fonte necessários pode dar trabalho
+![](../../images/google-fonts.png) <!-- {.push-right.small-width} -->
+- Gerar os formatos de fonte necessários pode dar trabalho
 - Outra alternativa é usar **sites que provêem diversas fontes** para
   serem usadas
   - Exemplos:
@@ -433,42 +425,13 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 <video src="../../videos/web-fonts-google.mp4" width="802" height="456" controls></video>
 
 ---
-<!-- {"layout": "section-header", "hash": "unicornios"} -->
-# _Unicorns are real_
-## Conheça a verdade
 
-- ![Little Pony](../../images/little-pony.png) <!-- {.portrait.push-right} -->
-  Atividade de hoje
-- _Layouts_ no Photoshop
-- Quebrando linhas no texto
-- Relembrando o _Box Model_
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "pratica-unicornios"} -->
-
----
-# Atividade de Hoje
-
-- Criar uma página para expor a verdade sobre esses pôneis.
-  - Seu amigo _designer_ criou um _layout_ no Photoshop para sua página e você
-    deve criá-la de forma a reproduzir esse _layout_ na sua página HTML
-  - Você pode ver o _layout_ na página seguinte
-  - Você vai precisar lembrar: `div`, `span`, _Box Model_,
-    `float` e `clear`
-- [Baixe os arquivos][unicorns-seminal] contendo o HTML e estilize a
-  página pra que ela fique idêntica ao _layout_ do _designer_
-  - Leia as instruções detalhadas no arquivo `README.md`
-
-[unicorns-seminal]: https://github.com/fegemo/cefet-front-end-unicorns/archive/master.zip
-
----
 # _Layouts_ no Photoshop
 
-- ![](../../images/psd-to-html-css.png) <!-- {.push-right} -->
+![](../../images/psd-to-html-css.png) <!-- {.push-right} -->
   **Designers usam editores de imagens** (como o Photoshop) para
   **criar páginas web bonitas**
-  - O Photoshop gera uma imagem, que precisa ser "cortada" e transformada
+- O Photoshop gera uma imagem, que precisa ser "cortada" e transformada
     em uma página HTML e código CSS
 - O designer tipicamente cria um (a) **_layout_** e uma (b) **especificação** da
   página, **para orientar o programador**
@@ -524,23 +487,19 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
   do _conteúdo da caixa_, <!-- {em:.box-model-part style="background: #8bb4c0;"} -->
   e não da caixa inteira
 
-::: figure .figure-slides.clean.flex-align-center.invert-colors-dark-mode
 ![](../../images/box-model-product-0.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-1.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-3.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-4.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-5.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
-:::
 
 ---
 <!-- {"layout": "tall-figure-right", "hash": "alterando-o-box-model", "backdrop": "oldtimes"} -->
 ## Alterando o _box model_
 
-::: did-you-know . width: 290px; margin-right: 6px;
 As **margens** de um elemento formam um **espaçamento externo** e não contam
 espaço dentro da caixa.
-:::
 
 - É possível alterar o significado da `width` e `height` que damos a um elemento <!-- {ul:style="margin-bottom: 0"} -->
    <br>**usando _a propriedade `box-sizing`_** <!-- {em:.underline.upon-activation.delay-3000} -->:
@@ -552,13 +511,10 @@ espaço dentro da caixa.
       _border_ <!-- {.box-model-part style="background: #fddc9a;"} -->
     - Esta forma é mais intuitiva :thumbsup: :thumbsup: :thumbsup:
 
-
-::: figure .figure-slides.centered.span-columns.invert-colors-dark-mode margin: 0 auto
 ![](../../images/box-model-product-0.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-border-box-1.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 ![](../../images/box-model-product-border-box-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
-:::
 
 ---
 <!-- {"layout": "centered"} -->
