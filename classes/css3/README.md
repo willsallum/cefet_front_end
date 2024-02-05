@@ -139,7 +139,6 @@
 1. [Formatos de imagens](#formatos-de-imagens)
 1. [Vídeo e Áudio](#video-e-audio)
 1. [Web fonts](#web-fonts)
-1. [Unicórnios](#unicornios) 🦄
 
 ---
 <!-- {"layout": "section-header", "hash": "formatos-de-imagens"} -->
