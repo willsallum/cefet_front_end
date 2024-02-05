@@ -219,15 +219,6 @@ ul.horizontal > li {
   1. `flex-wrap` (continuar na próxima linha ou coluna?)
 
 ---
-<!--
-# Jogo [Flexbox Froggy 🌐][flex-frog]  <span style="font-family: 'Source Code Pro', monospace; font-size: 0.25em; opacity: 0.5;">~ melhor professor de flexbox ~</span> 
--->
-
-![](../../images/flexbox-froggy.webp) <!-- {.full-width.bordered.rounded} -->
-
-[flex-frog]: https://flexboxfroggy.com/#pt-br
-
----
 <!-- {"layout": "2-column-content", "hash": "como-funciona-o-flexbox"} -->
 ## Como funciona o flexbox <small>(1/3)</small>
 
