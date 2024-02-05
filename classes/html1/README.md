@@ -205,7 +205,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "tags-html"} -->
 # Algumas _tags_ HTML
-## . <!-- {style="visibility: hidden"} -->
+## _tags_ HTML <!-- {style="visibility: hidden"} -->
 
 - Anatomia de uma _tag_
 - Parágrafo
