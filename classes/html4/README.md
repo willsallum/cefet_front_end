@@ -32,12 +32,12 @@
 - Além de selecionar por _tag_, id ou classe, há diversos **outros seletores**:
 
 descend./filho <!-- {dl:.no-margin} -->
-  - `p strong`: todo `<strong>` descendente de `<p>` (filho, neto etc.)
-  - `p > strong`: todo `<strong>` filho direto de `<p>`
+  - `p strong` todo `<strong>` descendente de `<p>` (filho, neto etc.)
+  - `p > strong` todo `<strong>` filho direto de `<p>`
 
 atributo
-  - `img[alt]`: toda `<img>` que tem atributo `alt="..."`
-  - `a[href$=".html"]`: todo `<a>` apontando para um `.html` etc.
+  - `img[alt]` toda `<img>` que tem atributo `alt="..."`
+  - `a[href$=".html"]` todo `<a>` apontando para um `.html` etc.
 
 estado do link
   - `a:link`, `a:visited`, `a:hover`, `a:active`
