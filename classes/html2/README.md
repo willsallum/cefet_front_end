@@ -153,7 +153,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "elementos-inline-vs-block"} -->
 # Elementos _inline_ _vs._ _block_
-## Quebrar ou não quebrar linha? :thought_balloon:
+## Quebrar ou não quebrar linha?
 
 
 ![](../../images/philosoraptor.jpg) <!-- {.portrait.centered style="display: block"} -->
