@@ -125,7 +125,7 @@
 - É possível que um elemento interrompa uma flutuação à esquerda (`left`),
   à direita (`right`) ou em ambos os lados (`both`) usando `clear`
 
-  <iframe width="70%" height="460" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+  <iframe width="90%" height="460" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
   - A **propriedade `clear`** pode ser:
     - `left` ou `right`: interrompe apenas as flutuações à esquerda ou à direita
