@@ -6,8 +6,8 @@
 ## Revisão da prova - erros comuns (1/4)
 ### Endereço absoluto vs relativo
 
-- ![Estrutura de pastas para demonstrar o endereço absoluto e relativo](../../images/dir-absoluto-vs-relativo.png) <!-- {ul:.layout-split-2 style="list-style-type: none; justify-content: space-between;"} -->
-- | Endereço Absoluto          	| End. Relativo 	|
+![Estrutura de pastas para demonstrar o endereço absoluto e relativo](../../images/dir-absoluto-vs-relativo.png) <!-- {ul:.layout-split-2 style="list-style-type: none; justify-content: space-between;"} -->
+  | Endereço Absoluto          	| End. Relativo 	|
   |---------------------------	|---------------	|
   | /ovelhas/racas/c.jpg      	| `c.jpg`        	|
   | /ovelhas/racas/xpto/d.jpg 	| `xpto/d.jpg`   	|
@@ -48,8 +48,9 @@
 ---
 ## Revisão da prova - erros comuns (3/4)
 
-- ![Questão exibindo as 4 possíveis alternativas de respostas.](../../images/linha-branca-tabela.png) <!-- {.push-right} -->
-  **Regra CSS** para fazer com que uma **linha** da tabela mude sua **cor de fundo** quando o **mouse passar em cima dela** ([jsFiddle][jsFiddle]).
+![Questão exibindo as 4 possíveis alternativas de respostas.](../../images/linha-branca-tabela.png) <!-- {.push-right} -->
+
+- **Regra CSS** para fazer com que uma **linha** da tabela mude sua **cor de fundo** quando o **mouse passar em cima dela** ([jsFiddle][jsFiddle]).
 
 
 [jsFiddle]: https://jsfiddle.net/fegemo/nc2txkng/
@@ -91,8 +92,8 @@
 ---
 # Na última aula... (2/4)
 
-- ![](../../images/box-model.png) <!-- {.push-right} -->
-  Entendemos o _Box Model_ (modelo da caixa) que é **como o navegador enxerga
+![](../../images/box-model.png) <!-- {.push-right} -->
+- Entendemos o _Box Model_ (modelo da caixa) que é **como o navegador enxerga
   os elementos**
   - Há espaço para _conteúdo_ <!-- {.box-model-part style="background: #8bb4c0;"} -->,
     _`padding`_ <!-- {em:.box-model-part style="background: #c2ce89;"} -->,
@@ -123,7 +124,7 @@
 - É possível que um elemento interrompa uma flutuação à esquerda (`left`),
   à direita (`right`) ou em ambos os lados (`both`) usando `clear`
 
-  <iframe width="50%" height="260" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0" style="float: right"></iframe>
+  - <iframe width="50%" height="260" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0" style="float: right"></iframe>
 
   - A **propriedade `clear`** pode ser:
     - `left` ou `right`: interrompe apenas as flutuações à esquerda ou à direita
