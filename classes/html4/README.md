@@ -157,15 +157,13 @@ h1, h2 {
     color: #fffff;
   }
   ```
-
 ![](../../images/div-exemplo-titulo-subtitulo.png) <!-- {.bordered style="margin-top: 3em"} -->
-
 ---
 <!-- {"layout": "2-column-content"} -->
 ## Div (outro exemplo)
 
 ![](../../images/div-exemplo-conteudo-pagina.png) <!-- {.bordered.push-right} -->
-- ```html
+  ```html
   <body>
   ➡️ <div id="conteudo">
         <h1>Tesouros</h1>
@@ -189,10 +187,8 @@ h1, h2 {
   a mesma função** que `div`, porém `inline`
   <!-- {.underline.upon-activation.delay-1200} -->
 
-
 ![](../../images/span-exemplo-nome-preco-produto-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![](../../images/span-exemplo-nome-preco-produto-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-
 
 - Como estilizar o nome e o preço do produto? <!-- {ul:.bulleted} -->
   - Se usarmos `<div>`, vai quebrar linha (ele é `block`)
@@ -206,7 +202,7 @@ h1, h2 {
 <!-- {"embeddedStyles": ".artista { position: relative; padding-left: 1.5em; color: #ff3399; } .artista::before { content: '🎵'; display: inline-block; position: absolute; left: 0; top: 0; width: 1em; height: 1em; color: currentColor; }"} -->
 ## Span (exemplo)
 
-- ```html
+  ```html
   <p>
     O <span class="artista">Chimbinha</span> é rei, mas
     <span class="artista">Joelma</span> é diva intergalática.
@@ -239,8 +235,9 @@ h1, h2 {
 <!-- {"embeddedStyles": ".box-model-part {color: #333; border-radius: 4px; font-style: normal; padding: 1px 3px; } .box-model-part code { background: initial; }"} -->
 ## _Box Model_ ([na MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model))
 
-- ![](../../images/box-model.png) <!-- {.push-right} -->
-  O navegador enxerga todo elemento de conteúdo como uma "caixa"
+![](../../images/box-model.png) <!-- {.push-right} -->
+
+- O navegador enxerga todo elemento de conteúdo como uma "caixa"
 - A "caixa" é formada por:
   - Espaço do _conteúdo_ <!-- {.box-model-part style="background: #8bb4c0;"} -->
   - Espaço de _preenchimento (`padding`)_ <!-- {em:.box-model-part style="background: #c2ce89;"} -->
@@ -448,19 +445,6 @@ espaço dentro da caixa.
 
 ![](../../images/exemplo-float-problema-remocao-5.png)
 <!-- {p:.no-margin.bullet style="margin-top: 1.5em;"} -->
-
----
-<!-- {"layout": "section-header", "hash": "desafios"} -->
-# Desafios
-## Atividade de hoje
-
-- Atividade **em grupo**
-- O professor projetará uma **pergunta/desafio**
-- Cada grupo deverá **responder** no papel a pergunta/desafio
-- O professor corrigirá e pontuará os grupos que acertarem
-- O grupo que conseguir **maior pontuação será o vencedor**
-
-<!-- {ul:.content} -->
 
 ---
 <!-- {"layout": "centered"} -->
