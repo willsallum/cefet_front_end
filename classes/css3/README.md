@@ -7,6 +7,7 @@
 ### Endereço absoluto vs relativo
 
 ![Estrutura de pastas para demonstrar o endereço absoluto e relativo](../../images/dir-absoluto-vs-relativo.png) <!-- {ul:.layout-split-2 style="list-style-type: none; justify-content: space-between;"} -->
+
   | Endereço Absoluto          	| End. Relativo 	|
   |---------------------------	|---------------	|
   | /ovelhas/racas/c.jpg      	| `c.jpg`        	|
@@ -124,7 +125,7 @@
 - É possível que um elemento interrompa uma flutuação à esquerda (`left`),
   à direita (`right`) ou em ambos os lados (`both`) usando `clear`
 
-  - <iframe width="50%" height="260" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0" style="float: right"></iframe>
+  - <iframe width="50%" height="360" src="//jsfiddle.net/fegemo/vxb79m2c/embedded/result,html,css/dark/" allowfullscreen="allowfullscreen" frameborder="0" style="float: right"></iframe>
 
   - A **propriedade `clear`** pode ser:
     - `left` ou `right`: interrompe apenas as flutuações à esquerda ou à direita
