@@ -98,7 +98,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "estrutura-basica-html"} -->
 # Estrutura Básica do **HTML**
-## . <!-- {style="visibility: hidden;"} -->
+## Estrutura <!-- {style="visibility: hidden;"} -->
 
 - Um arquivo HTML completo
   - _Tag_ `<html>...</html>`
