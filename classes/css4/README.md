@@ -334,7 +334,6 @@ ul.horizontal > li {
 <!-- {"layout": "main-point", "state": "emphatic"} -->
 # Conheça o Grid Garden 🥕
 
----
 <!-- {"layout": "3-column-content", "hash": "conceitos-sobre-grid"} -->
 ## Conceitos sobre Grid
 
