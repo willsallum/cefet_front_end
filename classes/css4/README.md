@@ -289,7 +289,7 @@ ul.horizontal > li {
 <!-- {"layout": "2-column-content", "classes": "compact-code-more"} -->
 ## Exemplo usando `grid`
 
-1. HTML <!-- {ul:.no-bullets.no-padding} -->
+- HTML <!-- {ul:.no-bullets.no-padding} -->
   ```html
   <main>
     <header></header>
@@ -298,7 +298,7 @@ ul.horizontal > li {
     <footer></footer>
   </main>
   ```
-1. CSS (elemento pai)
+- CSS (elemento pai)
   ```css
   main {
     display: grid;
@@ -307,7 +307,7 @@ ul.horizontal > li {
   }
   ```
 
-  1. CSS (dos filhos) <!-- {ol:.no-bullets.no-padding.two-column-code} -->
+  - CSS (dos filhos) <!-- {ol:.no-bullets.no-padding.two-column-code} -->
    ```css
    header {
      grid-column: 1 / 3;
