@@ -335,13 +335,6 @@ ul.horizontal > li {
 # Conheça o Grid Garden 🥕
 
 ---
-# Jogo [Grid Garden 🌐][grid-garden] <!-- {target="_blank"} --> <span style="font-family: 'Source Code Pro', monospace; font-size: 0.25em; opacity: 0.5;">~ melhor professor de grid ~</span>
-
-![](../../images/grid-garden.webp) <!-- {.full-width.bordered.rounded} -->
-
-[grid-garden]: https://cssgridgarden.com/#pt-br
-
----
 <!-- {"layout": "3-column-content", "hash": "conceitos-sobre-grid"} -->
 ## Conceitos sobre Grid
 
