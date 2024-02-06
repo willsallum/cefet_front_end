@@ -238,23 +238,23 @@
 
 ## Distribuição de pontos dos bimestres
 
-- ### 1<sub>o</sub> Bimestre
+- ### 1<sup>o</sup> Bimestre
   - 09 Atividades práticas: **09** pontos 
   - 01 Prova: **11** pontos
 
 ---
-- ### 2o Bimestre
+- ### 2<sup>o</sup> Bimestre
   - 04 Atividades práticas: **08** pontos
   - 01 Trabalho TP1: **10** pontos
   - 01 prova: **12** pontos
 
 ---
-- ### 3o Bimestre
+- ### 3<sup>o</sup> Bimestre
   - 08 Atividades práticas: **10** pontos
   - 01 prova: **10** pontos
 
 ---
-- ### 4o Bimestre
+- ### 4<sup>o</sup> Bimestre
   - 06 Atividades práticas: **09** pontos
   - 01 Trabalho TP2: **08** pontos
   - 01 prova final: **13** pontos
