@@ -241,15 +241,18 @@
 - ### 1o Bimestre
   - 09 Atividades práticas: **09** pontos 
   - 01 Prova: **11** pontos
+
 ---
 - ### 2o Bimestre
   - 04 Atividades práticas: **08** pontos
   - 01 Trabalho TP1: **10** pontos
   - 01 prova: **12** pontos
+
 ---
 - ### 3o Bimestre
   - 08 Atividades práticas: **10** pontos
   - 01 prova: **10** pontos
+  
 ---
 - ### 4o Bimestre
   - 06 Atividades práticas: **09** pontos
