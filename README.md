@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # <span class="title-part-left">Laboratório de</span> <span class="title-part-top">**Programação**</span> <span class="title-part-right">Web</span>
-## <span class="subtitle">Plano de Ensino<br>por **Flávio Coutinho** e **Daniel Hasan**</span>
+## <span class="subtitle">Plano de Ensino<br>por **Flávio Coutinho**, **Daniel Hasan** e **William Sallum**</span>
 
 ---
 <!-- {"layout": "centered-horizontal"} -->
