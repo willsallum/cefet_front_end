@@ -153,6 +153,7 @@
 
 ---
 <!-- { "layout": "centered", "styles": ["styles/classes/books.min.css"] } -->
+## bibliografia
 ## **Livro texto** sobre HTML e CSS
 
 - ![](images/book-head-first-html-css.jpg) <!-- {.full-width.full-height} -->
@@ -234,9 +235,8 @@
 - **Editora** O'Reilly Media, 2008
 
 ---
-# Avaliação
-
-## Distribuição de pontos dos bimestres
+## avaliacao
+## Avaliação e Distribuição de pontos dos bimestres
 
 - ### 1<sup>o</sup> Bimestre
   - 09 Atividades práticas: **09** pontos 
