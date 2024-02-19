@@ -47,6 +47,7 @@
 
 - **Atividade 1**
   - Digite o conteúdo do arquivo `racas-raras.html` no editor de texto: <!-- {.compact-code} -->
+  <!--
     ```html
     <!DOCTYPE html>
     <html>
@@ -95,6 +96,8 @@
       </body>
     </html>
     ```
+    -->
+    ![](../../../images/ovelhas-raras-html.jpg)
     - Repare que não é possível copiar/colar
 - **Testando**
   - De tempos em tempos, **<u>abra o arquivo</u> no navegador** (_e.g._,
