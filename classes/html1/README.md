@@ -2,7 +2,7 @@
 # **HTML** parte 1
 
 ---
-# Na última aula...
+## Na última aula...
 
 - Conversamos sobre a história da Internet e da Web
 - ![Foto de Tim Berners-Lee](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-right} --> Vimos as proezas de Tim (Berners-Lee), o coração valente, ao criar:
@@ -48,20 +48,20 @@
   **recurso** ao servidor
   - O **Navegador requisita** algo e **Servidor responde**
 
-    ![](../../images/http-diagram-informal.svg)
-
-    1. Requisição:
-       ```http
-      GET /index.html HTTP/1.1
-      Host: www.twitter.com
-      ```
-    1. Resposta:
-      ```http
-      HTTP/1.1 200 OK
-      Date: Mon, 23 May 2005 22:38:34 GMT
-      Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
-      Content-Type: text/html; charset=UTF-8
-      Content-Length: 131 
+1. <!-- {ol:.layout-split-2.bulleted.no-bullets.no-margin.no-padding.compact-code-more.http-diagram} -->
+   ![](../../images/http-diagram-informal.svg) <!-- {.centered.step-3.invert-colors-dark-mode style="max-width: 100%; max-height: 236px"} -->
+   - Requisição: <!-- {ul:.no-bullets.no-padding} -->
+     ```http
+     GET /index.html HTTP/1.1
+     Host: www.twitter.com
+     ```
+1. Resposta:
+   ```http
+   HTTP/1.1 200 OK
+   Date: Mon, 23 May 2005 22:38:34 GMT
+   Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
+   Content-Type: text/html; charset=UTF-8
+   Content-Length: 131 
 
    <!DOCTYPE html>
    <html>
@@ -73,6 +73,7 @@
    </body>
    </html>
    ```
+
 ---
 ## O que é um URL?
 
@@ -81,13 +82,13 @@
     ![As partes de uma URL](../../images/url-parts.svg) <!-- {.block.full-width} -->
     
     domínio <!-- {dl.bulleted} -->
-    -> Em que computador estão os arquivos
+    ~ Em que computador estão os arquivos
 
     porta
-    -> Qual endereço do programa dentro do computador
+    ~ Qual endereço do programa dentro do computador
 
     caminho
-    -> Qual o endereço até o arquivo
+    ~ Qual o endereço até o arquivo
 
 - Assim que recebe a resposta, o navegador mostra na tela, _se der_
  
@@ -99,24 +100,20 @@
 ## Estrutura  <!-- {style="visibility: hidden;"} -->
 
 - Um arquivo HTML completo
-  -  `<html>...</html>`
-  -  `<head>...</head>`
-  -  `<body>...</body>`
+  - `<html>...</html>`
+  - `<head>...</head>`
+  - `<body>...</body>`
 <!-- {ul^1:.content} -->
----
-<table style="border: 1; width:100%;">
-<tr><td>
 
+---
 <!-- {"layout": "centered-horizontal"} -->
 ![Exemplo de um arquivo html](../../images/exemplo-html.png)
-</td> <td>
 
+---
 <!-- {"layout": "centered-horizontal", "state": "show-active-slide-and-previous"} -->
 ![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)
-</td></tr>
-</table>
----
 
+---
 ## Estrutura de um arquivo HTML
 
 - Um punhado de **tags** no texto <!-- {ul:.bulleted-0} -->
