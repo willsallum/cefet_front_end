@@ -497,7 +497,7 @@ URL **interna** <!-- {.alternate-color} -->
   }
   ```
   Define a **cor** (_color_) **do fundo** (_background_) para azul ocre (_teal_) <!-- {ul:.no-bullets.no-padding.bulleted-0} -->
-  - Mas também poderia ser: `orange`, `red`, `green`, `black` etc.
+  Mas também poderia ser: `orange`, `red`, `green`, `black` etc.
   ```css
   body {
     color: white;
