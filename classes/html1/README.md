@@ -377,11 +377,10 @@ URL **interna** <!-- {.alternate-color} -->
 <!-- {table:.smaller-text-70} -->
 
 - Prefira usar **endereços <span class="badge type1">relativos</span>** <!-- {ul:.span-columns} -->
-  ::: did-you-know
+  
   Ao abrir páginas HTML sem um servidor Web
   ("dando 2 cliques"), um endereço <span class="badge type2">absoluto</span> 
   começa na raiz do sistema de arquivos (_e.g._, "C:\") e não devemos especificar endereços dessa forma
-  :::
 
 ---
 <!-- {"hash": "tag-hiperlink"} -->
@@ -391,22 +390,17 @@ URL **interna** <!-- {.alternate-color} -->
   ```html
   <a href="http://www.google.com">Texto do link externo</a>
   ```
-  ::: result
 
     <a href="http://www.google.com">Texto do link externo</a>
 
-  :::
 
 - [Link interno](../../attachments/exemplo.zip) (para algo hospedado no
   próprio computador)
   ```html
   <a href="downloads/exemplo.zip">Texto do link interno</a>
   ```
-  ::: result
 
     <a href="../../attachments/exemplo.zip">Texto do link interno</a>
-
-  :::
 
 ---
 <!-- {"layout": "main-point", "state": "emphatic"} -->
@@ -515,7 +509,7 @@ URL **interna** <!-- {.alternate-color} -->
 <!-- {"hash": "css-margens"} -->
 ## Entendendo o estilo: **margens laterais**
 
-- ![](../../images/margin-left.png) <!-- {.push-right style="width: 50%; margin-left: 1em;"} -->
+![](../../images/margin-left.png) <!-- {.push-right style="width: 50%; margin-left: 1em;"} -->
   ```css
   body {
     margin-left: 20%;
@@ -530,7 +524,7 @@ URL **interna** <!-- {.alternate-color} -->
 <!-- {"hash": "css-fonte"} -->
 ## Entendendo o estilo: **fonte**
 
-- ![](../../images/font-families.png) <!-- {.push-right.invert-colors-dark-mode} -->
+![](../../images/font-families.png) <!-- {.push-right.invert-colors-dark-mode} -->
   ```css
   body {
     font-family: "Arial", sans-serif;
@@ -538,7 +532,7 @@ URL **interna** <!-- {.alternate-color} -->
   ```
   Define a **fonte** do texto **da página** <!-- {ul:.no-bullets.no-padding.bulleted-0} -->
   - Dá 2 opções: se não tiver a 1ª, vai a 2ª
-- ```css
+  ```css
   h1 {
     font-family: "Courier New", monospace;
   }
@@ -549,25 +543,25 @@ URL **interna** <!-- {.alternate-color} -->
 <!-- {"hash": "css-alinhamentoTexto"} -->
 ## Entendendo o estilo: **alinhamento do texto**
 
-- ![](../../images/text-align-justify.png) <!-- {ul:.item-code-with-image.full-width.compact-code} -->
+![](../../images/text-align-justify.png) <!-- {ul:.item-code-with-image.full-width.compact-code} -->
   ```css
   p {
     text-align: justify;
   }
   ```
-- ![](../../images/text-align-left.png)
+![](../../images/text-align-left.png)
   ```css
   p {
     text-align: left; /* valor padrão */
   }
   ```
-- ![](../../images/text-align-right.png)
+![](../../images/text-align-right.png)
   ```css
   p {
     text-align: right;
   }
   ```
-- ![](../../images/text-align-center.png)
+![](../../images/text-align-center.png)
   ```css
   p {
     text-align: center;
