@@ -106,12 +106,10 @@
 <!-- {ul^1:.content} -->
 
 ---
-<!-- {"layout": "centered-horizontal"} -->
-![Exemplo de um arquivo html](../../images/exemplo-html.png)
-
----
+|<!-- {"layout": "centered-horizontal"} -->
+![Exemplo de um arquivo html](../../images/exemplo-html.png)|
 <!-- {"layout": "centered-horizontal", "state": "show-active-slide-and-previous"} -->
-![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)
+![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)|
 
 ---
 ## Estrutura de um arquivo HTML
