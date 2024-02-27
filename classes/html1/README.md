@@ -109,7 +109,7 @@
 
 <TABLE><TR>
 <TH><H1>CÓDIGO</H1></TH><TH><H1>RESULTADO</H1></TH></TR><TR>
-<TD>![Exemplo de um arquivo html](../../images/exemplo-html.png)</TD><TD>![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)</TD></TR>
+<TD><img src="../../images/exemplo-html.png"></TD><TD><img src="../../images/exemplo-html-resultado.png"></TD></TR>
 </TABLE>
 
 ---
@@ -216,17 +216,7 @@
 <!-- {"embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/tag-anatomy.min.css"]} -->
 ## Anatomia de uma **_tag_**
 
-::: figure .figure-slides.tag-anatomy.clean.flex-align-center.invert-colors-dark-mode
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-0} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-1} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-2} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-3} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-4} -->
-:::
 
 - Tags de abertura podem ter **atributos**: <!-- {ul:.bulleted} -->
   ```html
