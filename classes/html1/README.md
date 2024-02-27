@@ -106,8 +106,11 @@
 <!-- {ul^1:.content} -->
 
 ---
-| CÓDIGO | RESULTADO |
-| ![Exemplo de um arquivo html](../../images/exemplo-html.png) | ![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png) |
+
+<TABLE><TR>
+<TH><H1>CÓDIGO</H1></TH><TH><H1>RESULTADO</H1></TH></TR><TR>
+<TD>![Exemplo de um arquivo html](../../images/exemplo-html.png)</TD><TD>![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)</TD></TR>
+</TABLE>
 
 ---
 ## Estrutura de um arquivo HTML
