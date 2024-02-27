@@ -1,6 +1,5 @@
 <!-- {"layout": "title"} -->
 # **HTML** parte 1
-## Plantas Carnívoras 🌱🦖,<br>_Tags_ HTML e Temperando com CSS
 
 ---
 # Na última aula...
@@ -49,14 +48,14 @@
   **recurso** ao servidor
   - O **Navegador requisita** algo e **Servidor responde**
 
-1. <!-- {ol:.layout-split-2.bulleted.no-bullets.no-margin.no-padding.compact-code-more.http-diagram} -->
+<!-- {ol:.layout-split-2.bulleted.no-bullets.no-margin.no-padding.compact-code-more.http-diagram} -->
    ![](../../images/http-diagram-informal.svg) <!-- {.centered.step-3.invert-colors-dark-mode style="max-width: 100%; max-height: 236px"} -->
-   - Requisição: <!-- {ul:.no-bullets.no-padding} -->
+   1. Requisição: <!-- {ul:.no-bullets.no-padding} -->
      ```http
      GET /index.html HTTP/1.1
      Host: www.twitter.com
      ```
-1. Resposta:
+  1. Resposta:
    ```http
    HTTP/1.1 200 OK
    Date: Mon, 23 May 2005 22:38:34 GMT
@@ -83,13 +82,13 @@
     ![As partes de uma URL](../../images/url-parts.svg) <!-- {.block.full-width} -->
     
     domínio <!-- {dl.bulleted} -->
-    ~ Em que computador estão os arquivos
+    -> Em que computador estão os arquivos
 
     porta
-    ~ Qual endereço do programa dentro do computador
+    -> Qual endereço do programa dentro do computador
 
     caminho
-    ~ Qual o endereço até o arquivo
+    -> Qual o endereço até o arquivo
 
 - Assim que recebe a resposta, o navegador mostra na tela, _se der_
  
@@ -101,19 +100,22 @@
 ## Estrutura  <!-- {style="visibility: hidden;"} -->
 
 - Um arquivo HTML completo
-  - _Tag_ `<html>...</html>`
-  - _Tag_ `<head>...</head>`
-  - _Tag_ `<body>...</body>`
+  -  `<html>...</html>`
+  -  `<head>...</head>`
+  -  `<body>...</body>`
 <!-- {ul^1:.content} -->
-
 ---
+<table style="border: 1; width:100%;">
+<tr><td>
+
 <!-- {"layout": "centered-horizontal"} -->
 ![Exemplo de um arquivo html](../../images/exemplo-html.png)
+</td> <td>
 
----
 <!-- {"layout": "centered-horizontal", "state": "show-active-slide-and-previous"} -->
 ![Exemplo de um arquivo html no navegador](../../images/exemplo-html-resultado.png)
-
+</td></tr>
+</table>
 ---
 ## Estrutura de um arquivo HTML
 
