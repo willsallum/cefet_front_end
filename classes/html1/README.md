@@ -491,14 +491,14 @@ URL **interna** <!-- {.alternate-color} -->
 <!-- {"hash": "css-cores"} -->
 ## Entendendo o estilo: **cores**
 
-- ```css
+  ```css
   body {
     background-color: teal;    
   }
   ```
   Define a **cor** (_color_) **do fundo** (_background_) para azul ocre (_teal_) <!-- {ul:.no-bullets.no-padding.bulleted-0} -->
   - Mas também poderia ser: `orange`, `red`, `green`, `black` etc.
-- ```css
+  ```css
   body {
     color: white;
   }
@@ -531,7 +531,7 @@ URL **interna** <!-- {.alternate-color} -->
   }
   ```
   Define a **fonte** do texto **da página** <!-- {ul:.no-bullets.no-padding.bulleted-0} -->
-  - Dá 2 opções: se não tiver a 1ª, vai a 2ª
+  Dá 2 opções: se não tiver a 1ª, vai a 2ª
   ```css
   h1 {
     font-family: "Courier New", monospace;
