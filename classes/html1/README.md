@@ -240,9 +240,7 @@
     possa lidar."
   </p>
   ```
-  ::: result . width: 80%; margin: 1em auto;
   "Um dos maiores problemas encontrados em viajar no tempo não é vir a se tornar acidentalmente seu próprio pai ou mãe. Não há nenhum problema em tornar-se seu próprio pai ou mãe com que uma família de mente aberta e bem ajustada não possa lidar."
-  :::
 
 ---
 <!-- {"layout": "2-column-content","hash": "tag-titulo-subtitulo"} -->
@@ -266,7 +264,7 @@
 <!-- {"hash": "tag-imagem"} -->
 ## _Tag_ de **<u>Imagem</u>**: `<img>`
 
-- ![Mascote do programa GitKraken](https://fegemo.github.io/kraken-typing/imgs/site/logo-gitkraken.png)  
+![Mascote do programa GitKraken](https://fegemo.github.io/kraken-typing/imgs/site/logo-gitkraken.png)  
   <!-- {.push-right style="height: 100px; margin-left: 1em"} -->
   Para exibir imagens...
   ```html
