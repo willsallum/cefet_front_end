@@ -49,14 +49,16 @@
   - O **Navegador requisita** algo e **Servidor responde**
 
 <!-- {ol:.layout-split-2.bulleted.no-bullets.no-margin.no-padding.compact-code-more.http-diagram} -->
-   ![](../../images/http-diagram-informal.svg) <!-- {.centered.step-3.invert-colors-dark-mode style="max-width: 100%; max-height: 236px"} -->
-   1. Requisição: <!-- {ul:.no-bullets.no-padding} -->
-     ```http
+  ![](../../images/http-diagram-informal.svg) <!-- {.centered.step-3.invert-colors-dark-mode style="max-width: 100%; max-height: 236px"} -->
+  1. Requisição: <!-- {ul:.no-bullets.no-padding} -->
+     ```
+     http
      GET /index.html HTTP/1.1
      Host: www.twitter.com
      ```
   1. Resposta:
-   ```http
+   ```
+   http
    HTTP/1.1 200 OK
    Date: Mon, 23 May 2005 22:38:34 GMT
    Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
