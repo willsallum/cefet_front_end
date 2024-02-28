@@ -81,13 +81,13 @@
   - É o **endereço de coisas**: **páginas, imagens, arquivos**, etc.   
     ![As partes de uma URL](../../images/url-parts.svg) <!-- {.block.full-width} -->
     
-    domínio <!-- {dl.bulleted} -->
+    <strong>domínio:</strong> <!-- {dl.bulleted} -->
       Em que computador estão os arquivos
 
-    porta
+    <strong>porta:</strong>
       Qual endereço do programa dentro do computador
 
-    caminho
+    <strong>caminho:</strong>
       Qual o endereço até o arquivo
 
 - Assim que recebe a resposta, o navegador mostra na tela, _se der_
@@ -108,7 +108,7 @@
 ---
 
 <TABLE><TR>
-<TH><H1>CÓDIGO</H1></TH><TH><H1>RESULTADO</H1></TH></TR><TR>
+<TH><H2>CÓDIGO</H2></TH><TH><H2>RESULTADO</H2></TH></TR><TR>
 <TD><img src="../../images/exemplo-html.png"></TD><TD><img src="../../images/exemplo-html-resultado.png"></TD></TR>
 </TABLE>
 
