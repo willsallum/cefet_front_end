@@ -82,13 +82,13 @@
     ![As partes de uma URL](../../images/url-parts.svg) <!-- {.block.full-width} -->
     
     domínio <!-- {dl.bulleted} -->
-    ~ Em que computador estão os arquivos
+      Em que computador estão os arquivos
 
     porta
-    ~ Qual endereço do programa dentro do computador
+      Qual endereço do programa dentro do computador
 
     caminho
-    ~ Qual o endereço até o arquivo
+      Qual o endereço até o arquivo
 
 - Assim que recebe a resposta, o navegador mostra na tela, _se der_
  
@@ -281,15 +281,15 @@
 ## URL externa vs interna
 
 URL **externa** <!-- {dl:.width-20.full-width} -->
-  ~ Aponta para algo (imagem etc.) de um outro site
-  ~ Quase sempre começa com `http://` ou `https://`. Exemplos:
+    Aponta para algo (imagem etc.) de um outro site
+    Quase sempre começa com `http://` ou `https://`. Exemplos:
     - http://google.com
     - http://fegemo.github.io/imgs/kraken.png
     - https://twitter.com/fegemo
 
 URL **interna** <!-- {.alternate-color} -->
-  ~ Aponta para algo da própria página/site
-  ~ Pode ser um caminho <span class="badge type1">relativo</span> ou <span class="badge type2">absoluto</span>.
+    Aponta para algo da própria página/site
+    Pode ser um caminho <span class="badge type1">relativo</span> ou <span class="badge type2">absoluto</span>.
     - racas-raras.html <span class="badge type1">relativo</span>
     - imagens/ovelha.jpg <span class="badge type1">relativo</span>
     - ../imgs/logo.png <span class="badge type1">relativo</span>
@@ -407,14 +407,14 @@ URL **interna** <!-- {.alternate-color} -->
 - Ele usa estilos padrão:
   
   Cor do texto
-  ~ preta
+    preta
   
   Cor de fundo
-  ~ branca
+    branca
 
   Fonte
-  ~ Times New Roman para títulos (no Windows)
-  ~ Arial para parágrafos
+    Times New Roman para títulos (no Windows)
+    Arial para parágrafos
 - Cada navegador pode ter um estilo padrão diferente
 - É possível e altamente recomendável <u>criar estilos próprios</u>
 - Vamos conhecer agora uma segunda linguagem: CSS
