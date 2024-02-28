@@ -8,7 +8,7 @@
 
   ![Foto de Tim Berners-Lee](../../images/tim-berners-lee.jpg) <!-- {.portrait.push-right} --> 
 
-- Vimos as proezas de Tim (Berners-Lee), o coração valente, ao criar:
+- Vimos as proezas de `Tim (Berners-Lee)`, o coração valente, ao criar:
   - O protocolo HTTP
   - A linguagem HTML
   - Um servidor web (CERN httpd)
