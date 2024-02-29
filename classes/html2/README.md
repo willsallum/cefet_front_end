@@ -145,8 +145,8 @@
 
 ![](../../images/philosoraptor.jpg) <!-- {.portrait.centered style="display: block"} -->
 
-Pergunta
-~  Por que um **parágrafo** está sempre **abaixo do outro**, mas
+Pergunta:
+  Por que um **parágrafo** está sempre **abaixo do outro**, mas
   um elemento **`<strong>`** pode ficar **ao lado** de outro texto?
 
 <!-- {dl:.content.width-30} -->
