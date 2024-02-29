@@ -419,7 +419,7 @@ A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
 - A **propriedade `border`** é um atalho para `border-width`, `border-style` e
   `border-color`
   - Exemplo (os dois são **equivalentes**):
-    ![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.property.value.push-right data-viewbox="56 30 90 65" style="width: 250px"} -->
+    
     ```css
     p {
       border-width: 1px;    /* largura de 1 pixel */
