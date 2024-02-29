@@ -246,8 +246,8 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
   <a href="downloads/exemplo.zip">Link interno</a>
   ```
 
-1. ![](../../images/philosoraptor.jpg) <!-- {.portrait.push-left.bullet} --> <!-- {ol:.flex-align-end.no-bullets.no-padding.bullet} -->
-   - Mas como criar um link para **outra página do meu próprio site**? <!-- {ul:.no-bullets.no-padding.bullet} -->
+![](../../images/philosoraptor.jpg) <!-- {.portrait.push-left.bullet} --> <!-- {ol:.flex-align-end.no-bullets.no-padding.bullet} -->
+- Mas como criar um link para **outra página do meu próprio site**? <!-- {ul:.no-bullets.no-padding.bullet} -->
 
 ---
 ## Mais sobre hiperlinks
@@ -262,8 +262,8 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
   ```
   - Ao clicar no link, o navegador abre o email do usuário
 
-1. ![](../../images/philosoraptor.jpg) <!-- {.portrait.push-left.bullet} --> <!-- {ol:.flex-align-end.no-bullets.no-padding.bullet style="margin-top: 1.5em"} -->
-   - Como fazer para o link **abrir em outra aba**? <!-- {ul:.no-bullets.no-padding.bullet} -->
+![](../../images/philosoraptor.jpg) <!-- {.portrait.push-left.bullet} --> <!-- {ol:.flex-align-end.no-bullets.no-padding.bullet style="margin-top: 1.5em"} -->
+- Como fazer para o link **abrir em outra aba**? <!-- {ul:.no-bullets.no-padding.bullet} -->
 
 ---
 ## O **atributo `target="..."`** dos links
@@ -271,13 +271,13 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
 A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
   os seguintes valores:
 
-  `_self` <!-- {dl:.width-10.full-width} -->
-    ~ O recurso "linkado" **abre <u>na própria aba</u>** (valor padrão)
-    ~ _Exemplo_: `<a href="..." target="_self">Sobre mim</a>`
+  - `_self`
+    - O recurso "linkado" **abre <u>na própria aba</u>** (valor padrão)
+    - _Exemplo_: `<a href="..." target="_self">Sobre mim</a>`
 
-  `_blank`
-    ~ O recurso "linkado" abre em **uma <u>nova</u> aba**
-    ~ _Exemplo_: `<a href="..." target="_blank">Salgadinhos</a>`
+  - `_blank`
+    - O recurso "linkado" abre em **uma <u>nova</u> aba**
+    - _Exemplo_: `<a href="..." target="_blank">Salgadinhos</a>`
 
 ---
 ## Link para dentro de uma página
@@ -325,28 +325,10 @@ A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
 <!-- {ul:.content} -->
 
 ---
-<!-- {"layout": "centered", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/css-rule-anatomy.min.css"]} -->
 
-::: figure .figure-slides.clean
-![Uma regra CSS mostrando](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-![Uma regra CSS mostrando](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-:::
----
-<!-- {"layout": "centered", "embedSVG": "img[src$='.svg']", "state": "show-active-slide-and-previous", "containerStyles": {"--show-2-slides-x-distance": "200px", "--show-2-slides-z-distance": "-150px", "--show-2-slides-rotation": "5deg"}} -->
-
-![Regra CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.selector.declaration} -->
-
----
-<!-- {"layout": "centered", "embedSVG": "img[src$='.svg']"} -->
-
-![Regra CSS](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.property.value} -->
-
----
-<!-- {"layout": "tall-figure-left", "embedSVG": "img[src$='.svg']", "hash": "seletores-css", "slideStyles": {"grid-template-columns": ".2fr 1fr"}} -->
 ## **Seletores** CSS
 
-![Uma regra CSS destacando o seletor](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.selector style="width: 242px" data-viewbox="50 0 100 65"} -->
+![Uma regra CSS destacando o seletor](../../images/css-rule-anatomy.svg)
 
 - O seletor define a **que(ais) elemento(s)** HTML da página a **regra CSS será aplicada** <!-- {ul:.bulleted-0} -->
 - Há [diversos tipos de seletores][outros-seletores]. Veremos 2 hoje:
@@ -363,7 +345,7 @@ A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
 [outros-seletores]: http://localhost:8080/classes/css2/#outros-seletores
 
 ---
-<!-- {"hash": "seletor-de-tag"} -->
+
 ## Seletor de <u>_tag_</u>
 
 - Se usarmos um seletor que é **o nome de uma _tag_**...
@@ -422,12 +404,13 @@ A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
 </html>
 ```
 
-::: result
+### Resultados:
+
 <h1 style="font: unset; font-size: 125%;">Receitas para Monstros</h1>
 <h2 style="color: red; font: unset;">Ponche Vermelho</h2>
 <h2 style="color: unset; font: unset;">Joelhos de Lagartixa</h2>
 <h2 style="color: unset; font: unset;">Orelhas Verdes Fritas</h2>
-:::
+
 
 ---
 <!-- {"hash": "colocando-bordas", "embedSVG": "img[src$='.svg']"} -->
