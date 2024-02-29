@@ -63,7 +63,7 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 
   ![](../../../images/coding-dojo-estrutura-de-pastas.png)
 
-1. Ao final da atividade, a estrutura de pastas será assim:
+-  Ao final da atividade, a estrutura de pastas será assim:
 
 [baixar-imagens]: https://fegemo.github.io/cefet-front-end/assignments/code-dojo-1/code-dojo.zip
 
