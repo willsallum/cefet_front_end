@@ -209,14 +209,14 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
 
 | São elementos **`block`** | São elementos **`inline`**|
 |---------------------------|---------------------------|
-|  - **`<p>`**              |  - **`<strong>`**         |
-!  - `<h1>, <h2> ... <h6>`  |  - `<em>`                 |
-|  - `<ul>`, `<ol>`, `<li>` |  - `<del>`, `<ins>`       |
-|  -  e outros              |  - `<mark>`               |
-|                           |  - `<em>`                 |
-|                           |  - `<a>`                  |
-|                           |  - `<img>`                |
-|                           |  - e outros               |
+|   **`<p>`**              |   **`<strong>`**           |
+|   `<h1>, <h2> ... <h6>`  |   `<em>`                   |
+|   `<ul>`, `<ol>`, `<li>` |   `<del>`, `<ins>`         |
+|    e outros              |   `<mark>`                 |
+|                          |   `<em>`                   |
+|                          |   `<a>`                    |
+|                          |   `<img>`                  |
+|                          |   e outros                 |
 
 ---
 <!-- {"layout": "section-header", "hash": "mais-tipos-de-hiperlinks"} -->
