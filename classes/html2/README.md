@@ -53,9 +53,9 @@
   <p><strong>Não se esqueça!</strong> Tragam seus fones de ouvido.</p>
   ```
 - Por padrão, elementos `<strong>` são desenhados em **negrito**:
-  ::: result
+
   <strong style="color: inherit">Não se esqueça!</strong> Tragam seus fones de ouvido.
-  :::
+
 
 ---
 ## (2) _Tag_ **`<em></em>`**
@@ -68,9 +68,8 @@
   - Ao enfatizar _"bonitinhos"_, a frase está reafirmando a caractística dos
     gatos
 - Por padrão, elementos `<em>` são desenhados em **itálico**:
-  ::: result
+
   Gatos são animais <em>bonitinhos</em>.
-  :::
 
 ---
 ## (3) _Tags_ **`<del></del>`** e **`<ins></ins>`** :pencil:
@@ -81,10 +80,9 @@
   <p>E as árvores... somos <del>nós</del> <ins>nozes</ins>.</p>
   ```
 - Por padrão, elementos `<del>` são **riscados** e `<ins>` são **sublinhados**:
-  ::: result
+
   O jardineiro é Jesus.<br>
   E as árvores... somos <del>nós</del> <ins>nozes</ins>.
-  :::
 
 ---
 ## (4) _Tag_ **`<mark></mark>`** :part_alternation_mark:
@@ -95,9 +93,8 @@
   <p><mark>HTML, CSS e JavaScript</mark> são as três linguagens da Web.</p>
   ```
 - Por padrão, elementos `<mark>` possuem o **fundo com a cor amarela**:
-  ::: result
+
   <mark>HTML, CSS e JavaScript</mark> são as três linguagens da Web.
-  :::
 
 ---
 <!-- {"layout": "section-header", "hash": "tags-de-listas"} -->
@@ -115,39 +112,30 @@
 ## Listas de itens **`<ol></ol>`** e **`<ul></ul>`** 
 
 - Lista **numerada** (também conhecida como _ordenada_):
-  - ```html
+  ```html
     <ol>
       <li>Linux</li>
       <li>Windows</li>
     </ol>
-    ```
-    <!-- {li:style="flex-grow: 1; margin-right: 1em;"} -->
-  - ::: result
+  ```
+    <strong>Resultado:</strong>
     <ol>
       <li>Linux</li>
       <li>Windows</li>
     </ol>
-    :::
-    <!-- {ul:.layout-split-2.no-list-icon.no-padding} -->
-    <!-- {li:style="flex-grow: 1;"} -->
-    <!-- {ul^1:style="width: 100%;"} -->
+
 - Lista **<u>não</u>-numerada** (ou _não-ordenada_):
-  - ```html
+  ```html
     <ul>
       <li>Uva</li>
       <li>Maçã</li>
     </ul>
-    ```
-    <!-- {li:style="flex-grow: 1; margin-right: 1em;"} -->
-  - ::: result
+  ```
+    <strong>Resultado:</strong>
     <ul>
       <li>Uva</li>
       <li>Maçã</li>
     </ul>
-    :::
-    <!-- {ul:.layout-split-2.no-list-icon.no-padding} -->
-    <!-- {li:style="flex-grow: 1;"} -->
-    <!-- {ul^1:style="width: 100%;"} -->
 
 ---
 <!-- {"layout": "section-header", "hash": "elementos-inline-vs-block"} -->
@@ -167,27 +155,18 @@ Pergunta
 ## Vamos fazer um *teste*... <!-- {.bullet} -->
 
 1. Colocando dois `<p>` seguidos (lado a lado) no código <!-- {ol:.bulleted} -->
-   - ```html
+   ```html
      <p>Primeiro</p> <p>Segundo</p>
-     ```
-     <!-- {li:style="flex-grow: 1;"} -->
-   - ::: result . margin-left: 1em;
+   ```
+     <strong>Resultado:</strong>
      <p>Primeiro</p> <p>Segundo</p>
-     :::
-     <!-- {ul:.layout-split-2.no-list-icon.no-padding} -->
-     <!-- {li:style="flex-grow: 1;"} -->
-     <!-- {ol:style="width: 100%;"} -->
+
 1. Colocando dois `<strong>` seguidos
-   - ```html
+   ```html
      <strong>Primeiro</strong> <strong>Segundo</strong>
-     ```
-     <!-- {li:style="flex-grow: 1;"} -->
-   - ::: result . margin-left: 1em;
+   ```
+     <strong>Resultado:</strong>
      <strong style="color: inherit;">Primeiro</strong> <strong style="color: inherit;">Segundo</strong>
-     :::
-     <!-- {ul:.layout-split-2.no-list-icon.no-padding} -->
-     <!-- {li:style="flex-grow: 1;"} -->
-     <!-- {ol:style="width: 100%;"} -->
 
 Por quê isso acontece? <!-- {.bullet} -->
 
@@ -199,12 +178,12 @@ Por quê isso acontece? <!-- {.bullet} -->
 - Alguns elementos são do tipo `block`, outros são `inline`:
 
   Elementos **`block`** <!-- {dl:.bullet} -->
-    ~ são dispotos um <u>abaixo do outro</u>
-    ~ ex: parágrafos, títulos e subtítulos, listas <!-- {dd:.bullet} -->
+    - são dispotos um <u>abaixo do outro</u>
+      - ex: parágrafos, títulos e subtítulos, listas <!-- {dd:.bullet} -->
 
   Elementos **`inline`** <!-- {.alternate-color} -->
-    ~ são dispostos um <u>à direita do outro</u>
-    ~ ex: links, strong, em, imagens <!-- {dd:.bullet} -->
+    - são dispostos um <u>à direita do outro</u>
+      - ex: links, strong, em, imagens <!-- {dd:.bullet} -->
 
 Vamos ver como o navegador faz... <!-- {.bullet} -->
 
@@ -228,21 +207,16 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
 <!-- {"layout": "2-column-content"} -->
 ## De volta ao **`<p>` _vs._ `<strong>`** <!-- {.alternate-color} -->...
 
-- São elementos **`block`**: <!-- {ul:.no-bullets.no-padding} -->
-  - **`<p>`**
-  - `<h1>, <h2> ... <h6>`
-  - `<ul>`, `<ol>`, `<li>`
-  - e outros...
-
-1. São elementos **`inline`**: <!-- {.alternate-color} --> <!-- {ol:.no-bullets.no-padding} -->
-   - **`<strong>`** <!-- {.alternate-color} -->
-   - `<em>`
-   - `<del>`, `<ins>`
-   - `<mark>`
-   - `<em>`
-   - `<a>`
-   - `<img>`
-   - e outros...
+| São elementos **`block`** | São elementos **`inline`**|
+|---------------------------|---------------------------|
+|  - **`<p>`**              |  - **`<strong>`**         |
+!  - `<h1>, <h2> ... <h6>`  |  - `<em>`                 |
+|  - `<ul>`, `<ol>`, `<li>` |  - `<del>`, `<ins>`       |
+|  -  e outros              |  - `<mark>`               |
+|                           |  - `<em>`                 |
+|                           |  - `<a>`                  |
+|                           |  - `<img>`                |
+|                           |  - e outros               |
 
 ---
 <!-- {"layout": "section-header", "hash": "mais-tipos-de-hiperlinks"} -->
