@@ -26,7 +26,6 @@
 
 ---
 
-<!-- {"layout": "centered"} -->
 # Hoje veremos
 
 - [_Tags_ que indicam importância](#tags-de-importancia)
