@@ -61,9 +61,9 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 1. Descompacte esse arquivo
 1. Em um editor de texto (ex: VS Code), abra a pasta `code-dojo` inteira
 
-  ![](../../../images/coding-dojo-estrutura-de-pastas.png) <!-- {.push-center} -->
+  ![](../../../images/coding-dojo-estrutura-de-pastas.png)
 
-4. Ao final da atividade, a estrutura de pastas será assim:
+1. Ao final da atividade, a estrutura de pastas será assim:
 
 [baixar-imagens]: https://fegemo.github.io/cefet-front-end/assignments/code-dojo-1/code-dojo.zip
 
@@ -85,7 +85,8 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 - **Utilize a propriedade charset** da tag `meta` (dentro do `head`) para garantir que o html seja lido da forma correta:
 `<meta charset="utf-8">`
-![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo1.png) <!-- {.bordered.rounded.push-right style="height: 120px;"} -->
+
+![Página exibindo o primeiro passo](../../../images/coding-dojo-1-passos/passo1.png) 
 
 - Exiba um **ícone** para a página
   - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png`
