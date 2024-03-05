@@ -109,6 +109,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   - Crie 01 parágrafo utilizando o texto da Wikipedia de "Coding dojo é..." até "grupos de coding dojo surgiram em 2009."
 - Parágrafos: Justificados, com fonte Arial ou sans-serif
 
+[Vide aula Seletores CSS](https://willsallum.github.io/cefet_front_end/classes/html2/#seletores-css)
 ---
 ## 3. Título (segundo nível) e estilos da página
 
@@ -128,7 +129,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   ![Página exibindo o quarto passo](../../../images/coding-dojo-1-passos/passo4.png) <!-- {.bordered.rounded.push-right.bullet style="height: 250px;"} -->
 
   - Cor de fundo: Azure
-  - Borda: 1 pixel pontilhada e preta
+  - Borda: 1 pixel pontilhada e preta [Aula sobre Bodas](https://willsallum.github.io/cefet_front_end/classes/html2/#colocando-bordas)
   - Espaçamento entre o texto e a borda: 10px
     - Espaçamento possível usando a propriedade `padding`
 
