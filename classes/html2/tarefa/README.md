@@ -158,7 +158,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 - Insira a imagem `logotipo.png` após o primeiro título
   - Repare que elas estão dentro da pastinha `imagens-dojo`
 - Insira a imagem `foto-de-evento.jpg` após o segundo título
-- Centralize as imagens
+- Centralize as imagens (Vide aula: (https://willsallum.github.io/cefet_front_end/classes/html2/#centralizando-imagens))
 
 
 ---
