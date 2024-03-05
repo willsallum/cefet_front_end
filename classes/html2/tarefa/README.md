@@ -109,7 +109,8 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   - Crie 01 parágrafo utilizando o texto da Wikipedia de "Coding dojo é..." até "grupos de coding dojo surgiram em 2009."
 - Parágrafos: Justificados, com fonte Arial ou sans-serif 
   
-  [Dica: vide aula Seletores CSS](https://willsallum.github.io/cefet_front_end/classes/html2/#seletores-css)
+    [Dica: vide aula Seletores CSS](https://willsallum.github.io/cefet_front_end/classes/html2/#seletores-css)
+    
 ---
 ## 3. Título (segundo nível) e estilos da página
 
