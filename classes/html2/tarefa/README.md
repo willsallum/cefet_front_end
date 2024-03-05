@@ -107,9 +107,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   - Margem (esquerda e direita): 20%
 - Abrir a página `Coding Dojo` da Wikipédia
   - Crie 01 parágrafo utilizando o texto da Wikipedia de "Coding dojo é..." até "grupos de coding dojo surgiram em 2009."
-- Parágrafos: Justificados, com fonte Arial ou sans-serif
-
-[Vide aula Seletores CSS](https://willsallum.github.io/cefet_front_end/classes/html2/#seletores-css)
+- Parágrafos: Justificados, com fonte Arial ou sans-serif [Dica: vide aula Seletores CSS](https://willsallum.github.io/cefet_front_end/classes/html2/#seletores-css)
 ---
 ## 3. Título (segundo nível) e estilos da página
 
@@ -129,7 +127,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   ![Página exibindo o quarto passo](../../../images/coding-dojo-1-passos/passo4.png) <!-- {.bordered.rounded.push-right.bullet style="height: 250px;"} -->
 
   - Cor de fundo: Azure
-  - Borda: 1 pixel pontilhada e preta [Aula sobre Bodas](https://willsallum.github.io/cefet_front_end/classes/html2/#colocando-bordas)
+  - Borda: 1 pixel pontilhada e preta [Dica: vide aula sobre Bodas](https://willsallum.github.io/cefet_front_end/classes/html2/#colocando-bordas)
   - Espaçamento entre o texto e a borda: 10px
     - Espaçamento possível usando a propriedade `padding`
 
@@ -159,7 +157,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 - Insira a imagem `logotipo.png` após o primeiro título
   - Repare que elas estão dentro da pastinha `imagens-dojo`
 - Insira a imagem `foto-de-evento.jpg` após o segundo título
-- Centralize as imagens [Vide aula Centralizando-imagem](https://willsallum.github.io/cefet_front_end/classes/html2/#centralizando-imagens)
+- Centralize as imagens [Dica: vide aula sobre Centralizando-imagem](https://willsallum.github.io/cefet_front_end/classes/html2/#centralizando-imagens)
 
 
 ---
