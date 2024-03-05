@@ -167,11 +167,11 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ![Página exibindo o sétimo passo](../../../images/coding-dojo-1-passos/passo7.png) <!-- {.bordered.rounded.bullet.push-right style="width: 300px;"} -->
 
 - Insira um link para a página da Wikipédia sobre Coding Dojo:
-  `https://pt.wikipedia.org/wiki/Coding_Dojo`
+  `https://pt.wikipedia.org/wiki/Coding_Dojo` [Dica: aula sobre hiperlinks](https://willsallum.github.io/cefet_front_end/classes/html2/#mais-sobre-hiperlinks)
 - Para o link interno (1º), será necessário criar um `id` para o primeiro elemento da página (o `<h1>`).
   Que nome seria interessante? Pense em qual função esse elemento exerce. Evite maiúsculas e
   caracteres especiais. Não pode haver espaços. <!-- {li:.note.info.bullet style="width: calc(100% - 300px - 1em); margin-top: 1.5em;"} -->
-
+  [Dica: aula sobre criar links para dentro da página](https://willsallum.github.io/cefet_front_end/classes/html2/#link-para-dentro-de-uma-página)
 ---
 ## 8. Uma Nova Página
 
