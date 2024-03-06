@@ -140,6 +140,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
    - `Introdução`: ❌ pq contém maiúsculas e caracteres especiais
    - `introducao`: ✅ pq não indica ordem, mas sim a função do elemento
 
+    [Vide aula sobre criar id](https://willsallum.github.io/cefet_front_end/classes/html2/#o-id-de-um-elemento-html)
 
 ---
 ## 5. Outras alterações no texto...
