@@ -189,10 +189,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
     </tr>
   </table>
   ```
-  - Exemplo: 
-
-  <iframe width="90%" height="325px" src="https://jsfiddle.net/danielhasan/8tr4z959/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
-  
+  - [Exemplo](https://jsfiddle.net/danielhasan/8tr4z959/) 
 
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
