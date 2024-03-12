@@ -123,13 +123,13 @@ body {
     color: rgba(0, 0, 0, 0.53);       /* ou #0008: preto 53% opaco */
     color: rgba(0, 0, 255, 0.53);     /* ou #00f8: azul 53% opaco */
     ```
-    <!-- {li:style="flex-grow: 1;"} -->
+ - Resultados:
+
   <p style="color: rgba(255, 255, 255, 0.3)">branco</p>
   <p style="color: rgba(255, 255, 255, 0.7)">branco</p>
   <p style="color: rgba(255, 255, 255, 1)">branco</p>
   <p style="color: rgba(0, 0, 0, 0.5)">preto</p>
   <p style="color: rgba(0, 0, 255, 0.6); font-style: normal;">azul</p>
-
 
 - Podemos usar a notação RGBA(...) ou hexadecimal
 
