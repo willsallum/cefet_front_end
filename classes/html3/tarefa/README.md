@@ -117,7 +117,7 @@ body {
 - É possível usar cores com transparência, que deixam
   "o que está atrás" aparecer. Por exemplo (em fundo vermelho para visualizar):
   - ```css
-    color: rgba(255, 255, 255, 0.20); /* ou #fff3: branco 20% opaco */
+    color: rgba(255, 255, 255, 0.25); /* ou #fff3: branco 20% opaco */
     color: rgba(255, 255, 255, 0.67); /* ou #fffa: branco 67% opaco */
     color: rgba(255, 255, 255, 1);    /* mesmo que white */
     color: rgba(0, 0, 0, 0.53);       /* ou #0008: preto 53% opaco */
@@ -125,11 +125,11 @@ body {
     ```
  - Resultados:
 
-  <p style="color: rgba(255, 255, 255, 0.3); background-color:red; margin:2px;"> branco</p>
-  <p style="color: rgba(255, 255, 255, 0.7); background-color:red; margin:2px;"> branco</p>
-  <p style="color: rgba(255, 255, 255, 1); background-color:red; margin:2px;"> branco</p>
-  <p style="color: rgba(0, 0, 0, 0.5); background-color:red; margin:2px;"> preto</p>
-  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal; background-color:red; margin:2px;">azul</p>
+  <p style="color: rgba(255, 255, 255, 0.4); background-color:red; margin:2px; width=20%;"> branco</p>
+  <p style="color: rgba(255, 255, 255, 0.7); background-color:red; margin:2px; width=20%;"> branco</p>
+  <p style="color: rgba(255, 255, 255, 1); background-color:red; margin:2px; width=20%;"> branco</p>
+  <p style="color: rgba(0, 0, 0, 0.5); background-color:red; margin:2px; width=20%;"> preto</p>
+  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal; background-color:red; margin:2px; width=20%;">azul</p>
 
 - Podemos usar a notação RGBA(...) ou hexadecimal
 
