@@ -191,7 +191,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
   ```
   - Exemplo: 
   
-  [](https://jsfiddle.net/danielhasan/8tr4z959/)
+  ![](https://jsfiddle.net/danielhasan/8tr4z959/)
 
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
