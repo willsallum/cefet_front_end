@@ -191,7 +191,8 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
   ```
   - Exemplo: 
   
-  ![](https://jsfiddle.net/danielhasan/8tr4z959/)
+  <iframe width="65%" height="225px" src="ttps://jsfiddle.net/danielhasan/8tr4z959/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+  
 
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
