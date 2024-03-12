@@ -11,7 +11,7 @@
   `<a href="caminho-do-recurso">nome</a>`
   - Link interno da página referenciando o `id` do elemento:
     ```html
-    <a href="#banda-calypso">Ir para banda Calypso</a>pdf~
+    <a href="#banda-calypso">Ir para banda Calypso</a>
     ...
     <h2 id="banda-calypso">Calypso</a>
     ```
@@ -70,7 +70,6 @@
 1. [Tabelas simples](#tabelas-simples)
 1. [Tabelas completas](#tabelas-completas)
 1. [Estilizando tabelas](#estilizando-tabelas)
-1. [Piratas e seus tesouros](#piratas-e-seus-tesouros) 👑
 
 
 ---
@@ -181,7 +180,7 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
 - Coloca uma legenda na tabela:
   ```html
   <table>
-    <caption>Quadro 01: Alunos Matriculados</caption> <!-- aqui -->
+    <caption>Quadro 01: Alunos Matriculados</caption> <!--  aqui  -->
     <tr>
       <th>Matrícula</th><th>Nome</th>
     </tr>
@@ -190,7 +189,9 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
     </tr>
   </table>
   ```
-  - Exemplo: https://jsfiddle.net/danielhasan/8tr4z959/
+  - Exemplo: 
+  
+  [](https://jsfiddle.net/danielhasan/8tr4z959/)
 
 ---
 ## Tabela do nosso exemplo (<ins>com caption</ins>)
