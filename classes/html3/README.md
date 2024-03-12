@@ -190,8 +190,8 @@ OBS: Como ainda não alteramos o **estilo**, ainda não há **borda**
   </table>
   ```
   - Exemplo: 
-  
-  <iframe width="65%" height="225px" src="ttps://jsfiddle.net/danielhasan/8tr4z959/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
+
+  <iframe width="90%" height="325px" src="https://jsfiddle.net/danielhasan/8tr4z959/" allowfullscreen="allowfullscreen" frameborder="0" class="flex-align-center"></iframe>
   
 
 ---
