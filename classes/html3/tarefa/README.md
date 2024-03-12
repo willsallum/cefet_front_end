@@ -115,7 +115,7 @@ body {
 ## Cores semitransparentes
 
 - É possível usar cores com transparência, que deixam
-  "o que está atrás" aparecer. Por exemplo:
+  "o que está atrás" aparecer. Por exemplo (em fundo preto para visualizar):
   - ```css
     color: rgba(255, 255, 255, 0.20); /* ou #fff3: branco 20% opaco */
     color: rgba(255, 255, 255, 0.67); /* ou #fffa: branco 67% opaco */
