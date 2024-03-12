@@ -125,11 +125,11 @@ body {
     ```
  - Resultados:
 
-  <p style="color: rgba(255, 255, 255, 0.3)">branco</p>
-  <p style="color: rgba(255, 255, 255, 0.7)">branco</p>
-  <p style="color: rgba(255, 255, 255, 1)">branco</p>
-  <p style="color: rgba(0, 0, 0, 0.5)">preto</p>
-  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal;">azul</p>
+  <p style="color: rgba(255, 255, 255, 0.3); background-color:#black;">branco</p>
+  <p style="color: rgba(255, 255, 255, 0.7); background-color:#black;">branco</p>
+  <p style="color: rgba(255, 255, 255, 1); background-color:#black;">branco</p>
+  <p style="color: rgba(0, 0, 0, 0.5); background-color:#black;">preto</p>
+  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal; background-color:#black;">azul</p>
 
 - Podemos usar a notação RGBA(...) ou hexadecimal
 
