@@ -115,7 +115,7 @@ body {
 ## Cores semitransparentes
 
 - É possível usar cores com transparência, que deixam
-  "o que está atrás" aparecer. Por exemplo (em fundo preto para visualizar):
+  "o que está atrás" aparecer. Por exemplo (em fundo vermelho para visualizar):
   - ```css
     color: rgba(255, 255, 255, 0.20); /* ou #fff3: branco 20% opaco */
     color: rgba(255, 255, 255, 0.67); /* ou #fffa: branco 67% opaco */
@@ -125,11 +125,11 @@ body {
     ```
  - Resultados:
 
-  <p style="color: rgba(255, 255, 255, 0.3); background-color:black;">branco</p>
-  <p style="color: rgba(255, 255, 255, 0.7); background-color:black;">branco</p>
-  <p style="color: rgba(255, 255, 255, 1); background-color:black;">branco</p>
-  <p style="color: rgba(0, 0, 0, 0.5); background-color:black;">preto</p>
-  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal; background-color:black;">azul</p>
+  <p style="color: rgba(255, 255, 255, 0.3); background-color:red;">branco</p>
+  <p style="color: rgba(255, 255, 255, 0.7); background-color:red;">branco</p>
+  <p style="color: rgba(255, 255, 255, 1); background-color:red;">branco</p>
+  <p style="color: rgba(0, 0, 0, 0.5); background-color:red;">preto</p>
+  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal; background-color:red;">azul</p>
 
 - Podemos usar a notação RGBA(...) ou hexadecimal
 
