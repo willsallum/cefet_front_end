@@ -124,16 +124,13 @@ body {
     color: rgba(0, 0, 255, 0.53);     /* ou #00f8: azul 53% opaco */
     ```
     <!-- {li:style="flex-grow: 1;"} -->
+  <p style="color: rgba(255, 255, 255, 0.3)">branco</p>
+  <p style="color: rgba(255, 255, 255, 0.7)">branco</p>
+  <p style="color: rgba(255, 255, 255, 1)">branco</p>
+  <p style="color: rgba(0, 0, 0, 0.5)">preto</p>
+  <p style="color: rgba(0, 0, 255, 0.6); font-style: normal;">azul</p>
 
-    - branco <!-- {li:style="color: rgba(255, 255, 255, 0.3)"} -->
-    - branco <!-- {li:style="color: rgba(255, 255, 255, 0.7)"} -->
-    - branco  <!-- {li:style="color: rgba(255, 255, 255, 1)"} -->
-    - preto  <!-- {li:style="color: rgba(0, 0, 0, 0.5)"} -->
-    - _azul_ <!-- {em:style="color: rgba(0, 0, 255, 0.6); font-style: normal;"} -->
 
-    <!-- {ul^1:.layout-split-2.no-list-icon.no-padding} -->
-    <!-- {li:style="flex-grow: 1;"} -->
-    <!-- {ul^2:style="width: 100%;"} -->
 - Podemos usar a notação RGBA(...) ou hexadecimal
 
 
