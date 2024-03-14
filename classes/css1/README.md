@@ -511,25 +511,25 @@ Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
   - Veja a documentação do que é um [`gradient`](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)
 
 1. <!-- {ol:.item-code-with-image.full-width.compact-code-more} -->
-   ::: result . max-width: calc(100% - 600px);
+   result . max-width: calc(100% - 600px);
    0 graus, iniciando com azul e terminando como verde <!-- {style="background-image: linear-gradient( 0deg, blue, #00FF00 ); font-size: 75%; color: white; text-shadow: 1px 1px black;"} -->
-   :::
+   
    ```css
    p {
      background-image: linear-gradient( 0deg, blue, #00FF00 );
    }
    ```
-1. ::: result . max-width: calc(100% - 650px);
+1. result . max-width: calc(100% - 650px);
    Começa amarelo e termina azul no canto esquerdo superior  <!-- {style="background-image: linear-gradient( to left top, yellow, blue ); font-size: 75%; color: white; text-shadow: 1px 1px black;"} -->
-   :::
+   
    ```css
    p {
      background-image: linear-gradient( to left top, yellow, blue );
    }
    ```
-1. ::: result . max-width: calc(100% - 600px);
+1. result . max-width: calc(100% - 600px);
    Azul, branco e verde <!-- {style="background-image:linear-gradient( 90deg, blue, white 20%,#00FF00); font-size: 75%; color: white; text-shadow: 1px 1px black;"} -->
-   :::
+
    ```css
    p {
      background-image: linear-gradient( 90deg, blue, white 20%, #00FF00 );
