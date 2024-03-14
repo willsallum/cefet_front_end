@@ -130,9 +130,9 @@
 
 ![Exemplo de Codificação de Texto](../../images/codificacao.png)<!-- {.push-right.invert-colors-dark-mode style="height: 300px"} -->
 
-- Arquivos HTMLs são representados como arquivos textuais
+- Arquivos HTMLs são representados como arquivos textuais;
 - Porém, internamente, eles são armazenados no formato **numérico** em **binário**
-- Codificação é um **<u>mapeamento</u> de letras para números**
+- Codificação é um **<u>mapeamento</u> de letras para números**;
 - Na web há vários tipos de codificações:
   - (1) ASCII, (2) UNICODE, ...
 
