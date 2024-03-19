@@ -41,8 +41,9 @@
 - Na hora de escrever código HTML, CSS e JavaScript, queremos ter:
   - **Destacamento (_highlighting_) de código fonte**
   - **Indentação** automática
-  - ![Auto-completar no Atom](../../images/auto-complete-atom.png) <!-- {.push-right} -->
-    **Auto-completar** tags HTML, propriedades CSS etc.
+    ![Auto-completar no Atom](../../images/auto-complete-atom.png) <!-- {.push-right} -->
+
+  - **Auto-completar** tags HTML, propriedades CSS etc.
 - Editores indicados:
   - [VSCode][vscode] (gratuito 🌟)
   - [Atom][atom] (gratuito)
@@ -151,7 +152,7 @@
 <!-- {"layout": "2-column-content"} -->
 ## **Tabela ASCII** (um pedacinho)
 
-| Código| Letra 	|
+|| Código| Letra 	|
 |:-----:|:-------:|
 | ⋮    |   ⋮     |
 | 32    | Espaço 	|
@@ -161,7 +162,7 @@
 | 65    |    A    |
 | 66    |    B    |
 | 67    |    C    |
-| ⋮    |    ⋮    |
+| ⋮    |    ⋮    ||
 
 | Código| Letra 	|
 |:-----:|:-------:|
@@ -169,7 +170,7 @@
 | 97    |    a    |
 | 98    |    b    |
 | 99    |    c    |
-| ⋮    |    ⋮    |
+| ⋮    |    ⋮    ||
 
 ---
 ## Codificação **Unicode** e UTF-8
