@@ -268,8 +268,6 @@ Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
 ## Relembrando... **regra CSS**
 
 ![](../../images/css-rule-anatomy.svg) 
-![](../../images/css-rule-anatomy.svg) 
-![](../../images/css-rule-anatomy.svg) 
 
 ---
 ## Problema: **selecionando** elementos
