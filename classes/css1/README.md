@@ -41,7 +41,7 @@
 - Na hora de escrever código HTML, CSS e JavaScript, queremos ter:
   - **Destacamento (_highlighting_) de código fonte**
   - **Indentação** automática
-  
+
     ![Auto-completar no Atom](../../images/auto-complete-atom.png) <!-- {.push-right} -->
 
   - **Auto-completar** tags HTML, propriedades CSS etc.
@@ -200,13 +200,15 @@
 ---
 ## Codificação em uma página web
 
-- ![Foto do VS Code mostrando a codificação do arquivo aberto](../../images/vscode-encoding.png) <!-- {.push-right style="max-width: 360px"} -->
-  Além do arquivo HTML especificar, o próprio arquivo **deve estar salvo usando UTF-8**. No VS Code ➡️
+  ![Foto do VS Code mostrando a codificação do arquivo aberto](../../images/vscode-encoding.png) <!-- {.push-right style="max-width: 360px"} -->
+
+- Além do arquivo HTML especificar, o próprio arquivo **deve estar salvo usando UTF-8**. No VS Code ➡️
 - Opções de codificação são gerenciadas pela IANA e [podem ser vistas aqui](http://www.iana.org/assignments/character-sets/character-sets.xhtml)
 
 
-1. ![Uma página web com caracteres não reconhecidos devido a um problema de codificação](../../images/encoding-error.png) <!-- {.push-left style="max-width: 360px;"} --> <!-- {ol:.no-padding.no-bullets.no-margin} -->
-  ⬅️ Caso haja divergência de codificação, alguns caracteres podem não aparecer corretamente
+  ![Uma página web com caracteres não reconhecidos devido a um problema de codificação](../../images/encoding-error.png) <!-- {.push-left style="max-width: 360px;"} --> <!-- {ol:.no-padding.no-bullets.no-margin} -->
+
+1. ⬅️ Caso haja divergência de codificação, alguns caracteres podem não aparecer corretamente
 
 *[IANA]: Internet Assigned Numbers Authority
 
@@ -265,10 +267,9 @@ Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
 <!-- {"layout": "centered-horizontal", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/css-rule-anatomy.min.css"]} -->
 ## Relembrando... **regra CSS**
 
-- ![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.push-right data-viewbox="56 0 90 10" style="width: 250px"} -->
-- ![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.declaration.selector.push-right data-viewbox="50 10 150 65" style="width: 370px"} -->
-- ![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.property.value.push-right data-viewbox="56 30 90 65" style="width: 250px"} --> <!-- {ul:.card-list} -->
-
+![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.push-right data-viewbox="56 0 90 10" style="width: 250px"} -->
+![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.declaration.selector.push-right data-viewbox="50 10 150 65" style="width: 370px"} -->
+![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.property.value.push-right data-viewbox="56 30 90 65" style="width: 250px"} --> <!-- {ul:.card-list} -->
 
 ---
 ## Problema: **selecionando** elementos
