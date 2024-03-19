@@ -152,7 +152,7 @@
 <!-- {"layout": "2-column-content"} -->
 ## **Tabela ASCII** (um pedacinho)
 
-|| Código| Letra 	|
+| Código| Letra 	|
 |:-----:|:-------:|
 | ⋮    |   ⋮     |
 | 32    | Espaço 	|
@@ -162,7 +162,7 @@
 | 65    |    A    |
 | 66    |    B    |
 | 67    |    C    |
-| ⋮    |    ⋮    ||
+| ⋮    |    ⋮    |
 
 | Código| Letra 	|
 |:-----:|:-------:|
@@ -170,7 +170,7 @@
 | 97    |    a    |
 | 98    |    b    |
 | 99    |    c    |
-| ⋮    |    ⋮    ||
+| ⋮    |    ⋮    |
 
 ---
 ## Codificação **Unicode** e UTF-8
