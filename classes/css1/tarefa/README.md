@@ -13,13 +13,13 @@
 ---
 # Abelhas e suas castas
 
-1. [Baixe as imagens e páginas](https://github.com/fegemo/cefet-front-end-bees/archive/master.zip)
+1. [Baixe as imagens e páginas](https://github.com/willsallum/cefet_front_end_bees/archive/master.zip)
    que serão usados
    1. Descompacte o arquivo `cefet-front-end-bees-master.zip` na área de trabalho
       - Isto criará uma pasta com o nome `cefet-front-end-bees-master` lá
    1. **Renomeie** a pasta criada na área de trabalho para `site-abelhas`
       - Esta é a **pasta raiz** do site - onde devem ficar os arquivos `.html`
-   1. Veja [instruções detalhadas aqui](https://github.com/fegemo/cefet-front-end-bees/blob/master/README.md)
+   1. Veja [instruções detalhadas aqui](https://github.com/willsallum/cefet_front_end_bees/blob/master/README.md)
 
 ---
 <!-- {"hash": "flutuando-coisas"} -->
