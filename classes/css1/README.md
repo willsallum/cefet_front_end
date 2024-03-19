@@ -267,9 +267,9 @@ Hoje em dia usamos sempre HTML5 😉 <!-- {.flex-align-center} -->
 <!-- {"layout": "centered-horizontal", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/css-rule-anatomy.min.css"]} -->
 ## Relembrando... **regra CSS**
 
-![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.rule.push-right data-viewbox="56 0 90 10" style="width: 250px"} -->
-![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.declaration.selector.push-right data-viewbox="50 10 150 65" style="width: 370px"} -->
-![](../../images/css-rule-anatomy.svg) <!-- {.css-rule-anatomy.property.value.push-right data-viewbox="56 30 90 65" style="width: 250px"} --> <!-- {ul:.card-list} -->
+![](../../images/css-rule-anatomy.svg) 
+![](../../images/css-rule-anatomy.svg) 
+![](../../images/css-rule-anatomy.svg) 
 
 ---
 ## Problema: **selecionando** elementos
