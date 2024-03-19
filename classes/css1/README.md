@@ -41,6 +41,7 @@
 - Na hora de escrever código HTML, CSS e JavaScript, queremos ter:
   - **Destacamento (_highlighting_) de código fonte**
   - **Indentação** automática
+  
     ![Auto-completar no Atom](../../images/auto-complete-atom.png) <!-- {.push-right} -->
 
   - **Auto-completar** tags HTML, propriedades CSS etc.
