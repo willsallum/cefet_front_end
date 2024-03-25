@@ -619,9 +619,9 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
 - Usada para **embutir outra página** web dentro da atual
 - Exemplo:
   ```html
-  <iframe src="https://fegemo.github.io/cefet-front-end-ajax/"></iframe>
+  <iframe src="https://willsallum.github.io/cefet_front_end_ajax/"></iframe>
   ```
-  <iframe src="https://fegemo.github.io/cefet-front-end-ajax/" width="100%"></iframe>
+  <iframe src="https://willsallum.github.io/cefet_front_end_ajax/" width="100%"></iframe>
 
   - Usos comuns:
     - Colocar um vídeo do Youtube na página
