@@ -30,7 +30,7 @@ atividade.
 
 ### Iniciando o exercício
 
-1. [Baixe os arquivos iniciais](https://github.com/willsallum/cefet-front-end-ninjas/archive/main.zip): as imagens e as duas páginas HTML
+1. [Baixe os arquivos iniciais](https://github.com/willsallum/cefet_front_end_ninjas/archive/main.zip): as imagens e as duas páginas HTML
 1. Descompacte na área de trabalho
 1. Renomeie a pasta para `ninjas`
 1. Comece o exercício! :dash:
@@ -45,7 +45,7 @@ Aqui estão os itens que precisam ser implementados:
      - Repare que <u>a altura será ajustada automaticamente</u>... mas se você
        defini-la também, dependendo do valor que colocar, pode acontecer isto:
 
-       ![Imagem de um desenho de um rosto de ninja, achatada](https://fegemo.github.io/cefet-front-end/images/ninjas-flattened-image.png)
+       ![Imagem de um desenho de um rosto de ninja, achatada](https://willsallum.github.io/cefet_front_end/images/ninjas-flattened-image.png)
        - Imagens achatadas/alongadas são um ultraje aos olhos do bom usuário
          da web
        - Portanto, basta definir **apenas** largura, ou apenas altura
