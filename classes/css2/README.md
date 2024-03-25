@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **CSS** parte 2
-## História, a Cascata e outros Seletores, Ferramentas e Ninjas
+## História, a Cascata e outros Seletores e Ferramentas
 
 ---
 # Na última aula... (1/4)
