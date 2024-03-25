@@ -569,29 +569,6 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
 [css-selectors-30]: https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
 ---
-<!-- {"layout": "section-header", "hash": "os-ninjas"} -->
-# Os Ninjas
-## Conheça essa gente ligeira
-
-- Atividade de hoje
-- Atributos `alt` das imagens
-- Embutindo páginas com `<iframe></iframe>`
-<!-- {ul:.content} -->
-
----
-## Atividade de Hoje
-
-![](../../images/print-ninja-logo.png) <!-- {p:.flex-align-center} -->
-
-1. Você deve estilizar as duas páginas web dos ninjas usando os
-   conhecimentos que vimos nas aulas anteriores
-1. Lembre-se das boas práticas - use CSS em arquivo externo
-1. Você pode modificar o HTML das páginas para colocar `class` e `id` nos
-   elementos para os quais essa alteração seja necessária
-   - Mas considere **usar os seletores <u>mais apropriados</u>**
-1. Siga os passos descritos no [arquivo README.md do exercício](https://github.com/willsallum/cefet_front_end_ninjas/blob/master/README.md)
-
----
 # Atributo **alt** da imagem
 
 - Descreve textualmente a imagem
