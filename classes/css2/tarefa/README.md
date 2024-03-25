@@ -128,7 +128,7 @@ Seguem algumas sugestões para melhorar o visual das páginas:
 1. Escreva um atributo `alt` bem descritivo para a imagem encontrada
    - Obs: para isso você **precisa alterar o arquivo HTML**
 
-[seletor-negacao]: https://fegemo.github.io/cefet-front-end/classes/css2/#desafio-seletor-negacao
+[seletor-negacao]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-negacao
 
 
 
