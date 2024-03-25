@@ -276,9 +276,9 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
 <!-- {"hash": "outros-seletores", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/css-rule-anatomy.min.css"]} -->
 ## Seletores
 
-- ![Regra CSS](../../images/css-rule-anatomy.svg) <!-- {.push-right.css-rule-anatomy.selector width="300" data-viewbox="50 0 90 60"} -->
+![Regra CSS](../../images/css-rule-anatomy.svg) <!-- {.push-right.css-rule-anatomy.selector width="300" data-viewbox="50 0 90 60"} -->
 
-  Até agora, já sabemos **selecionar elementos de <u>03 formas</u>**:
+- Até agora, já sabemos **selecionar elementos de <u>03 formas</u>**:
   1. Pelo **nome de sua _tag_**: `p { color: white; }`
   1. Por (uma de) suas **classes**: `.livro { color: red;}`
   1. Por seu **id**: `#manchete-principal { color: green; }`
@@ -342,27 +342,28 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
   </p>
   <a href="http://google.com">Este é outro link</a>
   ```
-- &nbsp;
-  - ```css
-    p > a { /* <a>s filhos de um <p> */
+
+    - ```css
+      p > a { /* <a>s filhos de um <p> */
       text-decoration: line-through;
-    }
-    p a { /* <a>s descendentes de um <p> */
+      }
+      p a { /* <a>s descendentes de um <p> */
       color: red;
-    }
+      }
     ```
 
-  - <p>
+    - <p>
       <strong style="color:black;">Ola! <a style="color:red;" href="http://www.google.com">Este é meu link! </a></strong>
       <a style="color:red;text-decoration: line-through;" href="http://www.terra.com.br">Esta é uma outra pagina</a>
-    </p>
-    <a style="color:blue" href="http://google.com">Este é outro link</a>
+      </p>
+      <a style="color:blue" href="http://google.com">Este é outro link</a>
 
 ---
 <!-- {"hash": "desafio-seletor-atributo"} -->
 ## Desafio #2
 
 > Colocar uma borda rosa **apenas nas imagens .jpg**:
+> 
 > ![](../../images/css-selectors-attribute-challenge.png)
 <!-- {p:style="text-align: left"} -->
 
@@ -443,6 +444,7 @@ a[href^="http"] {
 ## Desafio #3
 
 > Tirar o sublinhado do hyperlink **quando passar o mouse sobre ele**:
+> 
 > ![](../../images/css-selectors-state-challenge.png)
 <!-- {p:style="text-align: left"} -->
 
@@ -470,8 +472,6 @@ a[href^="http"] {
       color: gold;  /* [c] */
     }
 
-
-
     ```
     [Um link](#um-link) <!-- {a:.link} -->
 
@@ -495,6 +495,7 @@ a[href^="http"] {
 ## Desafio #4
 
 > Centralizar todas imagens **exceto uma ou outra**:
+> 
 > ![](../../images/css-selectors-negation-challenge.png)
 <!-- {p:style="text-align: left"} -->
 
@@ -569,7 +570,7 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
 
 ---
 <!-- {"layout": "section-header", "hash": "os-ninjas"} -->
-# Os Ninjas :dash:
+# Os Ninjas
 ## Conheça essa gente ligeira
 
 - Atividade de hoje
