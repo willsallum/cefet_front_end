@@ -80,7 +80,6 @@ uma classe curiosidade (previamente definido na tag pelo atributo `class` )
    - História
    - A cascata
    - Outros seletores
-1. [Os Ninjas](#os-ninjas)
 
 ---
 <!-- {"layout": "section-header", "hash": "ferramentas-do-desenvolvedor"} -->
@@ -90,9 +89,9 @@ uma classe curiosidade (previamente definido na tag pelo atributo `class` )
 - Ferramenta do Google Chrome
 - Alterando/testando propriedades
 - Investigando erros
-  1. :mega: "Criei uma regra e ela não funcionou"
-  1. :mega: "Apliquei uma propriedade e ela não apareceu"
-  1. :mega: "Coloquei uma imagem ou arquivo CSS e não apareceu"
+  1. "Criei uma regra e ela não funcionou"
+  1. "Apliquei uma propriedade e ela não apareceu"
+  1. "Coloquei uma imagem ou arquivo CSS e não apareceu"
 <!-- {ul:.content} -->
 
 ---
@@ -105,12 +104,16 @@ uma classe curiosidade (previamente definido na tag pelo atributo `class` )
 ---
 # O HTML visto como uma árvore
 
-::: figure .figure-slides.clean.flex-align-center
 ![Uma árvore com os elementos HTML](../../images/html-tree-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-3.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-4.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
 
 ---
 <!-- {"layout": "centered-horizontal"} -->
@@ -168,26 +171,31 @@ Vejamos alguns exemplos de como as ferramentas podem ajudar...
 ## História
 
 1989 - 1993 <!-- {.bullet-old} -->
-  ~ Tim Berners-Lee cria a WWW em CERN e a deixa aberta ao público
+
+  Tim Berners-Lee cria a WWW em CERN e a deixa aberta ao público
     geral <!-- {dd:.bullet-old} -->
 
 1994
-  ~ ::: figure .floating-portrait-container.push-right
+
       ![Foto de Håkon Wium Lie](../../images/howcome.jpg)
-    :::
+
     Håkon Wium Lie propõe uma linguagem com a responsabilidade
     de alterar a aparência de páginas web chamada CSS
 
 1996
-  ~ Juntamente com Bert Bos, Håkon publica a especificação do  **CSS1**
+
+  Juntamente com Bert Bos, Håkon publica a especificação do  **CSS1**
 1998
-  ~ Já gerenciado pela W3C, o **CSS2** foi publicado
+
+  Já gerenciado pela W3C, o **CSS2** foi publicado
 
 1998 - 2014
-  ~ Desenvolvimento da especificação do **CSS3** (_living standard_)
+
+  Desenvolvimento da especificação do **CSS3** (_living standard_)
 
 2013
-  ~ Håkon tornou-se CTO na _Opera Software_
+
+  Håkon tornou-se CTO na _Opera Software_
 
 *[CERN]: European Organization for Nuclear Research*
 
@@ -205,9 +213,9 @@ Vejamos alguns exemplos de como as ferramentas podem ajudar...
   - Todo o texto que estiver dentro de `<body>...</body>`, mesmo que dentro de
     parágrafos ou outros elementos, ficarão vermelhos (!)
     - <!-- {ul^0:.compact-code.no-bullets.no-padding} -->
-      ::: result .push-right margin-left: 1.5em; 
+
       # Título <!-- {style="font-family: serif; color: red;"} -->
-      :::
+
       ```html
       ⋮
       <style>
@@ -244,9 +252,9 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
     border: inherit;
   }
   ```
-  ::: result
+
   <p style="border: 1px solid red;">Este é um <em style="border: inherit">parágrafo</em> (&lt;em&gt; em 'parágrafo')</p>
-  :::
+
 
 ---
 ## Cascata: **sobrescrita** de propriedade
@@ -260,15 +268,16 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
     font-weight: normal;  /* ou, então, font-weight: initial */
   }                       /* initial é o valor padrão para aquela tag */
   ```
-  ::: result
+
   <p style="font-weight: bold;">Este é um <em style="font-weight: normal">parágrafo</em> (&lt;em&gt; em 'parágrafo')</p>
-  :::
+
 
 ---
 <!-- {"hash": "outros-seletores", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/css-rule-anatomy.min.css"]} -->
 ## Seletores
 
 - ![Regra CSS](../../images/css-rule-anatomy.svg) <!-- {.push-right.css-rule-anatomy.selector width="300" data-viewbox="50 0 90 60"} -->
+
   Até agora, já sabemos **selecionar elementos de <u>03 formas</u>**:
   1. Pelo **nome de sua _tag_**: `p { color: white; }`
   1. Por (uma de) suas **classes**: `.livro { color: red;}`
@@ -294,12 +303,12 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
       }
       ```
       <!-- {ul^0:.bullet.no-list-icon.layout-split-2} -->
-    - :::result
+
       - Sabão [Omo](http://omo.com.br) <!-- {style="color: orange"} -->
       - Sabão [Ariel](http://ariel.com.br) <!-- {style="color: orange"} -->
 
       [Voltar para cima](#) <!-- {style="color: blue"} -->
-      :::
+
 
 ---
 ## Seletores de **Descendente** e **Filho direto**
@@ -342,16 +351,12 @@ Algumas propriedades (ex: `color`) são herdadas pelos descendentes, outras não
       color: red;
     }
     ```
-  - :::result
-    <p>
+
+  - <p>
       <strong style="color:black;">Ola! <a style="color:red;" href="http://www.google.com">Este é meu link! </a></strong>
       <a style="color:red;text-decoration: line-through;" href="http://www.terra.com.br">Esta é uma outra pagina</a>
     </p>
     <a style="color:blue" href="http://google.com">Este é outro link</a>
-    :::
-
-    <!-- {ul^0:.no-list-icon.no-padding.layout-split-2}-->
-    <!-- {ul^1:.no-list-icon.no-padding}-->
 
 ---
 <!-- {"hash": "desafio-seletor-atributo"} -->
@@ -428,12 +433,10 @@ a[href^="http"] {
 <a href="http://www.cnn.com">Um site gringo<a>
 ```
 
-:::result . margin: 1em auto;
 <img style="height:50px;" src="../../images/algod-ovelha.jpg" alt="esta é uma ovelha">
 <img style="height:50px;border: 3px solid black;" src="../../images/print-ninja-logo.png" alt="este é um ninja">
 <a style="color:purple;background-image: linear-gradient(45deg, green, yellow);" href="http://www.terra.com.br">Um site brasuca<a>
 <a style="color:purple;" href="http://www.cnn.com">Um site gringo<a>
-:::
 
 ---
 <!-- {"hash": "desafio-seletor-estado"} -->
@@ -470,9 +473,8 @@ a[href^="http"] {
 
 
     ```
-    ::: result
     [Um link](#um-link) <!-- {a:.link} -->
-    :::
+
   - Há pelo menos **3 estados**: <!-- {li:style="margin-left: 1em"} -->
     - [a] situação inicial `:link`
     - [b] mouse em cima: `:hover`
@@ -525,10 +527,8 @@ a[href^="http"] {
 <!-- {"slideStyles": {"display": "block"}, "embeddedStyles": ".tabela tr:nth-child(2n){background:white;}.tabela tr:nth-child(2n+1){background:silver;} .tabela { line-height: 1.25em; } .tabela td { border: 1px solid black; } .tabela {border: none!important}", "classes": "compact-code"} -->
 ## Outros seletores
 
-::: did-you-know .push-right width: 400px; margin-left: 1em;
 A parte dos seletores "com dois pontos" (eg, `:not()`, `:hover`) é chamada
 de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes).
-:::
 
 - Seletores **de posição** dentro do pai: <!-- {li:.bullet} -->
   - `X:first-child`
@@ -555,14 +555,14 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
       background: silver;
     }
     ```
-  - ::: result
+
     <table class="tabela smaller-text-70">
       <tr><td>A</td><td>Linha 1</td></tr>
       <tr><td>B</td><td>Linha 2</td></tr>
       <tr><td>C</td><td>Linha 3</td></tr>
       <tr><td>D</td><td>Linha 4</td></tr>
     </table>
-    :::
+
     <!-- {ul^0:.layout-split-3.no-list-icon.no-padding style="justify-content:space-between;"}-->
 
 [css-selectors-30]: https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
@@ -588,7 +588,7 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
 1. Você pode modificar o HTML das páginas para colocar `class` e `id` nos
    elementos para os quais essa alteração seja necessária
    - Mas considere **usar os seletores <u>mais apropriados</u>**
-1. Siga os passos descritos no [arquivo README.md do exercício](https://github.com/fegemo/cefet-front-end-ninjas/blob/master/README.md)
+1. Siga os passos descritos no [arquivo README.md do exercício](https://github.com/willsallum/cefet_front_end_ninjas/blob/master/README.md)
 
 ---
 # Atributo **alt** da imagem
@@ -610,9 +610,7 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
   ```html
   <img alt="Imagem de uma ovelha pirata" src="imagem-inexistente.jpg">
   ```
-  :::result
   <img alt="Imagem de uma ovelha pirata" src="img-inexistente.jpg">
-  :::
 
 ---
 ## Elemento **iframe**
@@ -622,9 +620,8 @@ de **pseudoclasse**. Veja [todas aqui](https://developer.mozilla.org/pt-BR/docs/
   ```html
   <iframe src="https://fegemo.github.io/cefet-front-end-ajax/"></iframe>
   ```
-  :::result
   <iframe src="https://fegemo.github.io/cefet-front-end-ajax/" width="100%"></iframe>
-  :::
+
   - Usos comuns:
     - Colocar um vídeo do Youtube na página
     - Colocar um mapa do Google Maps na página
