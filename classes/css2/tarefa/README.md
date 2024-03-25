@@ -30,7 +30,7 @@ atividade.
 
 ### Iniciando o exercício
 
-1. [Baixe os arquivos iniciais](https://github.com/fegemo/cefet-front-end-ninjas/archive/main.zip): as imagens e as duas páginas HTML
+1. [Baixe os arquivos iniciais](https://github.com/willsallum/cefet-front-end-ninjas/archive/main.zip): as imagens e as duas páginas HTML
 1. Descompacte na área de trabalho
 1. Renomeie a pasta para `ninjas`
 1. Comece o exercício! :dash:
@@ -97,9 +97,9 @@ Aqui estão os itens que precisam ser implementados:
    - Aumente a fonte (_e.g._, `font-size: 24px`) do "nome do passo"
      - Exemplo:
 
-       ![](https://fegemo.github.io/cefet-front-end/images/ninjas-exemplo-estilo-passo.png)
+       ![](https://willsallum.github.io/cefet_front_end/images/ninjas-exemplo-estilo-passo.png)
 
-[seletores-atributos]: https://fegemo.github.io/cefet-front-end/classes/css2/#desafio-seletor-atributo
+[seletores-atributos]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-atributo
 
 ### Sugestões
 
@@ -196,10 +196,10 @@ Seguem algumas sugestões para melhorar o visual das páginas:
     1. Digite "_font_" (sem áspas) para buscar pelo visualizador e abra o
        visualizador
 
-       ![](https://fegemo.github.io/cefet-front-end/images/ninjas-ubuntu-font-visualizer-1.png)
+       ![](https://willsallum.github.io/cefet_front_end/images/ninjas-ubuntu-font-visualizer-1.png)
     1. Explore as fontes disponíveis
 
-       ![](https://fegemo.github.io/cefet-front-end/images/ninjas-ubuntu-font-visualizer-2.png)
+       ![](https://willsallum.github.io/cefet_front_end/images/ninjas-ubuntu-font-visualizer-2.png)
     1. Assim que escolher, pegue seu nome e crie use a propriedade CSS:
        ```css
        p {
@@ -220,10 +220,10 @@ Seguem algumas sugestões para melhorar o visual das páginas:
     1. Digite "_font_" (sem áspas) para buscar pelo visualizador e abra o
        visualizador
 
-       ![](https://fegemo.github.io/cefet-front-end/images/ninjas-windows-font-visualizer-1.png)
+       ![](https://willsallum.github.io/cefet_front_end/images/ninjas-windows-font-visualizer-1.png)
     1. Explore as fontes disponíveis
 
-       ![](https://fegemo.github.io/cefet-front-end/images/ninjas-windows-font-visualizer-2.png)
+       ![](https://willsallum.github.io/cefet_front_end/images/ninjas-windows-font-visualizer-2.png)
     1. Assim que escolher, pegue seu nome e crie use a propriedade CSS:
        ```css
        p {
