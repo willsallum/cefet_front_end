@@ -99,7 +99,7 @@ h1, h2 {
 
 ---
 <!-- {"layout": "2-column-content-zigzag"} -->
-# O **jeito certo** <!-- {.underline.upon-activation} --><span class="jump upon-activation delay-800">:star2:</span>
+# O **jeito certo** 
 
 - Colocamos os títulos **dentro de outro elemento** e o estilizamos
 - Uma `<div>...</div>` pode ser usada para agrupar elementos
