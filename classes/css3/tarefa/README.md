@@ -36,7 +36,7 @@
   página pra que ela fique idêntica ao _layout_ do _designer_
   - Leia as instruções detalhadas no arquivo `README.md`
 
-[unicorns-seminal]: https://github.com/fegemo/cefet-front-end-unicorns/archive/master.zip
+[unicorns-seminal]: https://github.com/willsallum/cefet_front_end_unicorns/archive/master.zip
 
 ---
 ## Comp / Specs
