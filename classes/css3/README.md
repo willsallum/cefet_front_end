@@ -429,6 +429,8 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 # _Layouts_ no Photoshop
 
 ![](../../images/psd-to-html-css.png) <!-- {.push-right} -->
+
+
   **Designers usam editores de imagens** (como o Photoshop) para
   **criar páginas web bonitas**
 - O Photoshop gera uma imagem, que precisa ser "cortada" e transformada
