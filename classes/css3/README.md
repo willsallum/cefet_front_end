@@ -439,7 +439,16 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
   2. (b) Também chamada de _specs_
 
 ---
-<!-- {"layout": "centered"} -->
+## Comp / Specs
+
+[![](../../images/unicorns-comp-lpw.png)](../../images/unicorns-comp-lpw.png) <!-- {.bordered style="max-width: 35%"} --> <!-- {a:target="_blank"} -->
+[![](../../images/unicorns-specs-lpw.png)](../../images/unicorns-specs-lpw.png) <!-- {.bordered style="max-width: 35%"} --> <!-- {a:target="_blank"} -->
+
+*[Comp]: Comprehensive Layout*
+*[Specs]: Specifications*
+
+<!-- {p:.center-aligned} -->
+
 ---
 <!-- {"hash": "quebra-de-linha"} -->
 # Quebra de linha (tag `<br>`)
@@ -508,6 +517,7 @@ espaço dentro da caixa.
 ![](../../images/box-model-product-border-box-2.png)<!-- {.bullet.figure-step.bullet-no-anim.rounded.bordered} -->
 
 ---
+<!-- {"layout": "centered"} -->
 # Referências
 
 1. Capítulos 5 e 6 do livro
