@@ -439,17 +439,7 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
   2. (b) Também chamada de _specs_
 
 ---
-## Comp / Specs
 
-[![](../../images/unicorns-comp-lpw.png)](../../images/unicorns-comp-lpw.png) <!-- {.bordered style="max-width: 35%"} --> <!-- {a:target="_blank"} -->
-[![](../../images/unicorns-specs-lpw.png)](../../images/unicorns-specs-lpw.png) <!-- {.bordered style="max-width: 35%"} --> <!-- {a:target="_blank"} -->
-
-*[Comp]: Comprehensive Layout*
-*[Specs]: Specifications*
-
-<!-- {p:.center-aligned} -->
-
----
 <!-- {"hash": "quebra-de-linha"} -->
 # Quebra de linha (tag `<br>`)
 
