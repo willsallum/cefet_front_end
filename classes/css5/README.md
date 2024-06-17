@@ -567,7 +567,7 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
     1. Botão "voltar ao topo"
     1. +3 desafios ;)
 
-[assombrado-exercicio-position]: https://github.com/fegemo/cefet-front-end-assombrado/archive/exercise-positioning.zip
+[assombrado-exercicio-position]: https://github.com/willsallum/cefet_front_end_assombrado/archive/exercise-positioning.zip
 
 ---
 <!-- {"layout": "centered"} -->
