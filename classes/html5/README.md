@@ -54,27 +54,27 @@
 ## Curando a divitite
 
 Motivação
-  ~ SEO e Acessibilidade na Web
+  SEO e Acessibilidade na Web
 
 Doença
-  ~ a **divitite**
+  a **divitite**
 
 Cura
-  ~ **_tags_ semânticas**
+  **_tags_ semânticas**
 <!-- {dl:.content} -->
 
 ---
 # SEO e Acessibilidade na Web
 
 SEO
-  ~ Sigla para _Search Engine Optimization_, ou Otimização para Motores de Busca
-  ~ É um conjunto de técnicas para **aumentar a possibilidade de um site
+  Sigla para _Search Engine Optimization_, ou Otimização para Motores de Busca
+  É um conjunto de técnicas para **aumentar a possibilidade de um site
     aparecer no topo** dos resultados do **Google** (e outros motores de busca)
 
 Acessibilidade
-  ~ Possibilidade de uma pessoa consumir conteúdo das páginas web independente
+  Possibilidade de uma pessoa consumir conteúdo das páginas web independente
     de condições físicas
-  ~ Pessoas cegas usam um programa especial (o **"leitor de tela"**) que **lê o
+  Pessoas cegas usam um programa especial (o **"leitor de tela"**) que **lê o
     código HTML em voz alta** para elas
 
 *[SEO]: Search Engine Optimization*
@@ -167,31 +167,31 @@ Acessibilidade
 ## Elementos semânticos **pré-HTML5**
 
 [`<address></address>`](http://www.w3.org/wiki/HTML/Elements/address) <!-- {dl:.width-30.full-width} -->
-~ para endereços
+... para endereços
 
 [`<abbr title=""></abbr>`](http://www.w3.org/wiki/HTML/Elements/abbr)
-~ para abreviações
+... para abreviações
 
 [`<blockquote></blockquote>`](http://www.w3.org/wiki/HTML/Elements/blockquote)
-~ para citação em bloco
+... para citação em bloco
 
 [`<q></q>`](http://www.w3.org/wiki/HTML/Elements/q)
-~ para citação em linha
+... para citação em linha
 
 [`<cite></cite>`](http://www.w3.org/wiki/HTML/Elements/cite)
-~ para referência
+... para referência
 
 [`<code></code>`](http://www.w3.org/wiki/HTML/Elements/code)
-~ para código fonte
+... para código fonte
 
 [`<kbd></kbd>`](http://www.w3.org/wiki/HTML/Elements/kbd)
-~ para teclas do teclado
+... para teclas do teclado
 
 [`<figure></figure>`](http://www.w3.org/wiki/HTML/Elements/figure)
-~ imagem, tabela ou gráfico
+... imagem, tabela ou gráfico
 
 [`<figcaption></figcaption>`](http://www.w3.org/wiki/HTML/Elements/figcaption)
-~ legenda de imagem, tabela ou gráfico
+... legenda de imagem, tabela ou gráfico
 
 ---
 <!-- {"layout": "section-header", "hash": "especificidade-de-seletores"} -->
@@ -240,21 +240,21 @@ Acessibilidade
 ## Regras gerais de especificidade
 
 Regra 1 <!-- {dl:.bulleted} -->
-  ~ Cada seletor tem uma **pontuação de especificidade**
+  ... Cada seletor tem uma **pontuação de especificidade**
 
 Regra 2
-  ~ Se dois seletores selecionam o mesmo elemento, mas com pontuações
+  ... Se dois seletores selecionam o mesmo elemento, mas com pontuações
     diferentes, ganha aquele com pontuação maior
 
 Regra 3
-  ~ Se dois seletores selecionam o mesmo elemento e têm a mesma
+  ... Se dois seletores selecionam o mesmo elemento e têm a mesma
     pontuação, ganha o que foi declarado por último
 
 Regra 4
-  ~ Estilo Inline &gt;&gt; Arquivo Externo e Incorporado
+  ... Estilo Inline &gt;&gt; Arquivo Externo e Incorporado
 
 Regra 5
-  ~ ID &gt;&gt; classe e atributo &gt;&gt; tag
+  ... ID &gt;&gt; classe e atributo &gt;&gt; tag
 
 ---
 ## Cálculo da **pontuação de especificidade**
@@ -263,16 +263,16 @@ Regra 5
 - Algoritmo: <!-- {ul:style="margin-bottom: 0"} -->
 
 **A** <!-- {dl:.width-10.full-width} -->
-~ Contar o número de IDs no seletor
+... Contar o número de IDs no seletor
 
 **B**
-~ Contar o número de classes, atributos e pseudo-classes no seletor
+... Contar o número de classes, atributos e pseudo-classes no seletor
 
 **C**
-~ Contar o número de _tags_ e pseudo-elementos no seletor
+... Contar o número de _tags_ e pseudo-elementos no seletor
 
 .
-~ Concatenar os três números (**ABC**)
+... Concatenar os três números (**ABC**)
 
 - ```css
   #posts-recentes .post.novidade > h2 {
@@ -333,11 +333,11 @@ Regra 5
 }
 -->
 
-## **CoutoSan™** Specificity  ![](../../images/flavio-avatar.jpg)<!-- {.emoji.portrait.bordered style="margin-left: 0.5em"} -->![](../../images/hasan-avatar.jpg) <!-- {.emoji.portrait.bordered} -->
+## **CoutoSan™** Specificity
 
 <article id="spec-tabajara">
   <div>
-    <input type="text" id="spec-tabajara-input" placeholder="Digite um seletor aqui...">
+    <input type="text" id="spec-tabajara-input" placeholder="Digite um seletor aqui..."><br>
   </div>
   <div>
     <button id="spec-tabajara-button">Calcular</button>
@@ -364,10 +364,10 @@ Regra 5
 ## Mais alguns seletores
 
 _Pseudo-class_
-  ~ permitem **selecionar** elementos em **diferentes situações**
+  ... permitem **selecionar** elementos em **diferentes situações**
 
 _Pseudo-element_
-  ~ permitem **estilizar** certas **partes de elementos**
+  ... permitem **estilizar** certas **partes de elementos**
 <!-- {dl:.content} -->
 
 ---
@@ -411,7 +411,7 @@ _Pseudo-element_
     color: darkred;
   }
   ```
-  ::: result
+
   <style>
   .a:link {
     text-decoration: none;
@@ -428,14 +428,13 @@ _Pseudo-element_
   }
   </style>
   [Site do Pudim](http://www.pudim.com.br) <!-- {.a} -->
-  :::
+
 - Realçando o foco:
   ```css
   *:focus {
     outline: 3px dashed yellow;
   }
   ```
-  ::: result .b
   <style>
   .b *:focus {
     outline: 3px solid yellow;
@@ -454,7 +453,7 @@ _Pseudo-element_
   <label>Digite seu email <input type="email"></label>
   <label>Digite a senha <input type="password"></label>
   <label>Confirme a senha <input type="password"></label> 
-  :::
+
 - Pegando 1º de tipo:
   ```css
   article:nth-of-type(1) {
@@ -464,7 +463,7 @@ _Pseudo-element_
     width: 50%;
   }
   ```
-  ::: result .c max-width: 320px; display: flex; flex-wrap: wrap;
+
   <style>
   .c article {
     font-size: 0.5em;
@@ -497,7 +496,6 @@ _Pseudo-element_
   <article><h3>Primeira manchete</h3><p>Esta é a primeira nóticia e ela fala sobre os animais que estão enjaulados no zoológico da asa leste da cidade de Itapecerica da Serra.</p></article>
   <article><h3>Segunda manchete</h3><p>Esta é a segunda nóticia e ela fala sobre os animais que estão enjaulados no zoológico da asa leste da cidade de Itapecerica da Serra.</p></article>
   <article><h3>Terceira</h3><p>Esta é a terceira nóticia e ela fala sobre os animais que estão enjaulados no zoológico da asa leste da cidade de Itapecerica da Serra.</p></article>
-  :::
 
 
 ---
@@ -539,7 +537,6 @@ _Pseudo-element_
       padding-top: 0.1em;
    }
    ```
-   ::: result .d
    <style>
     .d p {
       text-align: left;
@@ -552,7 +549,6 @@ _Pseudo-element_
     }
    </style>
    Esta é a primeira nóticia e ela fala sobre os animais que estão enjaulados no zoológico da asa leste da cidade de Itapecerica da Serra.
-   :::
 
 ---
 <!-- {"hash": "exemplo-de-before"} -->
@@ -576,8 +572,9 @@ _Pseudo-element_
 
 - É muito comum que um site tenha um "menu principal" que é uma **lista de itens
   na horizontal** <!-- {.underline.upon-activation} -->. #comofaz?
-  1. ![](../../images/ul-default-padding.png) <!-- {.push-right} --> **Tirar
-     o `padding-left`** da `<ul>` ➡️
+
+  ![](../../images/ul-default-padding.png) <!-- {.push-right} --> 
+  1. **Tirar o `padding-left`** da `<ul>` ➡️
   1. Transformar **`<li>`s em `inline-block`** ou **usar flexbox para a `<ul>`** <!-- {strong:.alternate-color} --> 🌟
   1. Tirar "bolinha" dos itens:
      <!-- {li:.compact-code} -->
