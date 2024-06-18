@@ -258,11 +258,13 @@
 
 - Especificada no CSS3, `animation` e `@keyframes` possibilitam o uso de
   animações de propriedades CSS de forma similar a `transition`
+
+
   ```html
-  <img src="images/urso.jpg" id="urso">
+  <img src="images/balloon.png" id="balao">
   ```
   ```css
-  #urso {
+  #balao {
     position: relative;
     animation: flutuando .5s ease-in-out 0s infinite alternate;
   }
@@ -271,23 +273,24 @@
     from { top: 0;     }
     to   { top: -30px; }
   }
+
   ```
 <style>
-.urso-flutuante {
+.balao-flutuante {
   position: relative;
-  animation: urso-flutuando .5s ease-in-out 0s infinite alternate;
+  animation: balao-flutuando .5s ease-in-out 0s infinite alternate;
   transition: opacity 200ms ease-out;
 }
-.urso-flutuante:hover {
+.balao-flutuante:hover {
   opacity: 0.25;
 }
-@keyframes urso-flutuando {
+@keyframes balao-flutuando {
   from { top: 0;     }
   to   { top: -30px; }
 }
   </style>
   <div style="position: absolute; top: 50%; right: 10%; margin-top: -75px; margin-left: -75px;">
-  <img src="../../images/urso.jpg" style="width: 150px; border-radius: 75px;" class="urso-flutuante">
+  <img src="../../images/balloon.png" style="width: 150px; border-radius: 75px;" class="balao-flutuante">
   </div>
 
 ---
