@@ -387,19 +387,18 @@
 @keyframes girando {
   from { transform: rotate(15deg); }
   to   { transform: rotate(-15deg); }
-}</style>
+}
+</style>
 
 ---
 <!-- {"hash": "mais-de-uma-animacao"} -->
 ## Exemplo 2: **mais de uma** animação
 
 <div style="position:relative; width:100%;">
-  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute; left:70%;">
+  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute; left:60%;">
 </div>
-<div></div>
 
 <style>
-  
 .estrela-mario-2:hover {
   animation: sumindo 600ms ease-in 3s 1 forwards, girando-de-costas 3600ms ease-in 1 forwards;
 }
