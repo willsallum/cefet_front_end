@@ -422,7 +422,7 @@
   }
   ```
 
-  - <!-- {.no-bullets} -->
+- <!-- {.no-bullets} -->
 ```css
 @keyframes sumindo {
   from { opacity: 1; top: 0;      width: 100px; left: 0     }
