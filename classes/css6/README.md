@@ -394,7 +394,7 @@
 ## Exemplo 2: **mais de uma** animação
 
 <div>
-  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute;">
+  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute; lef:70%;">
 </div>
 <div></div>
 
