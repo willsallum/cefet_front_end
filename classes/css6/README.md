@@ -397,6 +397,7 @@
   <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute;">
 </div>
 <div></div>
+
 <style>
   
 .estrela-mario-2:hover {
