@@ -422,6 +422,7 @@
   }
   ```
 
+  - <!-- {.no-bullets} -->
 ```css
 @keyframes sumindo {
   from { opacity: 1; top: 0;      width: 100px; left: 0     }
@@ -431,9 +432,9 @@
   from { transform: rotateY(0); }
   to   { transform: rotateY(3600deg); }
 }
+
 ```
 
----
 <!-- {"layout": "main-point", "state": "emphatic", "hash": "animation-ou-transition"} -->
 ## **animation** ou **transition**?
 
