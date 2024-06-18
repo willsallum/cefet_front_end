@@ -393,12 +393,12 @@
 <!-- {"hash": "mais-de-uma-animacao"} -->
 ## Exemplo 2: **mais de uma** animação
 
-<style>
-  
 <div style="position:relative;">
   <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute;">
 </div>
 
+<style>
+  
 .estrela-mario-2:hover {
   animation: sumindo 600ms ease-in 3s 1 forwards, girando-de-costas 3600ms ease-in 1 forwards;
 }
