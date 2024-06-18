@@ -393,7 +393,7 @@
 <!-- {"hash": "mais-de-uma-animacao"} -->
 ## Exemplo 2: **mais de uma** animação
 
-<div>
+<div style="position:relative;">
   <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute; lef:70%;">
 </div>
 <div></div>
