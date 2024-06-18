@@ -145,7 +145,7 @@
 ## Como usar `transition`
 
 - Exemplo: mudando cor quando passa o mouse:
-  ::: result .push-right margin-left: 1em; margin-top: 1.25em;
+
   <style>
     p.transition-link {
       transition: color 600ms linear;
@@ -154,7 +154,7 @@
     p.transition-link:hover { color: #000; }
   </style>
   <p class="transition-link">Heyyy, hover me</p>
-  :::
+
   ```css
   p {
     color: 'red';
@@ -394,6 +394,11 @@
 ## Exemplo 2: **mais de uma** animação
 
 <style>
+  
+<div style="position:relative;">
+  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute;">
+</div>
+
 .estrela-mario-2:hover {
   animation: sumindo 600ms ease-in 3s 1 forwards, girando-de-costas 3600ms ease-in 1 forwards;
 }
@@ -416,11 +421,6 @@
                girando-de-costas 3600ms ease-in 1 forwards;
   }
   ```
-
-<div style="position:relative;">
-  <img class="estrela-mario-2" src="../../images/mario-star.png" style="position:absolute;">
-</div>
-
 
 ```css
 @keyframes sumindo {
