@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **CSS** parte 5
-## Posicionamento e mais Assombrações :ghost::ghost::ghost:
+## Posicionamento
 
 ---
 # Na última aula <small>(1/3)</small>
@@ -35,12 +35,12 @@
 - **_Pseudo-classes_ e _Pseudo-elements_**:
 
   _Pseudo-class_
-    ~ permitem **selecionar** elementos em **diferentes situações**
-    ~ Exemplos: `:focus` (contém o foco), `:hover` (mouse em cima)
+    ... permitem **selecionar** elementos em **diferentes situações**
+    ... Exemplos: `:focus` (contém o foco), `:hover` (mouse em cima)
 
   _Pseudo-element_
-    ~ permitem **estilizar** certas **partes de elementos**
-    ~ Exemplos: `::selection` (seleção de texto) `::first-letter`
+    ... permitem **estilizar** certas **partes de elementos**
+    ... Exemplos: `::selection` (seleção de texto) `::first-letter`
       (primeira letra)
 
 ---
@@ -52,7 +52,7 @@
 1. [Posicionamento absoluto](#posicionamento-absoluto)
 1. [Posicionamento fixo](#posicionamento-fixo)
 1. [Alterando a visibilidade](#alterando-a-visibilidade)
-1. [Mais Assombrações](#mais-assombracoes) :ghost::ghost::ghost:
+1. [Mais Assombrações](#mais-assombracoes) 
 
 ---
 <!-- {"layout": "section-header", "hash": "posicionamento-estatico"} -->
@@ -72,23 +72,22 @@
 
 
 Elementos **`block`**
-  ~ Ocupam **toda a largura** disponível
-  ~ Dispostos de **cima para baixo**
-  ~ **Quebram linha**
+  ... Ocupam **toda a largura** disponível
+  ... Dispostos de **cima para baixo**
+  ... **Quebram linha**
 
 Elementos **`inline`** <!-- {strong:.alternate-color} -->
-  ~ Ocupam o **espaço necessário**  <!-- {.alternate-color} --> (não mais)
-  ~ Dispostos da **esquerda para direita**  <!-- {.alternate-color} -->
+  ... Ocupam o **espaço necessário**  <!-- {.alternate-color} --> (não mais)
+  ... Dispostos da **esquerda para direita**  <!-- {.alternate-color} -->
 
 ---
 <!-- {"backdrop": "oldtimes"} -->
 ## Alterando o fluxo com `float` e `clear`
 
-- ::: figure .figure-slides.push-right
-  <div class="bullet figure-step bullet-no-anim"><img src="../../images/float-p1.png"><figcaption>Sem float</figcaption></div>
+- <div class="bullet figure-step bullet-no-anim"><img src="../../images/float-p1.png"><figcaption>Sem float</figcaption></div>
 
   <div class="bullet figure-step bullet-no-anim"><img src="../../images/float-p3.png"><figcaption>Com float</figcaption></div>
-  :::
+
   Flutuando o parágrafo à direita:
   ```css
   p#amazing {
@@ -215,10 +214,10 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
 </style>
 
 - Podemos fazer um pequeno deslocamento dando a ideia de botão:
-  ::: figure .push-right.center-aligned
+
   ![](../../images/mario-star.png) <!-- {.button-img} -->
   <br>Click me!
-  :::
+
   ```css
   img {
     position: relative;
@@ -272,9 +271,6 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
   .de-fora {
     position: relative;
   }
-  
-  
-  
   .de-dentro {
     position: absolute;
     width: 50%;
@@ -440,7 +436,6 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
 
 - Define a ordem "no eixo Z" com a qual elementos que se tocam deve ser exibida
 
-::: result .flex-align-center
   <div style="width:200px;height:170px;">
     <div class="quadrado q1">
       z-index=1
@@ -453,7 +448,6 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
     </div>
 
   </div>
-:::
 
 - Útil apenas para elementos `position: absolute` ou `position: fixed`
 
@@ -529,7 +523,6 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
       border: 1px dashed gray;
     }
     ```
-    ::: result . max-width: 50%
     <div style="max-height: 175px; overflow: auto; border: 1px dashed gray;">
       <p class="smaller-text-70">Cultuadas ao longo da história por diversas civilizações como símbolo
         de riqueza, trabalho ou de perseverança, pela forma como defendem
@@ -542,11 +535,10 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
         <em>Apis mellifera</em>.
       </p>
     </div>
-    :::
 
 ---
 <!-- {"layout": "section-header", "hash": "mais-assombracoes"} -->
-# Mais Assombrações :ghost:
+# Mais Assombrações 
 ## Outros exercícios no blog Assombrado
 
 - Atividade de hoje
