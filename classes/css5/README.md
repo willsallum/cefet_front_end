@@ -52,7 +52,6 @@
 1. [Posicionamento absoluto](#posicionamento-absoluto)
 1. [Posicionamento fixo](#posicionamento-fixo)
 1. [Alterando a visibilidade](#alterando-a-visibilidade)
-1. [Mais Assombrações](#mais-assombracoes) 
 
 ---
 <!-- {"layout": "section-header", "hash": "posicionamento-estatico"} -->
@@ -539,33 +538,3 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
     </div>
 
 ---
-<!-- {"layout": "section-header", "hash": "mais-assombracoes"} -->
-# Mais Assombrações 
-## Outros exercícios no blog Assombrado
-
-- Atividade de hoje
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "assombrado-position"} -->
-
----
-# Atividade de Hoje
-
-- Fazer mais exercícios no "Blog Assombrado"
-- [Baixe os arquivos][assombrado-exercicio-position] contendo o HTML e faça os exercícios
-  - O resultado final tem que ser semelhante ao [desta imagem](../../images/assombrado-position.png)
-  - Leia as instruções detalhadas no arquivo `README.md`. No geral:
-    1. _Tags_ parecendo botões
-    1. Títulos em cima das imagens
-    1. Botão "voltar ao topo"
-    1. +3 desafios ;)
-
-[assombrado-exercicio-position]: https://github.com/willsallum/cefet_front_end_assombrado/archive/exercise-positioning.zip
-
----
-<!-- {"layout": "centered"} -->
-# Referências
-
-- [Propriedade **position** na MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
-- [Um breve e interessante tutorial sobre posicionamento](https://learnlayout.com/position.html)
