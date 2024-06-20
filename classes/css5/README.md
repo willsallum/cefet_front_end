@@ -500,7 +500,7 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
 
 1. <!-- {ol:.no-bullets.layout-split-2.no-margin.no-padding.full-width} -->
    <!-- <iframe width="800" height="280" src="//jsfiddle.net/fegemo/dr3546z9/embedded/result,html,css/" -->
-   <iframe width="800" height="280" src="https://jsfiddle.net/willsallum/x4vzgo9q/result,html,css/
+   <iframe width="800" height="280" src="//jsfiddle.net/willsallum/x4vzgo9q/embedded/result,html,css/
    allowfullscreen="allowfullscreen"  allowpaymentrequest frameborder="0" class="bordered"></iframe>
 1. ↙️ Comparação entre `display`, `visibility` e `opacity`
 
