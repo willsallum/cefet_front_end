@@ -436,7 +436,7 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
 
 - Define a ordem "no eixo Z" com a qual elementos que se tocam deve ser exibida
 
-  <div style="width:200px;height:170px;position:relative;">
+  <div style="width:200px;height:170px;position:absolute;left:50%;">
     <div class="quadrado q1">
       z-index=1
     </div>
