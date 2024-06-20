@@ -499,7 +499,7 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
   quem está "atrás" deles
 
 1. <!-- {ol:.no-bullets.layout-split-2.no-margin.no-padding.full-width} -->
-   <iframe width="600" height="180" src="//jsfiddle.net/fegemo/dr3546z9/embedded/result,html,css/" allowfullscreen="allowfullscreen"  allowpaymentrequest frameborder="0" class="bordered"></iframe>
+   <iframe width="800" height="280" src="//jsfiddle.net/fegemo/dr3546z9/embedded/result,html,css/" allowfullscreen="allowfullscreen"  allowpaymentrequest frameborder="0" class="bordered"></iframe>
 1. ↙️ Comparação entre `display`, `visibility` e `opacity`
 
 ---
