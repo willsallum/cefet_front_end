@@ -502,7 +502,7 @@ Elementos **`inline`** <!-- {strong:.alternate-color} -->
 <!-- <iframe width="800" height="280" src="//jsfiddle.net/fegemo/dr3546z9/embedded/result,html,css/" -->
 <iframe width="800" height="280" src="//jsfiddle.net/willsallum/x4vzgo9q/6/embedded/result,html,css/" 
    allowfullscreen="allowfullscreen"  allowpaymentrequest frameborder="0" class="bordered"></iframe>
-↙️ Comparação entre `display`, `visibility` e `opacity`
+ ↑ Comparação entre `display`, `visibility` e `opacity`
 
 ---
 ## A propriedade **overflow** ([na MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow))
