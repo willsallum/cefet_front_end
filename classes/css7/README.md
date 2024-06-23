@@ -62,7 +62,6 @@
 1. [_Media queries_](#media-queries)
 1. [Densidade de pixels](#densidade-de-pixels)
 1. [_Responsive web design_](#responsive-web-design)
-1. [A Super Loja](#a-super-loja) :convenience_store:
 
 ---
 <!-- {"layout": "section-header", "hash": "a-tag-meta-viewport"} -->
