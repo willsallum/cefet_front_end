@@ -78,10 +78,10 @@
 <!-- {"layout": "2-column-content", "embeddedStyles": ".viewport-on-device { display: inline-block; margin: 0 3em 0 0; text-align: center; } .viewport-on-device img { margin: auto; display: block; max-height: 450px; } .viewport-on-device p { margin: 0; }"} -->
 
 ![Uma página carregada em um smartphone Android que reduziu o tamanho da página para caber na tela pequena do dispositivo. O texto da página ficou bem pequeno por causa da redução.](../../images/viewport-not-set.png)
-<figcaption>Do jeito errado (se não<br>definirmos a <em>viewport</em>)</figcaption>
+<figcaption>Do jeito errado (se não se não definirmos a <em>viewport</em>)</figcaption>
 
 ![Uma página carregada em um smartphone Android com o tamanho do texto normal, sem a necessidade de o usuário ampliar a tela para ler.](../../images/viewport-set.png)
-<figcaption>Do jeito certo<br>(<em>viewport</em> definida)</figcaption>
+<figcaption>Do jeito certo (<em >viewport</em> definida)</figcaption>
 
 ---
 ## Carregando uma página no _smartphone_
@@ -113,6 +113,7 @@
     <meta charset="utf-8">  <!-- USE ESTA META TAG -->
     <title>...</title>
     ...
+  ...
   ```
   Em HTML, dentro do `<head>` da página, usamos uma `<meta>` _tag_ com
   o atributo `charset` para isso ➡️
@@ -169,7 +170,7 @@
 ---
 ## Exemplo: `em` _vs_ `rem`
 
-<iframe height='265' scrolling='no' title='Exemplo em vs rem' src='//codepen.io/willsallum/embed/JrvRgL/?height=300&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a> by Flavio (<a href='https://codepen.io/willsallum'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='265' scrolling='no' title='Exemplo em vs rem' src='//codepen.io/willsallum/embed/QWRrmbK/?height=300&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a> by Flavio (<a href='https://codepen.io/willsallum'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - `em` é o `font-size` do elemento atual
