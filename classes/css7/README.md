@@ -173,7 +173,7 @@
 <div id="boxmenu">
 <embed src="//codepen.io/pen?template=QWRrmbK&height=326&theme-id=dark&default-tab=css,result&embed-version=2"></embed>
 </div>
-<!-->
+<!--
 <iframe height="265" scrolling="no" title="Exemplo em vs rem" src="//codepen.io/pen?template=QWRrmbK&height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">Veja o Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a></iframe>
 -->
 
