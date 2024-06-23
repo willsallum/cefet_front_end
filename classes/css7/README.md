@@ -174,7 +174,7 @@
 ---
 ## Exemplo: `em` _vs_ `rem`
 
-<iframe height='265' scrolling='no' title='Exemplo em vs rem' src='//codepen.io/fegemo/embed/JrvRgL/?height=300&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/fegemo/pen/JrvRgL/'>Exemplo em vs rem</a> by Flavio (<a href='https://codepen.io/fegemo'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='265' scrolling='no' title='Exemplo em vs rem' src='//codepen.io/willsallum/embed/JrvRgL/?height=300&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a> by Flavio (<a href='https://codepen.io/willsallum'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - `em` é o `font-size` do elemento atual
@@ -185,7 +185,7 @@
 ---
 ## Exemplo: `vh` e `vw`
 
-<iframe height='326' scrolling='no' title='Exemplo vh e vw' src='//codepen.io/fegemo/embed/jGxVMV/?height=326&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/fegemo/pen/jGxVMV/'>Exemplo vh e vw</a> by Flavio (<a href='https://codepen.io/fegemo'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='326' scrolling='no' title='Exemplo vh e vw' src='//codepen.io/willsallum/embed/jOoxzWy/?height=326&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/willsallum/pen/jOoxzWy/'>Exemplo vh e vw</a> by Flavio (<a href='https://codepen.io/willsallum'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 - `1vw` = 1/100 da largura da janela
@@ -434,4 +434,4 @@ Para testar em um dispositivo de **tela com alta densidade de pixels**:
 ---
 <!-- {"fullPageElement": "#super-store", "playMediaOnActivation": {"selector": "#super-store" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/super-store.webm" controls id="super-store"></video>
+<video src="//willsallum.github.io/cefet-front-end-large-assets/videos/super-store.webm" controls id="super-store"></video>
