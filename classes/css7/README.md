@@ -77,15 +77,11 @@
 ---
 <!-- {"layout": "2-column-content", "embeddedStyles": ".viewport-on-device { display: inline-block; margin: 0 3em 0 0; text-align: center; } .viewport-on-device img { margin: auto; display: block; max-height: 450px; } .viewport-on-device p { margin: 0; }"} -->
 
-::: figure .viewport-on-device
 ![Uma página carregada em um smartphone Android que reduziu o tamanho da página para caber na tela pequena do dispositivo. O texto da página ficou bem pequeno por causa da redução.](../../images/viewport-not-set.png)
 <figcaption>Do jeito errado (se não<br>definirmos a <em>viewport</em>)</figcaption>
-:::
 
-::: figure .viewport-on-device
 ![Uma página carregada em um smartphone Android com o tamanho do texto normal, sem a necessidade de o usuário ampliar a tela para ler.](../../images/viewport-set.png)
 <figcaption>Do jeito certo<br>(<em>viewport</em> definida)</figcaption>
-:::
 
 ---
 ## Carregando uma página no _smartphone_
