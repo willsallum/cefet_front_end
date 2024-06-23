@@ -170,8 +170,7 @@
 ---
 ## Exemplo: `em` _vs_ `rem`
 
-<iframe height='265' scrolling='no' title='Exemplo em vs rem' src="https://codepen.io/willsallum/embed/QWRrmbK/?height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>Veja o Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a> by Flavio (<a href='https://codepen.io/willsallum'>@willsallum</a>) em <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe height='265' scrolling='no' title='Exemplo em vs rem' src="https://codepen.io/willsallum/embed/QWRrmbK/?height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>Veja o Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a></iframe>
 
 - `em` é o `font-size` do elemento atual
 - `rem` é o `font-size` do elemento `<html>` (_root element_)
