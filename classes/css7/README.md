@@ -170,9 +170,7 @@
 ---
 ## Exemplos: `em` _vs_ `rem`
 
-[Veja no CodePen](https://codepen.io/pen?template=QWRrmbK&height=326&theme-id=dark&default-tab=css,result&embed-version=2)
-
-<!-- <iframe height="265" scrolling="no" title="Exemplo em vs rem" src="//codepen.io/pen?template=QWRrmbK&height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">Veja o Pen <a href='https://codepen.io/willsallum/pen/QWRrmbK'>Exemplo em vs rem</a></iframe> -->
+<iframe height="265" scrolling="no" title="Exemplo em vs rem" src="//codepen.io/pen?template=QWRrmbK&height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
 
 - `em` é o `font-size` do elemento atual
 - `rem` é o `font-size` do elemento `<html>` (_root element_)
@@ -182,8 +180,7 @@
 ---
 ## Exemplo: `vh` e `vw`
 
-<iframe height='326' scrolling='no' title='Exemplo vh e vw' src='//codepen.io/willsallum/embed/jOoxzWy/?height=326&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/willsallum/pen/jOoxzWy/'>Exemplo vh e vw</a> by Flavio (<a href='https://codepen.io/willsallum'>@fegemo</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe height='326' scrolling='no' title='Exemplo vh e vw' src='//codepen.io/willsallum/embed/jOoxzWy/?height=326&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
 - `1vw` = 1/100 da largura da janela
 - `1vh` = 1/100 da altura da janela
