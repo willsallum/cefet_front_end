@@ -170,7 +170,9 @@
 ---
 ## Exemplos: `em` _vs_ `rem`
 
+<<<<<<< HEAD
 <iframe height="265" scrolling="no" title="Exemplo em vs rem" src="//codepen.io/willsallum/embed/QWRrmbK/?height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+
 
 - `em` é o `font-size` do elemento atual
 - `rem` é o `font-size` do elemento `<html>` (_root element_)
@@ -428,4 +430,4 @@ Para testar em um dispositivo de **tela com alta densidade de pixels**:
 ---
 <!-- {"fullPageElement": "#super-store", "playMediaOnActivation": {"selector": "#super-store" }} -->
 
-<video src="//willsallum.github.io/cefet-front-end-large-assets/videos/super-store.webm" controls id="super-store"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/super-store.webm" controls id="super-store"></video>
