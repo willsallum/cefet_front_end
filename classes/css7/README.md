@@ -421,7 +421,7 @@ Para testar em um dispositivo de **tela com alta densidade de pixels**:
 ---
 <!-- {"layout": "section-header", "hash": "a-super-loja"} -->
 # A **Super** Loja :convenience_store:
-## Lojinha responsável
+## Lojinha responsível
 
 - Atividade de hoje
 
@@ -430,4 +430,4 @@ Para testar em um dispositivo de **tela com alta densidade de pixels**:
 ---
 <!-- {"fullPageElement": "#super-store", "playMediaOnActivation": {"selector": "#super-store" }} -->
 
-<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/super-store.webm" controls id="super-store"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/super-store.mp4" controls id="super-store"></video>
