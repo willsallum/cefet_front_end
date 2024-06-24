@@ -170,7 +170,6 @@
 ---
 ## Exemplos: `em` _vs_ `rem`
 
-<<<<<<< HEAD
 <iframe height="265" scrolling="no" title="Exemplo em vs rem" src="//codepen.io/willsallum/embed/QWRrmbK/?height=326&theme-id=dark&default-tab=css,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
 
 
