@@ -38,7 +38,7 @@
 ---
 <!-- {"fullPageElement": "#responsive-resize", "playMediaOnActivation": {"selector": "#responsive-resize" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/responsive-resize.webm" loop="-1" controls id="responsive-resize"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/responsive-resize.webm" loop="-1" controls id="responsive-resize"></video>
 
 ---
 # **Diretrizes** para a web multi-dispositivos <!-- {h1:style="font-size: 2.5em;"} -->
@@ -424,9 +424,6 @@ Para testar em um dispositivo de **tela com alta densidade de pixels**:
 
 - Atividade de hoje
 
-<!-- {ul:.content} -->
-
 ---
-<!-- {"fullPageElement": "#super-store", "playMediaOnActivation": {"selector": "#super-store" }} -->
 
 <video src="//willsallum.github.io/cefet_front_end_large_assets/videos/super-store.mp4" controls id="super-store"></video> 
