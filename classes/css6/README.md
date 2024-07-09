@@ -207,7 +207,7 @@
 ---
 ## Função de interpolação (_**timing-function**_)
 
-<iframe width="100%" height="440" src="https://jsfiddle.net/fegemo/2a5450ds/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="440" src="https://jsfiddle.net/willsallum/1v2Ldw40/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ---
 ## Combinando **transition** e **transform**
