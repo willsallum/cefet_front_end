@@ -380,6 +380,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
+  top: 5px;
 }
 .estrela-mario-1:hover {
   animation: girando 1s ease-in-out 0s infinite alternate;
