@@ -187,12 +187,12 @@ Fazendo tudo isso certinho, da melhor forma possível, o grupo adquire 80% da po
 1. (3-6%) Usar **flexbox e grid**
 
 
-[responsive]: https://fegemo.github.io/cefet-front-end/classes/css7/
-[pseudo-coisas]: https://fegemo.github.io/cefet-front-end/classes/html5/#pseudo-classes-e-pseudo-elements
-[tags-semanticas]: https://fegemo.github.io/cefet-front-end/classes/html5/#divitite-e-tags-semanticas
-[posicionamento]: https://fegemo.github.io/cefet-front-end/classes/css4
-[video]: https://fegemo.github.io/cefet-front-end/classes/css3/#video-e-audio
-[webfonts]: https://fegemo.github.io/cefet-front-end/classes/css3/#web-fonts
+[responsive]: https://willsallum.github.io/cefet_front_end/classes/css7/
+[pseudo-coisas]: https://willsallum.github.io/cefet_front_end/classes/html5/#pseudo-classes-e-pseudo-elements
+[tags-semanticas]: https://willsallum.github.io/cefet_front_end/classes/html5/#divitite-e-tags-semanticas
+[posicionamento]: https://willsallum.github.io/cefet_front_end/classes/css4
+[video]: https://willsallum.github.io/cefet_front_end/classes/css3/#video-e-audio
+[webfonts]: https://willsallum.github.io/cefet_front_end/classes/css3/#web-fonts
 
 
 ### O que faz **perder nota**
