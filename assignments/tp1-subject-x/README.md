@@ -214,8 +214,6 @@ Alguns descuidos podem fazer com que sua nota fique muito abaixo do esperado:
 
 Apenas a URL apontando para o site hospedado na Internet. É isso mesmo. Na Internet :3!!
 
-<iframe src="https://www.youtube.com/embed/vKJkxsgzMl4" width="800" height="450" frameborder="0" allowfullscreen="1"></iframe>
-
 Para tanto, o grupo deve publicar o site
 **usando algum serviço de hospedagem gratuito**. Ouvi dizer que o
 [Neocities][neocities] é uma boa. Ouvi ainda, que para quem conhece um pouco
@@ -231,6 +229,7 @@ Grupo 05 - BioHazard
 **Conteúdo do tópico**
 
 _URL do site:_ https://usuario.github.io/biohazard/
+
 _Integrantes:_
 1. Arzimar da Silva Costa
 1. Frederico Aleixo Alencar
@@ -252,7 +251,7 @@ _(colocar evidências que comprovem os itens opcionais implementados... por exem
 
 ## O que deve ser **apresentado**
 
-Na última aula do bimestre, o trabalho deve ser apresentado em sala de aula. Não é necessário fazer uma apresentação, mas apenas mostrar o site e falar sobre como foi seu desenvolvimento.
+Na última aula do bimestre, o trabalho deve ser apresentado em sala de aula. Não é necessário fazer uma apresentação, mas apenas mostrar o site e falar sobre como foi todo o seu desenvolvimento.
 
 
 
