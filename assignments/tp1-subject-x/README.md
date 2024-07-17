@@ -158,11 +158,11 @@ O site deve conter:
    </details>
 
 
-Fazendo tudo isso certinho, da melhor forma possível, o grupo adquire 80% da pontuação do trabalho. Se quiser mais pontinhos, até um limite de 120%, o grupo também pode implementar:
+Fazendo tudo isso certinho, da melhor forma possível, o grupo adquire 9 pontos no trabalho. Se quiser mais pontinhos, até um limite de 3 pontos, o grupo também pode implementar:
 
 
-1. (5-8%) Criar um **_comprehensive layout_** em algum editor de imagem (paint não vale =) antes do desenvolvimento
-1. (3-10%) Criar **algo interativo na página usando JavaScript**.    
+1. (até 0,5) Criar um **_comprehensive layout_** em algum editor de imagem (paint não vale =) antes do desenvolvimento
+1. (até 0,3) Criar **algo interativo na página usando JavaScript**.    
    <details>
       <summary>Exemplos de coisinhas com JavaScript...</summary>
       <ul>
@@ -174,17 +174,17 @@ Fazendo tudo isso certinho, da melhor forma possível, o grupo adquire 80% da po
          <li>Fazer alguns cálculos de equações como báscara, equações da física etc.</li>
       </ul>
    </details>
-1. (5-10%) Colocar **animações, transições e transformações** (mas sem exageros, onde ficar bom e fizer sentido)
-1. (2-5%) **Easter eggs** usando CSS ou JavaScript (mais pontos)
-1. (5%) Alguns **elementos com posicionamento** não estático
+1. (até 0,5) Colocar **animações, transições e transformações** (mas sem exageros, onde ficar bom e fizer sentido)
+1. (até 0,2) **Easter eggs** usando CSS ou JavaScript (mais pontos)
+1. (até 0,5) Alguns **elementos com posicionamento** não estático
    ([ver slides][posicionamento])
-1. (3%) Exibição de um **vídeo sobre o tema** ([ver slides][video])
+1. (até 0,3) Exibição de um **vídeo sobre o tema** ([ver slides][video])
    - Pode ser um vídeo do Youtube (eg, `<iframe ...>`), ou um vídeo hospedado
      no próprio site (`<video ...>`)
-1. (5%) Usar o **Git ao longo do** trabalho (hospedado no Github, Gitlab, Bitbucket ou outro)
+1. (até 1) Usar o **Git ao longo do** trabalho (hospedado no Github, Gitlab, Bitbucket ou outro)
    - Não vale como item extra se usar apenas nos últimos dias para publicar
-1. (5%) Fazer o site todo **completamente responsive**  ([ver slides][responsive])
-1. (3-6%) Usar **flexbox e grid**
+1. (até 0,5) Fazer o site todo **completamente responsive**  ([ver slides][responsive])
+1. (até 0,3) Usar **flexbox e grid**
 
 
 [responsive]: https://willsallum.github.io/cefet_front_end/classes/css7/
