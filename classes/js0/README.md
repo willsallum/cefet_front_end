@@ -229,7 +229,7 @@
   - `3. String` <!-- {.tipo-js.tipo-string} -->
   - `4. Null` <!-- {.tipo} -->
   - `5. Undefined` <!-- {.tipo} -->
-  - `6. Symbol` ![](../../images/logo-javascript.svg) <!-- {style="height: 1em;"} -->  <!-- {code:.tipo} --> <!-- {ul:.multi-column-list-2} -->
+  - `6. Symbol` 
 - Um **tipo composto** de dados:
   `7. Object` <!-- {.tipo-js.tipo-object} -->
   - Há outros derivados de `Object`...
