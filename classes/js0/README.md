@@ -104,18 +104,16 @@
   ~ Versão 5 do ECMAScript
 
 2013 - hoje
-  ~ Versões 6-9+
-    ![](../../images/logo-javascript.svg) <!-- {style="height: 1em;"} -->
-    do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**,
+  ~ Versões 6-9+ do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**,
     **ES2018**...
-
 
 *[ECMA]: European Computer Manufacturers Association*
 *[Ecma]: European Computer Manufacturers Association*
 
 ---
+![Logo da linguagem JavaScript](../../images/logo-javascript.svg) <!-- {.push-right style="max-width: 75px"} -->
 
-# ![Logo da linguagem JavaScript](../../images/logo-javascript.svg) <!-- {.push-right style="max-width: 75px"} --> O que é JavaScript?
+#  O que é JavaScript?
 
 - Possui sintaxe parecida com C, C++, Java
   - JavaScript **não é Java**
@@ -129,186 +127,7 @@
 - Usa programação assíncrona dirigida por **eventos**
 
 ---
-## O tipo `4. Null` <!-- {.tipo-js} -->
 
-- Tecnicamente um tipo, mas na prática contém apenas 1 valor: `null`
-- ```js
-  let x = null;
-  console.log(typeof x);    // imprime null¹
-  ```
-  Usamos quando uma variável **não tem um valor aplicável naquele momento** <!-- {li:.push-code-right} --> ¹: [bug typeof null][bug-null]
-  
-## O tipo `5. Undefined` <!-- {.tipo-js} -->
-
-- Parecido com Null, possui apenas 1 valor: `undefined`
-- ```js
-  let x;
-  console.log(typeof x);    // imprime undefined
-  ```
-  É o tipo padrão de **variáveis que não foram associadas a nenhum valor** <!-- {li:.push-code-right} -->
-
-[bug-null]: https://2ality.com/2013/10/typeof-null.html#:~:text=The%20%E2%80%9Ctypeof%20null%E2%80%9D%20bug%20is,lower%20bits%20of%20the%20units.&text=The%20data%20is%20a%20reference%20to%20an%20object.
-
----
-<!-- {"classes": "compact-code"} -->
-## O tipo `7. Object` <!-- {.tipo-js.tipo-object} -->
-
-- É um **"saquinho" de propriedades**: <!-- {ul:.push-code-right.full-width} -->
-  ```js
-  let jogador = {
-    pontos: 1420,
-    vidas: 2
-  };
-  console.log(jogador.pontos);
-  // imprime 1420
-  ```  
-  - Propriedade: (**nome → valor**)
-    - Nome: uma String
-    - Valor: qualquer coisa, exceto `undefined`
-- No exemplo, o objeto tem 2 propriedades: <!-- {li^0:.bullet} -->
-  1. Nome: `pontos`, valor: `1420`
-  1. Nome: `vidas`, valor: `2`
-- Para acessar as propriedades, há 2 formas: <!-- {li:.bullet} -->
-  - <!-- {.code-split-2} -->
-    ```js
-    // notação ponto
-    console.log(jogador.vidas);
-    ```
-    ```js
-    // notação colchete
-    console.log(jogador['vidas']);
-    ```
-
----
-## Objetos conhecidos
-
-- ::: did-you-know .push-right width: 250px;
-  Quando um objeto tem uma **propriedade que é uma função**, chamamos ela de **método**.
-  :::
-  Há vários objetos comuns que usamos no dia a dia: `Math`, `console`, `window`. Exemplos:
-  - O objeto `Math` possui uma propriedade:
-    - ```js
-      Math.PI
-      ```
-      (PI → 3.14159) (cujo valor é `Number`) <!-- {.tipo-js.tipo-number} -->      
-  - O objeto `console` possui uma propriedade
-    - ```js
-      console.log
-      ```
-      (log → function() {...})
-  - O objeto `window` possui uma propriedade
-    - ```js
-      window.alert
-      ```
-      (alert → function() {...})
-- E se quisermos criar nossos próprios objetos? #mcfaz? <!-- {li:.bullet} -->
-
-<!-- {ul^3:.bulleted-0.push-code-right-without-clearing.compact-code-more} -->
-
----
-<!-- {"classes": "compact-code"} -->
-## Criando um objeto <small>(2 formas)</small>
-
-1. Na **forma literal**: <!-- {ol:.bulleted-0} --> 
-   ```js
-   let jogador = {             // forma mais expressiva, curta e sexy 😎
-     pontos: 1420,             // propriedades separadas por vírgula
-     vidas: 2
-   };
-   ```
-   ```js
-   let jogador = {};           // um objeto vazio: { }
-   jogador.pontos = 1420;      // criou jogador.pontos com valor 1420
-   jogador.vidas = 2;          // criou jogador.vidas
-   ```
-   - Novas propriedades podem ser atribuídas mesmo após sua criação! <!-- {li:.bullet} -->
-2. Na **forma do operador `new`**: <!-- {strong:.alternate-color} -->
-   - <!-- {li:.code-split-2} -->
-     ```js
-     let jogador = new Object();
-     jogador.pontos = 1420;
-     jogador.vidas = 2;
-     ```
-     - Contudo, desta forma sempre cria-se um objeto vazio e deve-se preenchê-lo
-
----
-<!-- {"layout": "2-column-content"} -->
-## Objetos dentro de objetos
-
-```js
-let voo = {
-    companhia: 'Gol',
-    numero: 815,
-    decolagem: {
-        IATA: 'SYD',
-        horario: '2004-09-22 14:55',
-        cidade: 'Sydney'
-    },
-    chegada: {
-        IATA: 'LAX',
-        horario: '2004-09-23 10:42',
-        cidade: 'Los Angeles'
-    }
-};
-```
-- Aqui existem 3 objetos:
-  - O **`voo`**, com as propriedades:
-     - `companhia`
-     - `numero`
-     - **`decolagem`**
-     - **`chegada`**
-  - `decolagem` e `chegada` são objetos por si mesmos
-
----
-<!-- {"layout": "2-column-content"} -->
-## **Métodos** de objetos <!-- {.alternate-color} -->
-
-```js
-const loja = {
-  livros: [       // prop. é um vetor
-    'macunaíma',
-    'torre negra'
-  ],
-  dinheiro: 500,  // propri. é number
-  
-  // método vender
-  vender: function() { // p. é função
-    this.dinheiro += 15;
-  } 
-};
-
-loja.vender(); // loja.dinheiro = 515
-loja.vender(); // loja.dinheiro = 530
-```
-
-- O **<u>valor</u> de uma propriedade** pode ser uma **função**
-  - Nesse caso, chamamos ela de **método** <!-- {.alternate-color} -->
-  - Todo método tem acesso ao próprio objeto com o ponteiro `this`
-  - Objetos com métodos formam o princípio do conceito de **Orientação a Objetos**
-
-
----
-## Outros tipos, baseados em `Object` <!-- {.tipo-js.tipo-object} -->
-
-- Existem **outros tipos complexos**, que são **baseados em `Object`**: <!-- {.tipo-js.tipo-object} -->
-  
-  `Date`
-    ~ Por exemplo, para imprimir o horário atual no console:
-      ```js
-      let agora = new Date();
-      console.log(agora);     //Sun Jan 17 2021 18:11:46...
-      ```
-  
-  `Function`
-    ~ (sim! funções são objetos em JavaScript)
-  
-  `Array`
-    ~ (vetores também são objetos)
-
-  `SeuProprioTipo`™
-    ~ (é possível criar novos tipos também)
-
----
 <!-- {"layout": "2-column-content"} -->
 
 ## <span style="font-family: 'Amatica SC',cursive;">hello-world.js</span> e imprimindo no console
@@ -578,7 +397,6 @@ loja.vender(); // loja.dinheiro = 530
 - E se quisermos criar nossos próprios objetos? #mcfaz? <!-- {li:.bullet} -->
 
 <!-- {ul^3:.bulleted-0.push-code-right-without-clearing.compact-code-more} -->
-
 
 ---
 <!-- {"classes": "compact-code"} -->
