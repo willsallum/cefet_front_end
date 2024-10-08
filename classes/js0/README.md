@@ -32,6 +32,7 @@
 
 # Hoje veremos...
 
+1. [História e características](#historia-e-caracteristicas)
 1. [Tipos de dados, Variáveis e Funções](#tipos-de-dados-variaveis-e-funcoes)
 1. [Condicionais, Vetores e Estruturas de Repetição](#condicionais-vetores-e-estruturas-de-repeticao)
 1. [Mais sobre funções e Métodos úteis](#mais-sobre-funcoes-e-metodos-uteis)
