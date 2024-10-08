@@ -62,49 +62,50 @@
 # História <small>(1/2)</small>
 
 1989 - 1993 <!-- {.bullet-old} --> <!-- {dl:.full-width} -->
-  ~ Tim Berners-Lee cria a WWW em CERN (*European Organization for
+    Tim Berners-Lee cria a WWW em CERN (*European Organization for
     Nuclear Research*) e a deixa aberta ao público <!-- {dd:.bullet-old} -->
 
 1994 <!-- {.bullet-old} -->
-  ~ Håkon propõe uma linguagem para dar conta da responsabilidade de
+    Håkon propõe uma linguagem para dar conta da responsabilidade de
     alterar a aparência de páginas web chamada CSS <!-- {dd:.bullet-old} -->
 
 1995 (maio)
-  ~ ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
     Brendan Eich, funcionário do Netscape, criou (em 10 dias!!) uma
     linguagem para alterar páginas dinamicamente - o _Mocha_
 
+    ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
+
 1995 (setembro)
-  ~ _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
+    _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
 
 ---
 ## História <small>(2/2)</small>
 
 1995 (dezembro)
-  ~ Nome virou JavaScript para aproveitar a fama do Java
+    Nome virou JavaScript para aproveitar a fama do Java
     
 1996 (agosto)
-  ~ Microsoft adota o JavaScript sob o nome de JScript
+    Microsoft adota o JavaScript sob o nome de JScript
 
 1996 (novembro)
-  ~ A Netscape submeteu o JavaScript para a
+    A Netscape submeteu o JavaScript para a
     _Ecma international_ para padronização. A especificação recebeu o nome de
      _ECMAScript_
 
 1997
-  ~ A _Ecma International_ publicou a primeira versão
+    A _Ecma International_ publicou a primeira versão
 
 1998
-  ~ Versão 2 do ECMAScript
+    Versão 2 do ECMAScript
 
 1999
-  ~ Versão 3 do ECMAScript
+    Versão 3 do ECMAScript
 
 2009
-  ~ Versão 5 do ECMAScript
+    Versão 5 do ECMAScript
 
 2013 - hoje
-  ~ Versões 6-9+ do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**,
+    Versões 6-9+ do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**,
     **ES2018**...
 
 *[ECMA]: European Computer Manufacturers Association*
@@ -200,7 +201,7 @@
    - Similar ao `let` mas tem alguns problemas:
      - Não possui escopo de bloco, mas de função
      - Pode ser usada até mesmo antes da declaração
-   - Era a única forma até ~2012
+   - Era a única forma até  2012
    - Encontra-se códigos antigos na Web usando `var`
 
 ---
@@ -340,7 +341,7 @@
   ```
   É o tipo padrão de **variáveis que não foram associadas a nenhum valor** <!-- {li:.push-code-right} -->
 
-[bug-null]: https://2ality.com/2013/10/typeof-null.html#:~:text=The%20%E2%80%9Ctypeof%20null%E2%80%9D%20bug%20is,lower%20bits%20of%20the%20units.&text=The%20data%20is%20a%20reference%20to%20an%20object.
+[bug-null]: https://2ality.com/2013/10/typeof-null.html#: :text=The%20%E2%80%9Ctypeof%20null%E2%80%9D%20bug%20is,lower%20bits%20of%20the%20units.&text=The%20data%20is%20a%20reference%20to%20an%20object.
 
 ---
 <!-- {"classes": "compact-code"} -->
@@ -486,20 +487,20 @@ loja.vender(); // loja.dinheiro = 530
 - Existem **outros tipos complexos**, que são **baseados em `Object`**: <!-- {.tipo-js.tipo-object} -->
   
   `Date`
-    ~ Por exemplo, para imprimir o horário atual no console:
+      Por exemplo, para imprimir o horário atual no console:
       ```js
       let agora = new Date();
       console.log(agora);     //Sun Jan 17 2021 18:11:46...
       ```
   
   `Function`
-    ~ (sim! funções são objetos em JavaScript)
+      (sim! funções são objetos em JavaScript)
   
   `Array`
-    ~ (vetores também são objetos)
+      (vetores também são objetos)
 
   `SeuProprioTipo`™
-    ~ (é possível criar novos tipos também)
+      (é possível criar novos tipos também)
 
 ---
 
@@ -1013,12 +1014,12 @@ let listaDeCoisas = ['Aew', 35, true, [], 'outra string'];
 ## Função vs Método
 
 Função
-~ sozinha no mundo, **ninguém é dono** dela
-~ exemplo: todas as que vimos
+  sozinha no mundo, **ninguém é dono** dela
+  exemplo: todas as que vimos
 
 Método
-~ nasceu de algum objeto, ele **tem dono**
-~ ex: as funções das strings, dos vetores (e outros)
+  nasceu de algum objeto, ele **tem dono**
+  ex: as funções das strings, dos vetores (e outros)
 
 - <!-- {ul:.full-width} -->
   <!-- {.code-split-2} -->
@@ -1046,66 +1047,66 @@ Método
 Toda string possui vários métodos diferentes que podemos invocar
 
 `texto.length`
-  ~ não é um método, mas retorna quantos caracteres
-  ~ `'trem'.length === 4`
+    não é um método, mas retorna quantos caracteres
+    `'trem'.length === 4`
 
 `texto[i]`
-  ~ não é um método, mas retorna o i-ésimo caractere
-  ~ `'trem'[3] === 'm'`
+    não é um método, mas retorna o i-ésimo caractere
+    `'trem'[3] === 'm'`
 
 `texto.toLowerCase()`
-  ~ método que retorna tudo em minúsculas
-  ~ `'Doug'.toLowerCase() === 'doug'`
+    método que retorna tudo em minúsculas
+    `'Doug'.toLowerCase() === 'doug'`
 
 `texto.toUpperCase()`
-  ~ método que retorna tudo em maiúsculas
-  ~ `'Doug'.toUpperCase() === 'DOUG'`
+    método que retorna tudo em maiúsculas
+    `'Doug'.toUpperCase() === 'DOUG'`
   
 ---
 <!-- {"hash": "metodos-comuns-de-strings-2"} -->
 ## **Métodos** comuns de **strings** (2/3)
 
 `texto.trim()`
-  ~ método que remove espaços em branco ao redor
-  ~ `' mosca  '.trim() === 'mosca'`
+    método que remove espaços em branco ao redor
+    `' mosca  '.trim() === 'mosca'`
 
 `t.indexOf(trecho)`
-  ~ método que retorna a posição do `trecho` no `texto` (ou -1)
-  ~ `'Thanos'.indexOf('os') === 4`
+    método que retorna a posição do `trecho` no `texto` (ou -1)
+    `'Thanos'.indexOf('os') === 4`
 
 `t.substr(ini, tam)`
-  ~ método que retorna um trecho dado início e tamanho
-  ~ `'Pronto'.substr(0, 2) === 'Pr'`
+    método que retorna um trecho dado início e tamanho
+    `'Pronto'.substr(0, 2) === 'Pr'`
 
 `t.includes(trecho)`
-  ~ método que verifica se texto contém o trecho
-  ~ `'Hakuna'.includes('ku') === true`
+    método que verifica se texto contém o trecho
+    `'Hakuna'.includes('ku') === true`
   
 `t.split(separad)`
-  ~ método que retorna um vetor de trechos
-  ~ `'Banana'.split('a') === ['B', 'n', 'n']`
+    método que retorna um vetor de trechos
+    `'Banana'.split('a') === ['B', 'n', 'n']`
 
 ---
 <!-- {"hash": "metodos-comuns-de-strings-3"} -->
 ## **Métodos** comuns de **strings** (3/3)
 
 `t.startsWith(trech)`
-  ~ método que verifica se começa com o trecho
-  ~ `'Hakuna'.startsWith('Ha') === true`
+    método que verifica se começa com o trecho
+    `'Hakuna'.startsWith('Ha') === true`
 
 `t.endsWith(trecho)`
-  ~ método que verifica se termina com o trecho
-  ~ `'Hakuna'.endsWith('na') === true`
+    método que verifica se termina com o trecho
+    `'Hakuna'.endsWith('na') === true`
 
 `t.replace(tr, novo)`
-  ~ método que substitui um trecho por algo novo
-  ~ (apenas primeira ocorrência)
-  ~ `'ana'.replace('a', 'e') === 'ena'`
+    método que substitui um trecho por algo novo
+    (apenas primeira ocorrência)
+    `'ana'.replace('a', 'e') === 'ena'`
 
 `t.replaceAll(tr, n)`
-  ~ método que substitui um trecho por algo novo
-  ~ (todas as ocorrências)
-  ~ `'ana'.replaceAll('a', 'e') === 'ene'` <!-- {dl:style="margin-bottom: 0"} -->
+    método que substitui um trecho por algo novo
+    (todas as ocorrências)
+    `'ana'.replaceAll('a', 'e') === 'ene'` <!-- {dl:style="margin-bottom: 0"} -->
 
 - [Lista de métodos de string na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String) <!-- {ul:.no-margin} -->
 
@@ -1215,13 +1216,13 @@ Toda string possui vários métodos diferentes que podemos invocar
 - Assim como as strings, os vetores também possuem vários métodos úteis
   
   `vetor.length`
-    ~ não é método, mas retorna tamanho do vetor
-    ~ `[5].length === 1`
+      não é método, mas retorna tamanho do vetor
+      `[5].length === 1`
 
   `vetor[i]`
-    ~ não é método, mas retorna i-ésimo elemento
-    ~ `[3, 10][0] === 3`
-    ~ ```js
+      não é método, mas retorna i-ésimo elemento
+      `[3, 10][0] === 3`
+      ```js
       let letras = ['x'];
       letras[0] = 'y';
       ```
@@ -1231,35 +1232,35 @@ Toda string possui vários métodos diferentes que podemos invocar
 ## **Métodos** comuns de **vetores** (2/3)
 
 `vetor.push(elem)`
-  ~ método que insere `elem` ao final do vetor
-  ~ `['a'].push('b') === ['a', 'b']`
+    método que insere `elem` ao final do vetor
+    `['a'].push('b') === ['a', 'b']`
 
 `vetor.pop()`
-  ~ método que remove último elemento
-  ~ `['a', 'b'].pop() === ['a']`
+    método que remove último elemento
+    `['a', 'b'].pop() === ['a']`
 
 `vetor.indexOf(elem)`
-  ~ método que retorna o índice do elemento no vetor (ou -1)
-  ~ `[5,6,7].indexOf(5) === 0`
-  ~ `[5,6,7].indexOf(2) === -1`
+    método que retorna o índice do elemento no vetor (ou -1)
+    `[5,6,7].indexOf(5) === 0`
+    `[5,6,7].indexOf(2) === -1`
 
 ---
 <!-- {"hash": "metodos-comuns-de-vetores-3"} -->
 ## **Métodos** comuns de **vetores** (3/3)
 
 `vetor.reverse()`
-  ~ método que inverte a ordem dos elementos
-  ~ `[1,2,3].reverse() === [3,2,1]`
+    método que inverte a ordem dos elementos
+    `[1,2,3].reverse() === [3,2,1]`
 
 `vetor.sort()`
-  ~ método que coloca os elementos em ordem
-  ~ `[8,1,-6].sort() === [-6,1,8]`
-  ~ `['f', 'b'].sort() === ['b', 'f']`
+    método que coloca os elementos em ordem
+    `[8,1,-6].sort() === [-6,1,8]`
+    `['f', 'b'].sort() === ['b', 'f']`
 
 `vetor.join(spacer)`
-  ~ método que retorna uma string juntando os elementos
-  ~ `['fl', 'rb'].join(' ') === 'fl rb'`
-  ~ `['fl', 'rb'].join('+') === 'fl+rb'`
+    método que retorna uma string juntando os elementos
+    `['fl', 'rb'].join(' ') === 'fl rb'`
+    `['fl', 'rb'].join('+') === 'fl+rb'`
 
 - [Lista de métodos comuns de vetores na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
