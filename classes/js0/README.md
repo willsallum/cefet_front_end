@@ -32,7 +32,7 @@
 
 # Hoje veremos...
 
-1. [História e características](#história-e-caracteristicas)
+1. [História e características](#introdução-a-javascript)
 1. [Tipos de dados, Variáveis e Funções](#tipos-de-dados)
 1. [Condicionais, Vetores e Estruturas de Repetição](#arrays-for-while-e-variações)
 1. [Mais sobre funções e Métodos úteis](#mais-coisas-legais)
