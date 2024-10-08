@@ -185,7 +185,7 @@
 <!-- {"layout": "2-column-content", "hash": "const-e-var"} -->
 ## Outras formas de declarar variáveis `(const/var)`
 
-- Usamos a palavra-chave `const` para criar variáveis que **sempre apontam para o mesmo valor** <!-- {ul:.compact-code-more} -->
+1. Usamos a palavra-chave `const` para criar variáveis que **sempre apontam para o mesmo valor** <!-- {ul:.compact-code-more} -->
   ```js
   const fruta = 'abacate';
   fruta = 'pera';
@@ -236,7 +236,7 @@
   - Há outros derivados de `Object`...
   - Veremos `Object` e seus tipos derivados em próximas aulas
 
-1. Para verificar o tipo de uma variável, usamos `typeof` <!-- {.compact-code-more} -->
+- Para verificar o tipo de uma variável, usamos `typeof` <!-- {.compact-code-more} -->
    ```js
    let vacinou = true;
    console.log(typeof vacinou);
@@ -261,7 +261,7 @@
 <!-- {"layout": "2-column-content", "hash": "os-tipos-boolean-e-number"} -->
 ## <span>O tipo **1. Boolean** <!-- {.tipo-js.tipo-boolean} --></span> <span>O tipo **2. Number** <!-- {.tipo-js.tipo-number} --></span> <!-- {h2:style="display:flex;justify-content:space-between"} -->
 
-1. O tipo **Boolean** <!-- {.tipo-boolean} --> armazena um valor verdadeiro ou falso. Exemplo: <!-- {ol:.bullet.compact-code-more.no-bullets} -->
+- O tipo **Boolean** <!-- {.tipo-boolean} --> armazena um valor verdadeiro ou falso. Exemplo: <!-- {ol:.bullet.compact-code-more.no-bullets} -->
    ```js
    let abelhinhaEstaVoando = true;
    let modoEscuro = false;
@@ -376,9 +376,8 @@
 ---
 ## Objetos conhecidos
 
-- ::: did-you-know .push-right width: 250px;
-  Quando um objeto tem uma **propriedade que é uma função**, chamamos ela de **método**.
-  :::
+- Quando um objeto tem uma **propriedade que é uma função**, chamamos ela de **método**.
+  
   Há vários objetos comuns que usamos no dia a dia: `Math`, `console`, `window`. Exemplos:
   - O objeto `Math` possui uma propriedade:
     - ```js
@@ -880,10 +879,8 @@ let listaDeCoisas = ['Aew', 35, true, [], 'outra string'];
 ---
 # **for** <small>(forma tradicional)</small>
 
-- <!-- {ul:no-margin} -->
-  ::: did-you-know .push-right width:240px;
-  Em JavaScript há pelo menos 3 formas diferentes de fazer um `for`. Esta é a **tradicional** mas as outras mais fáceis até.
-  :::
+- Em JavaScript há pelo menos 3 formas diferentes de fazer um `for`. Esta é a **tradicional** mas as outras mais fáceis até.
+  
   Forma tradicional com `for (inicio; condicao; incremento)`:
   ```js
   for (let i = 0; i < 10; i++) {
