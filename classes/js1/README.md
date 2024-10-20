@@ -244,7 +244,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "inserindo-javascript-na-pagina"} -->
 # Inserindo JavaScript na página
-## Formas de inserção de JS:<!-- {style="opacity: 0"} -->
+## Formas de insercao de JS:<!-- {style="opacity: 0"} -->
 
 - Três formas de inclusão:
   1. arquivo externo
@@ -528,7 +528,7 @@ loja.vender(); // loja.dinheiro = 530
 
 ---
 <!-- {"layout": "section-header", "hash": "clicando-em-um-botao"} -->
-# Clicando em um botão
+# Clicando em um botao
 ## Dando comportamento à página
 
 - Conhecendo o DOM
