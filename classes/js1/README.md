@@ -152,7 +152,7 @@
 1. [Resolvendo Equações!](#para-roubar-na-prova)
 1. [Inserindo JavaScript na página](#formas-de-insercao-de-js)
 1. [Mais tipos de dados](#os-primitivos-e-o-complexo)
-1. [Clicando em um botão](#dando-comportamento-a-pagina)
+1. [Clicando em um botão](#dando-comportamento-para-a-pagina)
 
 ---
 <!-- {"layout": "section-header", "hash": "resolvendo-equacoes"} -->
@@ -529,7 +529,7 @@ loja.vender(); // loja.dinheiro = 530
 ---
 <!-- {"layout": "section-header", "hash": "clicando-em-um-botao"} -->
 # Clicando em um botao
-## Dando comportamento à página
+## Dando comportamento para a pagina
 
 - Conhecendo o DOM
 - Selecionando um elemento
