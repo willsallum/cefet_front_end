@@ -157,7 +157,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "resolvendo-equacoes"} -->
 # Resolvendo Equações!
-## ~~para roubar na prova~~
+## para roubar na prova
 
 - Atividade de hoje
 - Elementos HTML para:
@@ -170,26 +170,6 @@
 <!-- {"backdrop": "matematica"} -->
 
 ---
-# Atividade de hoje
-
-1. O objetivo é começar a usar JavaScript _nas páginas_
-1. Você deve criar código JavaScript para calcular as raízes reais de uma
-   **equação de segundo grau** na forma `ax² + bx + c = 0`
-1. [Baixe os arquivos][matematica-seminal]. Instruções detalhadas estão no
-   arquivo README.
-1. Será necessário utilizar novos elementos HTML:
-   - Campo de entrada de dados numéricos
-   - Rótulo (ou _label_)
-   - Botão
-
-[matematica-seminal]: https://github.com/fegemo/cefet-front-end-math/archive/master.zip
-
----
-<!-- {"fullPageElement": "#input-video", "playMediaOnActivation": {"selector": "#input-video" }} -->
-
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/pastel-parte-1.mp4" controls id="input-video"></video>
-
----
 <!-- {"hash": "campo-de-entrada-numerica"} -->
 ## **Campo de entrada** de dados numéricos
 
@@ -199,9 +179,9 @@
     ```html
     <input type="number" id="qtde-de-pasteis" value="4">
     ```
-    ::: result
+    Resultado: 
     <input type="number" value="4">
-    :::
+   
   - É possível estilizá-los para, por exemplo, definir a largura:
     ```css
     input[type="number"] {  /* apenas <input>s do tipo "number" */
@@ -215,17 +195,17 @@
 
 - Existem alguns atributos do `<input type="number">`:
   - `value="..."`: **valor inicial**
-    ::: result
+
     <input type="number" value="4" style="width: 4em;"> \<input type="number" **value="4"**\>
-    :::
+
   - `min="..."`, `max="..."`: valor **mínimo/máximo** permitido
-    ::: result
+
     <input type="number" min="3" max="5" style="width: 4em;"> \<input type="number" **min="3" max="5"**\>
-    :::
+
   - `step="..."`: **quanto aumentar/diminuir** ao clicar nas setinhas
-    ::: result
+
     <input type="number" step="0.2" style="width: 4em;"> \<input type="number" **step="0.2"**\>
-    :::
+
 <!-- {ul^0:.bulleted} -->
 
 ---
@@ -253,9 +233,8 @@
     ```html
     <button id="delicia">Sou um delicioso botão</button>
     ```
-    ::: result
     <button>Sou um delicioso botão</button> - mas não acontece nada?!
-    :::
+
   - Para atribuir comportamento ao clique do botão, **é necessário usar
     JavaScript!**
     ```js
@@ -268,7 +247,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "inserindo-javascript-na-pagina"} -->
 # Inserindo JavaScript na página
-## . <!-- {style="opacity: 0"} -->
+## . Formas:<!-- {style="opacity: 0"} -->
 
 - Três formas de inclusão:
   1. arquivo externo
@@ -354,7 +333,7 @@
 ---
 <!-- {"fullPageElement": "#inclusion-video", "playMediaOnActivation": {"selector": "#inclusion-video" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/pastel-parte-2.mp4" controls id="inclusion-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls id="inclusion-video"></video>
 
 ---
 <!-- {"layout": "section-header", "hash": "mais-tipos-de-dados"} -->
@@ -424,9 +403,8 @@
 ---
 ## Objetos conhecidos
 
-- ::: did-you-know .push-right width: 250px;
-  Quando um objeto tem uma **propriedade que é uma função**, chamamos ela de **método**.
-  :::
+- Quando um objeto tem uma **propriedade que é uma função**, chamamos ela de **método**.
+
   Há vários objetos comuns que usamos no dia a dia: `Math`, `console`, `window`. Exemplos:
   - O objeto `Math` possui uma propriedade:
     - ```js
@@ -536,20 +514,20 @@ loja.vender(); // loja.dinheiro = 530
 - Existem **outros tipos complexos**, que são **baseados em `Object`**: <!-- {.tipo-js.tipo-object} -->
   
   `Date`
-    ~ Por exemplo, para imprimir o horário atual no console:
+     Por exemplo, para imprimir o horário atual no console:
       ```js
       let agora = new Date();
       console.log(agora);     //Sun Jan 17 2021 18:11:46...
       ```
   
   `Function`
-    ~ (sim! funções são objetos em JavaScript)
+     (sim! funções são objetos em JavaScript)
   
   `Array`
-    ~ (vetores também são objetos)
+     (vetores também são objetos)
 
   `SeuProprioTipo`™
-    ~ (é possível criar novos tipos também)
+     (é possível criar novos tipos também)
 
 ---
 <!-- {"layout": "section-header", "hash": "clicando-em-um-botao"} -->
@@ -572,8 +550,8 @@ loja.vender(); // loja.dinheiro = 530
   1. Atribuir a função ao **evento de clique** do botão
 - Já sabemos criar funções ([tradicionais][js0-funcoes-tradicionais] e [anônimas][js0-funcoes-anonimas]), então vamos para o item 2...
   
-[js0-funcoes-tradicionais]: http://localhost:8081/classes/js0/#declarando-e-invocando-funcoes
-[js0-funcoes-anonimas]: http://localhost:8081/classes/js0/#mais-sobre-funcoes-e-metodos-uteis
+[js0-funcoes-tradicionais]: https://willsallum.github.io/classes/js0/#declarando-e-invocando-funcoes
+[js0-funcoes-anonimas]: http://willsallum.github.io/classes/js0/#mais-sobre-funcoes-e-metodos-uteis
 
 ---
 <!-- {"hash": "conhecendo-o-dom"} -->
@@ -698,7 +676,7 @@ loja.vender(); // loja.dinheiro = 530
 ---
 <!-- {"fullPageElement": "#writing-video", "playMediaOnActivation": {"selector": "#writing-video" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/pastel-parte-3.mp4" controls id="writing-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-3.mp4" controls id="writing-video"></video>
 
 ---
 <!-- {"layout": "centered"} -->
