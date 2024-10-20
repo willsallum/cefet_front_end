@@ -565,7 +565,7 @@ loja.vender(); // loja.dinheiro = 530
 
 ---
 <!-- {"layout": "2-column-content-zigzag", "embeddedStyles": ".push-code-right pre{float:right;}", "hash": "declarando-e-invocando-funcoes"} -->
-# Declarando e invocando **funções**
+## Declarando e invocando funcoes
 
 
 - Funções são **declaradas** usando a palavra-chave `function` <!-- {style="float:initial"} --> + nome + parâmetros + corpo ➜
@@ -939,7 +939,7 @@ let listaDeCoisas = ['Aew', 35, true, [], 'outra string'];
 
 ---
 <!-- {"layout": "section-header", "hash": "mais-sobre-funcoes-e-metodos-uteis"} -->
-# Mais sobre funções, Métodos úteis
+# Mais sobre funcoes, Métodos úteis
 ## Mais coisas legais
 
 - Função atribuída a variável

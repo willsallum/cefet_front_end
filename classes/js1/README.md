@@ -548,7 +548,7 @@ loja.vender(); // loja.dinheiro = 530
 - Já sabemos criar funções ([tradicionais][js0-funcoes-tradicionais] e [anônimas][js0-funcoes-anonimas]), então vamos para o item 2...
   
 [js0-funcoes-tradicionais]: https://willsallum.github.io/classes/js0/#declarando-e-invocando-funcoes
-[js0-funcoes-anonimas]: http://willsallum.github.io/classes/js0/#mais-sobre-funcoes-e-metodos-uteis
+[js0-funcoes-anonimas]: http://willsallum.github.io/classes/js0/#Mais-coisas-legais
 
 ---
 <!-- {"hash": "conhecendo-o-dom"} -->
