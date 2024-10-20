@@ -150,9 +150,9 @@
 # Hoje veremos...
 
 1. [Resolvendo Equações!](#para-roubar-na-prova)
-1. [Inserindo JavaScript na página](#Formas-de-inserção-de-JS)
-1. [Mais tipos de dados](#Os-primitivos-e-o-complexo)
-1. [Clicando em um botão](#Dando-comportamento-à-página)
+1. [Inserindo JavaScript na página](#formas-de-insercao-de-js)
+1. [Mais tipos de dados](#os-primitivos-e-o-complexo)
+1. [Clicando em um botão](#dando-comportamento-a-pagina)
 
 ---
 <!-- {"layout": "section-header", "hash": "resolvendo-equacoes"} -->
