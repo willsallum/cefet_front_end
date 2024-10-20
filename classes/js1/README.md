@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 1
-## Inclusão, Mais tipos de dados,<br>Clicando em botões e Resolvendo equações :chart_with_upwards_trend:
+## Inclusão, Mais tipos de dados,<br>Clicando em botões e Resolvendo equações 
 
 ---
 # Na última aula (1/3)
@@ -64,9 +64,6 @@
             hp > 0 ? 'sim' : 'não';
     
     
-    
-    
-    
     ```
     ```js
     switch (clima) {
@@ -85,7 +82,7 @@
 ## Na última aula (3/3)
 
 - Vetores <!-- {ul:.bulleted.full-width} -->
-- <!-- {.code-split-2} -->
+
   ```js
   let radios = [106.1, 105.1, 98.3];
   let cores = ['azul', 'verde'];
@@ -95,7 +92,7 @@
   animais.push('dogue');    // ['dogue']
   ```
 - Repetição
-- <!-- {.code-split-3} -->
+
   ```js
   // tradicional
   for(let i=0; i<cores.length;i++){
@@ -118,7 +115,7 @@
   // impr. azul, verde
   ```
 - Vários métodos de ↓ strings e de vetores ⤥
-- <!-- {.code-split-2} -->
+
   ```js
   'Hannah'.toLowerCase() === 'hannah'
   'Ovo'.replace('O', 'Ou') === 'Ouvo'
@@ -137,12 +134,16 @@
 # Em alguma aula anterior <!-- {style="padding-bottom: 0.2em"} -->
 ## O HTML visto como uma árvore
 
-::: figure .figure-slides.clean.html-tree
 ![Uma árvore com os elementos HTML](../../images/html-tree-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-3.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
+
+---
 ![Uma árvore com os elementos HTML](../../images/html-tree-4.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
 
 ---
 <!-- {"layout": "centered"} -->
