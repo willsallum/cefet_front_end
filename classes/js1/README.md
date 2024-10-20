@@ -547,8 +547,8 @@ loja.vender(); // loja.dinheiro = 530
   1. Atribuir a função ao **evento de clique** do botão
 - Já sabemos criar funções ([tradicionais][js0-funcoes-tradicionais] e [anônimas][js0-funcoes-anonimas]), então vamos para o item 2...
   
-[js0-funcoes-tradicionais]: https://willsallum.github.io/classes/js0/#declarando-e-invocando-funcoes
-[js0-funcoes-anonimas]: http://willsallum.github.io/classes/js0/#mais-coisas-legais
+[js0-funcoes-tradicionais]: https://willsallum.github.io/cefet_front_end/classes/js0/#declarando-e-invocando-funcoes
+[js0-funcoes-anonimas]: http://willsallum.github.io/cefet_front_end/classes/js0/#mais-coisas-legais
 
 ---
 <!-- {"hash": "conhecendo-o-dom"} -->
