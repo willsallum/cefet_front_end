@@ -149,10 +149,10 @@
 <!-- {"layout": "centered"} -->
 # Hoje veremos...
 
-1. [Resolvendo Equações!](#resolvendo-equacoes)
-1. [Inserindo JavaScript na página](#inserindo-javascript-na-pagina)
-1. [Mais tipos de dados](#mais-tipos-de-dados)
-1. [Clicando em um botão](#clicando-em-um-botao)
+1. [Resolvendo Equações!](#para-roubar-na-prova)
+1. [Inserindo JavaScript na página](#Formas-de-inserção-de-JS)
+1. [Mais tipos de dados](#Os-primitivos-e-o-complexo)
+1. [Clicando em um botão](#Dando-comportamento-à-página)
 
 ---
 <!-- {"layout": "section-header", "hash": "resolvendo-equacoes"} -->
@@ -244,7 +244,7 @@
 ---
 <!-- {"layout": "section-header", "hash": "inserindo-javascript-na-pagina"} -->
 # Inserindo JavaScript na página
-## . Formas:<!-- {style="opacity: 0"} -->
+## Formas de inserção de JS:<!-- {style="opacity: 0"} -->
 
 - Três formas de inclusão:
   1. arquivo externo
