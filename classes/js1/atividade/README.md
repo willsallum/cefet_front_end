@@ -15,7 +15,7 @@
 ---
 <!-- {"fullPageElement": "#input-video", "playMediaOnActivation": {"selector": "#input-video" }} -->
 
-<video src="//fwillsallim.github.io/cefet_front_end_large_assets/videos/pastel-parte-1.mp4" controls id="input-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-1.mp4" controls id="input-video"></video>
 
 ---
 
