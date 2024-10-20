@@ -10,7 +10,8 @@
    - Rótulo (ou _label_)
    - Botão
 
-[matematica-seminal]: https://github.com/willsallum/cefet_front_end_math/archive/master.zip
+[matematica-seminal]: https://github.com/willsallum/cefet_front_end_math_main/archive/master.zip
+
 
 ---
 <!-- {"fullPageElement": "#input-video", "playMediaOnActivation": {"selector": "#input-video" }} -->
