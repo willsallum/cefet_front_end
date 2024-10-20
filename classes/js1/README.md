@@ -167,9 +167,6 @@
 <!-- {ul^1:.content} -->
 
 ---
-<!-- {"backdrop": "matematica"} -->
-
----
 <!-- {"hash": "campo-de-entrada-numerica"} -->
 ## **Campo de entrada** de dados numéricos
 
