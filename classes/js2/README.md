@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 2
-## _Template_ strings, Função seta,<br>Alterando o DOM e Exploração Espacial :alien:
+## _Template_ strings, Função seta,<br>Alterando o DOM e Exploração Espacial
 
 ---
 # Na última aula... (1/3)
@@ -69,7 +69,7 @@
 
 ---
 <!-- {"hash": "o-tipo-string", "backdrop": "oldtimes"} -->
-## O tipo **3. String** <!-- {.tipo-js.tipo-string} -->
+## O tipo 3. String <!-- {.tipo-js.tipo-string} -->
 
 - **Representa um texto** <!-- {.tipo-string} --> codificado em UTF-8
 - Não existe o tipo `char` como em C/C++ e Java, apenas _string_ :wink:
@@ -342,7 +342,7 @@ let numeros = [1, 4, 2, 5];
 
 ---
 <!-- {"hash": "selecionando-varios-elementos"} -->
-# Selecionando vários elementos
+## Selecionando varios elementos
 
 - O `document.querySelector` retorna **apenas 1 elemento**
   - Se tiver mais de um, retorna o primeiro encontrado
@@ -464,12 +464,12 @@ let numeros = [1, 4, 2, 5];
 
 ---
 <!-- {"hash": "alterando-o-conteudo"} -->
-# Alterando **o conteúdo**
+## Alterando o conteudo
 
 - É possível **alterar o conteúdo** <!-- {.alternate-color} --> de um elemento com `elemento.innerHTML`:
 
   <iframe width="250" height="130" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
-  
+
   <iframe width="250" height="153" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
 
   ```js
@@ -504,6 +504,7 @@ let numeros = [1, 4, 2, 5];
 ---
 <!-- {"layout": "centered", "hash": "colocando-removendo-classes"} -->
 # Colocando/removendo **classes**
+## colocando removendo classe
 
 - É possível **colocar ou remover classes** <!-- {.alternate-color} --> de elementos: <!-- {ul:.bulleted} -->
   ```js
@@ -585,6 +586,7 @@ let numeros = [1, 4, 2, 5];
 ---
 <!-- {"hash": "argumento-de-click"} -->
 # Quem disparou o evento?
+## Argumento de evento
 
 - Quando o navegador executa uma _callback_ de eventos, ele passa um parâmetro com  **informações sobre o evento** <!-- {ul:.compact-code} -->
   - Tipicamente damos o nome de `e`, `evt` ou `event`:
@@ -604,7 +606,8 @@ let numeros = [1, 4, 2, 5];
 
 ---
 <!-- {"hash": "subindo-na-arvore", "classes": "compact-code-more"} -->
-# Subindo na árvore do DOM
+# Navegando no DOM
+## Subindo na arvore do DOM
 
 - Todo elemento do DOM conhece, na árvore, quem é:
   1. seu pai (**`elemento.parentNode`** ou `elemento.parentElement`)
@@ -624,7 +627,7 @@ let numeros = [1, 4, 2, 5];
 
 ---
 <!-- {"hash": "alternando-uma-classe", "classes": "compact-code"} -->
-# Alternando uma classe
+## Alternando uma classe
 
 - Às vezes queremos colocar/remover uma classe em um elemento **alternadamente**
 - Para isso, existe o `elemento.classList.toggle('nome-da-classe')`

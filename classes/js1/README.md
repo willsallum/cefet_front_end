@@ -79,7 +79,7 @@
 
 ---
 <!-- {"classes": "compact-code-more"} -->
-## Na última aula (3/3)
+## Na ultima aula ##(3/3)
 
 - Vetores <!-- {ul:.bulleted.full-width} -->
 
@@ -606,7 +606,7 @@ loja.vender(); // loja.dinheiro = 530
 
 ---
 <!-- {"hash": "evento-clique"} -->
-# Criando um evento de clique
+## Criando um evento de clique
 
 - Para **executar alguma coisa quando um botão** (ou qualquer elemento, na verdade)
   **é clicado**, precisamos **registrar uma função para ser chamada** quando um
