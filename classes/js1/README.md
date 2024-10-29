@@ -529,7 +529,7 @@ loja.vender(); // loja.dinheiro = 530
 ---
 <!-- {"layout": "section-header", "hash": "clicando-em-um-botao"} -->
 # Clicando em um botao
-## Dando comportamento para a pagina
+## Dando comportamento para a pagina 
 
 - Conhecendo o DOM
 - Selecionando um elemento
