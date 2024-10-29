@@ -309,7 +309,6 @@ let numeros = [1, 4, 2, 5];
      ```js
      numeros.map(numero => numero ** 2);
 
-
      ```
 
 ---
@@ -453,14 +452,6 @@ let numeros = [1, 4, 2, 5];
 
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-0} -->
 
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-1} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-2} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-3} -->
-
-![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-4} -->
-
 
 - Tags de abertura podem ter **atributos**:
   ```html
@@ -476,7 +467,9 @@ let numeros = [1, 4, 2, 5];
 # Alterando **o conteúdo**
 
 - É possível **alterar o conteúdo** <!-- {.alternate-color} --> de um elemento com `elemento.innerHTML`:
+
   <iframe width="250" height="130" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
+  
   <iframe width="250" height="153" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
 
   ```js
@@ -558,35 +551,7 @@ let numeros = [1, 4, 2, 5];
 - No CSS, desloca tudo para a direita quando o `<body>` tem `.menu-visivel`
 
 ---
-<!-- {"layout": "section-header", "hash": "exploracao-espacial"} -->
-# Exploração Espacial :alien:
-## Conhecendo o além-atmosfera
 
-- Atividade de hoje
-- Que elemento foi clicado?
-- Subindo na árvore do DOM
-- Alternando uma classe
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "space"} -->
-
----
-# Exploração Espacial :alien:
-
-- Crie parágrafos que expandem/retraem e uma galeria :notebook:
-  - [Baixe os arquivos][space] e veja as instruções
-    no arquivo `README.md`
-- Há 2 atividades:
-  1. Criar um código em JavaScript para **fazer os botões "+"
-     expadirem ou retrairem o texto dos parágrafos**
-     - Fazer no arquivo `atividade1.js`
-  2. Criar uma **galeria** mostrando **fotos e imagens** da sonda Philae
-     - Fazer no arquivo `atividade2.js`
-
-[space]: https://github.com/fegemo/cefet-front-end-space/archive/master.zip
-
----
 ## Associando **mesma _callback_** para **vários elementos**
 
 - É bastante comum associarmos uma mesma função (_callback_) a algum evento de vários elementos HTML diferentes <!-- {ul:.bulleted} -->
