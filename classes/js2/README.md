@@ -94,7 +94,7 @@
 
 - É uma forma mais recente para criar _strings_ <!-- {ul:.full-width.bulleted} -->
 - Formato: **usa-se crase** para delimitar. Exemplo:
-- <!-- {.code-split-2} -->
+<!-- {.code-split-2} -->
   ```js
   // template string
   let fruta = `Kiwi`;
@@ -104,7 +104,7 @@
   let fruta =  'Kiwi';
   ```
 - Permite **interpolar** (substituir) **variáveis** dentro de strings:
-- <!-- {.code-split-2.compact-code-more} -->
+<!-- {.code-split-2.compact-code-more} -->
   ```js
   const peso = 82;
   const nome = 'Kagaro Nakama';
@@ -133,7 +133,7 @@
   let aConta = `Sua conta é R$ ${preco * qtde - 3}`;
   //           "Sua conta é R$ 7"
   ```
-- <!-- {.code-split-2.compact-code-more} -->
+<!-- {.code-split-2.compact-code-more} -->
   ```js
   // supondo variáveis dia, mês, ano e func. obtemMes
   const data = `${dia} de ${obtemMes(mes)} de ${ano}`;
@@ -158,7 +158,7 @@
 
 - Digamos que você queira que uma variável string contenha uma poesia (ocupando várias linhas)
 - As _template strings_ permitem que **uma string ocupe mais do que uma linha** no código fonte
-- <!-- {.code-split-2} -->
+<!-- {.code-split-2} -->
   ```js
   // com template string
   let poesia = `Cavei cavei cavei
@@ -187,7 +187,7 @@
 ---
 ## Função **tradicional** e **anônima**
 
-- <!-- {.code-split-2} -->
+<!-- {.code-split-2} -->
   <!-- {ul:.full-width} -->
   ```js
   function cadastrar() {
@@ -200,7 +200,7 @@
   };
   ```
  - **Função seta** é uma **sintaxe mais nova e sucinta** para as anônimas ⬆
- - <!-- {.code-split-2.bulleted style="flex-direction: row-reverse"} -->
+<!-- {.code-split-2.bulleted style="flex-direction: row-reverse"} -->
    ```js
    const cadastrar = () => {
      // ...
@@ -217,7 +217,7 @@
 <!-- {"classes": "compact-code-more", "hash": "funcao-seta-sintaxe"} -->
 ## Função seta: sintaxe
 
-- <!-- {ul:.no-bullets.no-padding.full-width.two-column-code} -->
+<!-- {ul:.no-bullets.no-padding.full-width.two-column-code} -->
   ```js
   function ciao() {
     return 'Ciao';
@@ -273,7 +273,7 @@ let numeros = [1, 4, 2, 5];
 ```
 
 1. Pegar apenas usuários que começam com letra 'F': <!-- {ol:.full-width.bulleted-0} -->
-   - <!-- {.code-split-2} -->
+    <!-- {.code-split-2} -->
      <!-- {ul:style="padding-left: 0"} -->
      ```js
      usuarios.filter(function(nome) {
@@ -286,7 +286,7 @@ let numeros = [1, 4, 2, 5];
      
      ```
 2. Buscar pelo aluno com uma matrícula:
-   - <!-- {.code-split-2} -->
+    <!-- {.code-split-2} -->
      <!-- {ul:style="padding-left: 0"} -->
      ```js
      alunos.find(function(aluno) {
@@ -299,7 +299,7 @@ let numeros = [1, 4, 2, 5];
      
      ```
 3. Vetor com os quadrados do original:
-   - <!-- {.code-split-2} -->
+    <!-- {.code-split-2} -->
      <!-- {ul:style="padding-left: 0"} -->
      ```js
      numeros.map(function(numero) {
@@ -382,7 +382,7 @@ let numeros = [1, 4, 2, 5];
   ```js
   let inputs = document.querySelectorAll('input');      // inputs é um 'NodeList'
   ```
-- <!-- {.no-bullets.codigos-com-pouco-espaco-vertical style="margin-top: 1em;"} -->
+<!-- {.no-bullets.codigos-com-pouco-espaco-vertical style="margin-top: 1em;"} -->
   ```js
   // propriedade .length (igual um array)
   console.log(`Quantidade de elementos: ${inputs.length}`);
@@ -402,7 +402,7 @@ let numeros = [1, 4, 2, 5];
 ## `NodeList` vs Vetor
 
 - Um **`NodeList`** é praticamente um _array_, mas **não possui todos os métodos**. Por exemplo:
-- <!-- {.code-split-2.compact-code-more} -->
+ <!-- {.code-split-2.compact-code-more} -->
   ```js
   umNodeList.length        ✅
   umNodeList[5]            ✅
@@ -451,7 +451,6 @@ let numeros = [1, 4, 2, 5];
 <!-- {"backdrop": "oldtimes", "embedSVG": "img[src$='.svg']", "styles": ["../../styles/classes/tag-anatomy.min.css"]} -->
 ## Anatomia de uma **_tag_**
 
-::: figure .figure-slides.tag-anatomy.clean.flex-align-center
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-0} -->
 
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-1} -->
@@ -461,7 +460,7 @@ let numeros = [1, 4, 2, 5];
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-3} -->
 
 ![Anatomia de uma tag mostrando que ela consiste de seu nome envolto por sinais de "menor que" e "maior que"](../../images/anatomia-tag.svg) <!-- {p:.bullet.figure-step.bullet-no-anim.step-4} -->
-:::
+
 
 - Tags de abertura podem ter **atributos**:
   ```html
@@ -471,8 +470,6 @@ let numeros = [1, 4, 2, 5];
   - **Não deve haver espaço** entre seu nome e seu valor:
     - `<img src = "...">` <span style="color: red">:thumbsdown:</span>
     - `<img src="...">` <span style="color: green">:thumbsup:</span>
-
-
 
 ---
 <!-- {"hash": "alterando-o-conteudo"} -->
@@ -521,7 +518,7 @@ let numeros = [1, 4, 2, 5];
   imageEl.classList.remove('oculta');     // remove .oculta
   pEl.classList.toggle('expandido');      // coloca ou tira .expandido
   ```
-  - <iframe width="250" height="170" src="//jsfiddle.net/fegemo/wbq109xg/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right bring-forward"></iframe>
+  <iframe width="250" height="170" src="//jsfiddle.net/fegemo/wbq109xg/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right bring-forward"></iframe>
     Isso pode ser usado, por exemplo, para ↘<br>"marcar" elementos
     <!-- {li:.bring-forward} -->
   - Ou então pra fazer um menu lateral aparecer...
@@ -594,19 +591,18 @@ let numeros = [1, 4, 2, 5];
 
 - É bastante comum associarmos uma mesma função (_callback_) a algum evento de vários elementos HTML diferentes <!-- {ul:.bulleted} -->
   - Como no exercício: _callback_ de `'click'` em TODOS os parágrafos
-  - <!-- {.code-split-2.compact-code-more} -->
-    - <!-- {ul:.no-bullets.no-padding} -->
+  <!-- {.code-split-2.compact-code-more} -->
+    <!-- {ul:.no-bullets.no-padding} -->
       ```html
       <p>Parágrafo 1</p>
       <p>Parágrafo 2</p>
       <p>Parágrafo 3</p>
       ```
-      ::: result .example-ps.bullet
       <style>.example-ps p {font-size: 0.8em}</style>
       <p onclick="this.style.background='lightblue'">Parágrafo 1</p>
       <p onclick="this.style.background='lightblue'">Parágrafo 2</p>
       <p onclick="this.style.background='lightblue'">Parágrafo 3</p>
-      :::
+
     ```js
     function colore() {
       let el = ??; // <-- quem colocar aqui??
@@ -627,18 +623,18 @@ let numeros = [1, 4, 2, 5];
 
 - Quando o navegador executa uma _callback_ de eventos, ele passa um parâmetro com  **informações sobre o evento** <!-- {ul:.compact-code} -->
   - Tipicamente damos o nome de `e`, `evt` ou `event`:
-    - <!-- {ul:.no-bullets.no-padding.bulleted} -->
-      ```js
+    <!-- {ul:.no-bullets.no-padding.bulleted} -->
+    ```js
       let ps = document.querySelectorAll('p');  // igualzinho antes!
       for (let pEl of ps) {
         pEl.addEventListener('click', colore);
-      }
+    }
       ```
-    - ```js
+    ```js
       function colore(e) {                  // repare o argumento 'e' (evento)
         let el = e.currentTarget;           // <--- o elemento "alvo" do evento
         el.style.background = 'lightblue';  // colore parágrafo alvo do evento
-      }
+    }
       ```
 
 ---
