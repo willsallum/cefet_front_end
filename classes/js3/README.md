@@ -6,14 +6,14 @@
 # Na última aula... (1/4)
 
 **Null**
-  ~ usado quando uma variável não tem um valor aplicável naquele momento (`let x = null;`) <!-- {p:.no-margin} -->
+   usado quando uma variável não tem um valor aplicável naquele momento (`let x = null;`) <!-- {p:.no-margin} -->
 
 **Undefined**
-  ~ é o tipo atribuído a variáveis que não foram associadas a nenhum valor (`let x;`) <!-- {p:.no-margin} -->
+   é o tipo atribuído a variáveis que não foram associadas a nenhum valor (`let x;`) <!-- {p:.no-margin} -->
 
 
 **Object**
-  ~ um **"saquinho" de propriedades**: <!-- {p:.no-margin} -->
+   um **"saquinho" de propriedades**: <!-- {p:.no-margin} -->
     - <!-- {.code-split-2.no-margin.compact-code} -->
       <!-- {ul:style="padding-left: 0"} -->
       ```js
@@ -81,9 +81,11 @@
 ---
 ## Na última aula... (3/4)
 
-- O `document.querySelectorAll` retorna **todos** que forem selecionados <!-- {ul:.compact-code} -->
+- O `document.querySelectorAll` retorna **todos** que forem selecionados
 - É possível alterar o **conteúdo** de um elemento com `elemento.innerHTML`:
+
   <iframe width="250" height="130" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
+
   <iframe width="250" height="153" src="//jsfiddle.net/fegemo/wLp3kv59/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0" class="push-right" style="clear: right;"></iframe>
 
   ```js
@@ -140,54 +142,54 @@
 # História
 
 1989 - 1993 <!-- {.bullet-old} --> <!-- {dl:.full-width} -->
-  ~ Tim Berners-Lee cria a WWW em CERN (*European Organization for
+   Tim Berners-Lee cria a WWW em CERN (*European Organization for
     Nuclear Research*) e a deixa aberta ao público <!-- {dd:.bullet-old} -->
 
 1994 <!-- {.bullet-old} -->
-  ~ Håkon propõe uma linguagem para dar conta da responsabilidade de
+   Håkon propõe uma linguagem para dar conta da responsabilidade de
     alterar a aparência de páginas web chamada CSS <!-- {dd:.bullet-old} -->
 
 1995 (maio)
-  ~ ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
+
+   ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
+
     Brendan Eich, funcionário do Netscape, criou (em 10 dias!!) uma
     linguagem para alterar páginas dinamicamente - o _Mocha_
 
 1995 (setembro)
-  ~ _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
+   _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
 
 
 ---
 ## História (cont.)
 
 1995 (dezembro)
-  ~ Nome virou JavaScript para aproveitar a fama do Java
+   Nome virou JavaScript para aproveitar a fama do Java
     
 1996 (agosto)
-  ~ Microsoft adota o JavaScript sob o nome de JScript
+   Microsoft adota o JavaScript sob o nome de JScript
 
 1996 (novembro)
-  ~ A Netscape submeteu o JavaScript para a
+   A Netscape submeteu o JavaScript para a
     _Ecma international_ para padronização. A especificação recebeu o nome de
      _ECMAScript_
 
 1997
-  ~ A _Ecma International_ publicou a primeira versão
+   A _Ecma International_ publicou a primeira versão
 
 1998
-  ~ Versão 2 do ECMAScript
+   Versão 2 do ECMAScript
 
 1999
-  ~ Versão 3 do ECMAScript
+   Versão 3 do ECMAScript
 
 2009
-  ~ Versão 5 do ECMAScript
+   Versão 5 do ECMAScript
 
 2013 - hoje
-  ~ Versões 6-9+
-    ![](../../images/logo-javascript.svg) <!-- {style="height: 1em;"} -->
-    do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**,
-    **ES2018**...
+   Versões 6-9+ do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**, **ES2018**...
 
+   ![](../../images/logo-javascript.svg) <!-- {style="height: 1em;"} -->
 
 *[ECMA]: European Computer Manufacturers Association*
 *[Ecma]: European Computer Manufacturers Association*
@@ -245,7 +247,7 @@
 *[URL]: Unique Resource Locator*
 
 ---
-# Convenção: omitir ~~window~~
+# Convenção: omitir window
 
 - Como o objeto `window` é o único objeto global, **podemos acessar
   suas propriedades <u>sem usar `"window."`</u>** :scream:. Por exemplo:
@@ -316,7 +318,9 @@
   do arquivo CSS
   - Lembre-se do princípio da separação de responsabilidades
 - Contudo, **em certos casos é melhor usar `.style`**:
+
   - ![Abelha voando](../../images/exemplo-position-absolute-bees.gif) <!-- {.push-right} -->
+  
     Quando precisamos calcular, em JavaScript, o valor de uma propriedade
   - Exemplo: `abelhinhas.js`
     ```css
