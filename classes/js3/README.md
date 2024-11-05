@@ -123,10 +123,10 @@
 <!-- {"layout": "centered"} -->
 # Hoje veremos
 
-1. [História do JavaScript](#historia-do-javascript)
-1. [Estilizando elementos dinamicamente](#estilizando-elementos-dinamicamente)
-1. [Eventos de mouse - além do `click`](#eventos-de-mouse)
-1. [Depurando código](#depurando-codigo)
+1. [História do JavaScript](#como-chegamos-até-aqui)
+1. [Estilizando elementos dinamicamente](#alterando-propriedades-css-de-elementos)
+1. [Eventos de mouse - além do `click`](#acionados-com-o-controle-do-mouse)
+1. [Depurando código](#como-executar-javascript-passo-a-passo)
 
 ---
 <!-- {"layout": "section-header", "hash": "historia-do-javascript"} -->
