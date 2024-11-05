@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 3
-## História, Estilizando elementos, Eventos de mouse, Depurando código e o PhotoSnap 📷
+## História, Estilizando elementos, Eventos de mouse, Depurando código
 
 ---
 # Na última aula... (1/4)
@@ -320,7 +320,7 @@
 - Contudo, **em certos casos é melhor usar `.style`**:
 
   - ![Abelha voando](../../images/exemplo-position-absolute-bees.gif) <!-- {.push-right} -->
-  
+
     Quando precisamos calcular, em JavaScript, o valor de uma propriedade
   - Exemplo: `abelhinhas.js`
     ```css
