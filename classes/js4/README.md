@@ -381,7 +381,6 @@ containerEl.appendChild(novaOvelhaEl);
 ---
 ## Vinculação na árvore DOM com **(2) `insertBefore`**
 
-medium-width.invert-colors-dark-mode
 1. 
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)
 
@@ -395,7 +394,6 @@ medium-width.invert-colors-dark-mode
 ---
 ## Vinculação na árvore DOM com **(3) `replaceChild`**
 
-medium-width.invert-colors-dark-mode
 1. 
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)
 
