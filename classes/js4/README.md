@@ -454,16 +454,4 @@ containerEl.appendChild(novaOvelhaEl);
   ```
 
 ---
-<!-- {"layout": "section-header", "hash": "lista-de-tarefas"} -->
-# Lista de Tarefas :notebook:
-## Saiba o que procrastinar a seguir
 
-- Atividade de hoje
-  - Exercício 1
-  - Exemplo: albums de música
-  - Exercício 2
-  - Exemplo: lista telefônica
-<!-- {ul:.content} -->
-
-
----
