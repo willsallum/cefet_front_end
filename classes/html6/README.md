@@ -52,7 +52,6 @@
 1. [Elementos HTML de **entrada**](#elementos-de-entrada)
 1. [Elementos HTML de **escolha**](#elementos-de-escolha)
 1. [Envio de formulários e validação](#envio-de-formularios-e-validacao)
-1. [AvatarCreator](#avatar-creator) 💄
 
 ---
 <!-- {"layout": "section-header", "hash": "elementos-de-entrada"} -->
@@ -79,9 +78,9 @@
   - `type="text"` é o valor padrão para o `input`
   - `placeholder="um texto..."` define um texto de ajuda que só aparece
     quando não há nada digitado
-  ::: result
+
   <input type="text" placeholder="Digite...">
-  :::
+
 
 ---
 ## Rótulos <small>(ou etiquetas)</small>
@@ -97,13 +96,14 @@
         <input id="cidade">
     </label>
     ```
-    ::: result
+
       <div><label>Cidade: <input id="cidade"></label></div>
-    :::
+
 
 ---
 <!-- {"layout": "tall-figure-right"} -->
 ## Caixa de texto para **e-mail** ![A partir do HTML5](../../images/html5-logo-big.png) <!-- {style="max-height: .75em"} -->
+
 
 ![](../../images/form-email-sample.png) <!-- {p:.centered} -->
 
@@ -116,14 +116,13 @@
   ```
   - Em _smartphones_, os navegadores mudam o _layout_ do teclado colocando
     "@" em posições mais fáceis
-::: result
+
 <div><label>Remetente:
   <input id="remetente" type="email">
 </label></div>
-:::
+
 
 ---
-## Outros semelhantes à caixa de texto ![A partir do HTML5](../../images/html5-logo-big.png) <!-- {style="max-height: .75em"} -->
 
 - Pesquisa<br> <!-- {ul:style="display: flex; flex-direction: row; justify-content: space-around"} -->
   `<input type="search">`: <input type="search" style="width: calc(100% - 1em); box-sizing: border-box; margin-bottom: 1em;">
@@ -138,7 +137,6 @@
 
 ---
 <!-- {"layout": "2-column-content"} -->
-## Números, Escala e Cor ![A partir do HTML5](../../images/html5-logo-big.png) <!-- {style="max-height: .75em"} -->
 
 - Formato: <!-- {ul:.no-bullets.no-padding} -->
   ```html
@@ -147,11 +145,11 @@
   <input type="color">
   ```
 1. <!-- {ol:.no-bullets.no-padding} -->
-   ::: result . background-color:white; margin-top: 1.25em
+
    1. <input type="number" step="0.5" size="4"><br>
    2. <input type="range" min="0" max="100" step="1"><br>
    3. <input type="color">
-   :::
+
 
 - `number` é indicado para digitação de um número específico <!-- {ul:.span-columns} -->
 - `range` para uma escala (_e.g._, quente ou frio?)
@@ -160,7 +158,6 @@
 
 ---
 <!-- {"layout": "2-column-content"} -->
-## Data e Hora ![A partir do HTML5](../../images/html5-logo-big.png) <!-- {style="max-height: .75em"} -->
 
 - Formato: <!-- {ul:.no-bullets.no-padding} -->
   ```html
@@ -171,13 +168,11 @@
   <input type="week">
   ```
 
-::: result . display: flex; flex-direction: column; margin-top: 2.25em;
 <input type="date">
 <input type="time">
 <input type="datetime-local">
 <input type="month">
 <input type="week">
-:::
 
 - Observações: <!-- {ul:.span-columns} -->
   - `date` é apenas uma data, `time` apenas um horário
@@ -232,11 +227,11 @@
   ```
   - **!!** Se não colocarmos um `<label></label>`, o usuário precisará
     clicar exatamente na caixinha
-    ::: result
+
       <div style="display: flex; justify-content: space-between"><label>
         <input type="checkbox"> Inscrever (com label)?
       </label><div><input type="checkbox"> Inscrever <del>(com label)</del>?</div></div>
-    :::
+
 - Atributos:
   - `checked`, para deixar **previamente marcado**
     ```html
@@ -256,15 +251,16 @@
     <input type="radio" name="cor" value="verde">Verde
   </label>
   ```
-1. ![](../../images/old-radio-button.webp) <!-- {style="max-width: 80%; margin-top: 1.5em;"} --> <!-- {ol:.no-bullets.no-padding.center-aligned.no-margin} -->
-   ::: result
+![](../../images/old-radio-button.webp) <!-- {style="max-width: 80%; margin-top: 1.5em;"} --> <!-- {ol:.no-bullets.no-padding.center-aligned.no-margin} -->
+
+
      <div><label>
        <input type="radio" name="cor" value="azul"> Azul
      </label>
      <label>
        <input type="radio" name="cor" value="verde"> Verde
      </label></div>
-   :::
+
 
 - **Atributo `name`**: define qual é o nome do input ao enviar o fomulário para o servidor <!-- {ul:.span-columns} -->
 - Repare que apenas uma cor pode ser escolhida
@@ -273,12 +269,11 @@
 ---
 ## Select e options <small>(lista de opções)</small>
 
-- ::: result .push-right margin-left: 1em; margin-top: 1.25em
   <label for="sabor" style="display: block">Sabor da pizza:</label> <select name="sabor" id="sabor">
     <option value="marg">Marguerita</option>
     <option value="muzza" selected>Frango</option>
   </select>
-  :::
+
   Formato: <!-- {ul:.full-width.no-margin} -->
   ```html
   <label for="sabor">Sabor da pizza:</label>
@@ -338,8 +333,10 @@
 
 - Um **formulário** é um conjunto de campos de dados (_i.e._, entrada/escolha)
   que pode ser **enviado** <!-- {.underline} --> a um servidor Web. Exemplos:
-  - ![](../../images/cadastro-facebook.png) <!-- {.push-right.bordered.rounded style="max-width: 450px"} -->
+
+   ![](../../images/cadastro-facebook.png) <!-- {.push-right.bordered.rounded style="max-width: 450px"} -->
     Ao se cadastrar no Facebook (ou qualquer site)
+
   - Ao preencher e enviar um questionário
   - Ao editar seu perfil em algum site
 - Além de **enviar os dados**, podemos também configurar os campos com
@@ -397,7 +394,7 @@
     <button type="submit">Entrar</button>
   </form>
   ```
-  ::: result
+
   <form action="verifica-login.php">
     <label>Digite seu login:
       <input type="text" id="usuario" required size="10">
@@ -405,7 +402,7 @@
     </label>
     <button type="submit">Entrar</button>
   </form>
-  :::
+
 
 ---
 ## Outros Tipos de Restrições
@@ -433,20 +430,6 @@
 
 ---
 <!-- {"backdrop": "avatarcreator"} -->
-
----
-# Atividade de Hoje
-
-- Completar a página do "AvatarCreator" :lipstick:
-- [Baixe os arquivos][avatar-seminal] contendo o HTML e faça os exercícios
-  - Leia as instruções detalhadas no arquivo `README.md`. No geral:
-    1. Possibilitar o usuário:
-       - Escrever o nome
-       - Selecionar uma cor da pele
-       - Escolher um cabelo
-       - Colocar/remover acessórios (desafios)
-
-[avatar-seminal]: https://github.com/fegemo/cefet-front-end-avatar/archive/master.zip
 
 ---
 # Eventos de formulários
@@ -483,12 +466,10 @@
     border-width: none; /* tira o fundo e a borda */
   }
   ```
-  ::: result
   <input type="number" style="width: 4em;">
   <input type="text" disabled style="cursor: not-allowed; opacity: 0.65">
   <button disabled style="cursor: not-allowed; opacity: 0.65">Desabilitado</button>
   <input class="discreto" type="texto" style="background-color: transparent; border-width: 0;">
-  :::
 
 
 ---
@@ -504,10 +485,10 @@
     border: 1px solid red;
   }
   ```
-  ::: result
+
   <input type="number" required placeholder="Este number é required">
   <input type="text" pattern="[0-9]{4}" maxlength="4" size="20" placeholder="Padrão de 4 dígitos">
-  :::
+
   - É importante ressaltar o elemento que **está com o foco**
   - Além de mostrar os que **estão com erro**
 
