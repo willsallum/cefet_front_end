@@ -466,7 +466,7 @@
 - É possível estilizar campos **em diferentes situações** <!-- {ul:.estilizando-forms} -->
   ```css
   input:focus { /* elemento que está com o foco */
-    outline: 3px solid yellow;
+    outline: 3px solid LightSkyBlue;
   }
   input:invalid { /* elementos com erro */
     border: 1px solid red;
