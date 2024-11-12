@@ -409,15 +409,13 @@
 
 | Tipo      	            | Código HTML                  	        | Exemplo                 	                   |
 |-------------------------|---------------------------------------|--------------------------------------------- |
-| Campo obrigatório 	    | `<input required>`                    | <form><input required size="5"><button>Enviar</button></form>     	|
+| Campo obrigatório 	    | `<input required>`                    | <input required size="5"><button>Enviar</button>  |
 | Quantidade de caracteres| `<input maxlength="2">`	              | <input maxlength="2" size="5"> 	|
-| Número mínimo       	  | `<input type="number" min="5">`	      | <form><input type="number" min="5" style="width: 5em"><button>Enviar</button></form>	|
-| Número máximo       	  | `<input type="number" max="10">`	    | <form><input type="number" max="10" style="width: 5em"><button>Enviar</button></form>	|
-| Padrão                  | `<input pattern="[0-9]{4}">` | <form><input pattern="[0-9]{4}" size="5"><button>Enviar</button></form>     |
-| Desabilitar             | `<input disabled>` | <input disabled size="5">     |
+| Número mínimo       	  | `<input type="number" min="5">`	      | <input type="number" min="5" style="width: 5em"><button>Enviar</button>	|
+| Número máximo       	  | `<input type="number" max="10">`	    | <input type="number" max="10" style="width: 5em"><button>Enviar</button>	|
+| Padrão                  | `<input pattern="[0-9]{4}">`          | <input pattern="[0-9]{4}" size="5"><button>Enviar</button>     |
+| Desabilitar             | `<input disabled>`                    | <input disabled size="5">     |
 
----
-<!-- {"layout": "section-header", "hash": "avatar-creator"} -->
 
 ---
 
