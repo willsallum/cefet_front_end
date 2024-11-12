@@ -397,8 +397,8 @@
 
   <form action="verifica-login.php">
     <label>Digite seu login:
-      <input type="text" id="usuario" required size="10">
-      <input type="password" id="senha" required size="10">
+      Usuário: <input type="text" id="usuario" required size="10"> 
+      Senha: <input type="password" id="senha" required size="10"> 
     </label>
     <button type="submit">Entrar</button>
   </form>
