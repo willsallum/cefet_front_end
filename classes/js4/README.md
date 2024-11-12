@@ -363,37 +363,47 @@ containerEl.appendChild(novaOvelhaEl);
 ---
 ## Vinculação na árvore DOM com **(1) `appendChild`**
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-1.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-1.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-2.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-2.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-3.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-3.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-5.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-5.png)
 
 
 ---
 ## Vinculação na árvore DOM com **(2) `insertBefore`**
 
 medium-width.invert-colors-dark-mode
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-7.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-7.png)
 
 
 ---
 ## Vinculação na árvore DOM com **(3) `replaceChild`**
 
 medium-width.invert-colors-dark-mode
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)
 
-1. ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-8.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+1. 
+![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-8.png)
 
 
 ---
