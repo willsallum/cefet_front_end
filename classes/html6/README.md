@@ -472,7 +472,14 @@
     border: 1px solid red;
   }
   ```
-
+<style>
+  input:focus { /* elemento que está com o foco */
+    outline: 3px solid yellow;
+  }
+  input:invalid { /* elementos com erro */
+    border: 1px solid red;
+  }
+</style>
   <input type="number" required placeholder="Este number é required">
   <input type="text" pattern="[0-9]{4}" maxlength="4" size="20" placeholder="Padrão de 4 dígitos">
 
