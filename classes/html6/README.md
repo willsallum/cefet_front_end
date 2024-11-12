@@ -418,20 +418,9 @@
 
 ---
 <!-- {"layout": "section-header", "hash": "avatar-creator"} -->
-# AvatarCreator :lipstick:
-## Gerador de avatares
-
-- O AvatarCreator :lipstick:
-- Eventos de formulários
-  - Foco: `blur` e `focus`
-  - Teclado: `keydown` e `keyup`
-  - Modificação: `change`, `input`<!-- {ul^1:.content} -->
-- Estilizando campos de formulários
 
 ---
-<!-- {"backdrop": "avatarcreator"} -->
 
----
 # Eventos de formulários
 
 - Lembrando: eventos são **associados a elementos HTML** e causam a
