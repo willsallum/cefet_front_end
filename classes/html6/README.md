@@ -473,7 +473,7 @@
   }
   ```
 <style>
-  input { outline: 3px solid black; }
+  input { border: 1px solid black; }
   input:focus { /* elemento que está com o foco */
     outline: 3px solid yellow;
   }
