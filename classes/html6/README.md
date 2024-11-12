@@ -1,7 +1,7 @@
 <!-- {"layout": "title"} -->
 # **HTML** parte 6
 
-## Elementos HTML de entrada, eventos e formulários<br> 💄
+## Elementos HTML de entrada, eventos e formulários<br> 
 
 ---
 # Na última aula... (1/4)
@@ -473,6 +473,7 @@
   }
   ```
 <style>
+  input { outline: 3px solid black; }
   input:focus { /* elemento que está com o foco */
     outline: 3px solid yellow;
   }
