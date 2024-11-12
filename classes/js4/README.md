@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 4
-## Usando objetos, Criando elementos HTML<br>e a Lista de Tarefas :notebook:
+## Usando objetos, Criando elementos HTML<br>
 
 ---
 # Na última aula... (1/3)
@@ -85,9 +85,6 @@ Especificada no CSS3, `animation` e `@keyframes` possibilitam o uso de
 
 1. [Usando objetos em JavaScript](#usando-objetos-em-javascript)
 1. [Criando elementos HTML dinamicamente](#criando-elementos-html-dinamicamente)
-1. [Lista de Tarefas](#lista-de-tarefas) :notebook:
-   - Exemplo 1: [Albums de música](#albums-de-musica)
-   - Exemplo 2: [Agenda telefônica](#agenda-telefonica)
 
 ---
 <!-- { "layout": "section-header", "hash": "usando-objetos-em-javascript"} -->
@@ -244,7 +241,6 @@ for (let i = 0; i < jogadores.length; i++) {
   passouDeFase(jogadores[i]);
 }
 
-
 // equivalente, porém super-mega-ultra
 // ELEGANTE, usando vetor.forEach:
 jogadores.forEach(passouDeFase);  // 🌟🌟🌟
@@ -259,29 +255,31 @@ jogadores.forEach(passouDeFase);  // 🌟🌟🌟
   1. **Reduzir** o número de **parâmetros**
   1. Trabalhar com **vários objetos semelhantes**
      - Em um vetor
+
      ```js
      let macunaima = { /* ... */ },
       mentecapto = { /*... */ };
      let biblioteca = [   // (3)
        macunaima, mentecapto];
      ```
-```js
-// poderíamos fazer assim: 👎
-let autorDoLivro = 'Mário de Andr.',
-  nomeDoLivro = 'Macunaíma',
-  anoDoLivro = 1928;
 
-// mas assim é melhor (1): 👍
-let livro = {
-  autor: 'Mário de Andrade',
-  nome: 'Macunaíma',
-  ano: 1928
-};
+     ```js
+      // poderíamos fazer assim: 👎
+      let autorDoLivro = 'Mário de Andr.',
+        nomeDoLivro = 'Macunaíma',
+        anoDoLivro = 1928;
 
-function incluiNaBiblioteca(livro) {
-  // (2) ...
-}
-```
+      // mas assim é melhor (1): 👍
+      let livro = {
+        autor: 'Mário de Andrade',
+        nome: 'Macunaíma',
+        ano: 1928
+      };
+
+      function incluiNaBiblioteca(livro) {
+        // (2) ...
+      }
+     ```
 
 ---
 <!-- {"layout": "section-header", "hash": "criando-elementos-html-dinamicamente"} -->
@@ -305,12 +303,15 @@ function incluiNaBiblioteca(livro) {
 - É possível criar elementos dinamicamente, de duas formas:
   1. Definindo a propriedade de **`innerHTML` de um elemento** da árvore
      para **uma string descrevendo uma estrutura HTML** (já vimos):
+
      ```js
      let listaEl = document.querySelector('#lista-de-dados');
      listaEl.innerHTML = '<li><img src="images/d12.png"></li>';
      ```
+
   1. Instanciando elementos e os adicionando ao DOM, que é feito em
      3 passos (detalhados a seguir):
+
      ```js
      // 1. Solicitamos ao document a criação de um elemento
      // 2. Configuramo-lo (atributos, id, classes etc.)
@@ -324,6 +325,7 @@ function incluiNaBiblioteca(livro) {
 - A função **document.createElement** cria um elemento HTML <!-- {ul:.compact-code.bulleted-0} -->
   - Devemos especificar a _tag_ do elemento que iremos criar
 - Exemplo - criação de uma imagem:
+
   ```js
   // 1. Solicitamos ao document a criação de um elemento
   let ovelhaEl = document.createElement('img');       // cria uma <img>
@@ -331,10 +333,13 @@ function incluiNaBiblioteca(livro) {
   ovelhaEl.src = 'images/ovelho-pixel.png';           // <img src="...">
   ovelhaEl.classList.add('raca');                     // <img src="..." class="...">
   ```
+
   - Resultado:
+
     ```HTML
     <img src="images/ovelho-pixel.png" class="raca">
     ```
+
 - **Atenção**: você **criou** o elemento, mas <u>**ainda não
   o adicionou**</u> na árvore
 
@@ -358,31 +363,39 @@ containerEl.appendChild(novaOvelhaEl);
 ---
 ## Vinculação na árvore DOM com **(1) `appendChild`**
 
-::: figure .figure-slides.clean.flex-align-center.medium-width.invert-colors-dark-mode
+medium-width.invert-colors-dark-mode
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-1.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-2.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-3.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-5.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
-:::
+
 
 ---
 ## Vinculação na árvore DOM com **(2) `insertBefore`**
 
-::: figure .figure-slides.clean.flex-align-center.medium-width.invert-colors-dark-mode
+medium-width.invert-colors-dark-mode
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-7.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
-:::
+
 
 ---
 ## Vinculação na árvore DOM com **(3) `replaceChild`**
 
-::: figure .figure-slides.clean.flex-align-center.medium-width.invert-colors-dark-mode
+medium-width.invert-colors-dark-mode
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-4.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-6.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
+
 ![Exemplo de vinculação de elemento na árvore DOM](../../images/create-element-8.png)<!-- {.full-width.bullet.figure-step.bullet-no-anim} -->
-:::
+
 
 ---
 ## Resumindo: `appendChild`, `insertBefore` e `replaceChild`
@@ -396,6 +409,7 @@ containerEl.appendChild(novaOvelhaEl);
 
 - Podemos colocar texto nos elementos de 2 formas: <!-- {ul:.compact-code} -->
   1. Usando `document.createTextNode('texto aqui')`:
+
      ```js
      let bodyEl = document.querySelector('body');
      let pEl = document.createElement('p');
@@ -403,7 +417,9 @@ containerEl.appendChild(novaOvelhaEl);
      bodyEl.appendChild(pEl);                   // põe o parágrafo em <body>
      pEl.appendChild(txtEl);                    // põe o texto no <p>
      ```
+
   1. Usando `elemento.innerHTML` (👍 mais _easy_):
+
      ```js
      let bodyEl = document.querySelector('body');
      let pEl = document.createElement('p');
@@ -416,11 +432,13 @@ containerEl.appendChild(novaOvelhaEl);
 # Remoção de Elementos
 
 - Usamos `containerEl.removeChild(el)` ou, para remover todos, `innerHTML`:  <!-- {ul:.compact-code} -->
+
   ```html
   <main>
     <img id="urso" src="img/urso.png">
   </main>
   ```
+
   ```js
   let mainEl = document.querySelector('main');
   let imgEl = document.querySelector('#urso');
@@ -446,7 +464,7 @@ containerEl.appendChild(novaOvelhaEl);
 <!-- {"backdrop": "lista-de-tarefas"} -->
 
 ---
-# Lista de Tarefas :notebook:
+# Lista de Tarefas
 
 - Crie um sisteminha de gerenciamento de tarefas :notebook:
   - [Baixe os arquivos][todos] e veja as instruções
