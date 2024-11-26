@@ -47,6 +47,7 @@
 
 Especificada no CSS3, `animation` e `@keyframes` possibilitam o uso de
  animações de propriedades CSS de forma similar a `transition` <!-- {p:style="margin-top: 0; margin-bottom: 0.15em;"} -->
+
  ```html
  <img src="images/urso.jpg" id="urso">
  ```
@@ -75,7 +76,7 @@ Especificada no CSS3, `animation` e `@keyframes` possibilitam o uso de
 }
  </style>
 
- <div style="position: absolute; bottom: 2em; right: 1em; margin-top: -75px; margin-left: -75px;">
+ <div style="position: absolute; bottom: 20em; right: 1em; margin-top: -75px; margin-left: -75px;">
  <img src="../../images/urso.jpg" style="width: 150px; border-radius: 75px;" class="urso-flutuante">
  </div>
 
