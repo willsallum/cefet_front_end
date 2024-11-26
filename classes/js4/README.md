@@ -76,7 +76,7 @@ Especificada no CSS3, `animation` e `@keyframes` possibilitam o uso de
 }
  </style>
 
- <div style="position: absolute; bottom: -60em; right: 1em; margin-top: -75px; margin-left: -75px;">
+ <div style="position: absolute; bottom: -80em; right: 1em; margin-top: -75px; margin-left: -75px;">
  <img src="../../images/urso.jpg" style="width: 150px; border-radius: 75px;" class="urso-flutuante">
  </div>
 
