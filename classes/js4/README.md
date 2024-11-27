@@ -207,7 +207,7 @@ let jogadores = [
   }
   ```
   - Também podemos usar
-    [`for of` e `vetor.forEach()`](../js2/#for-formas-preferiveis)
+    [`for of`](../js2/#selecionando-vários-elementos-33) e [`vetor.forEach()`](../js2/#argumento-de-evento)
     sem problemas!
 
 ---
@@ -242,8 +242,8 @@ for (let i = 0; i < jogadores.length; i++) {
   passouDeFase(jogadores[i]);
 }
 
-// equivalente, porém super-mega-ultra
-// ELEGANTE, usando vetor.forEach:
+// equivalente, porém super-mega-ultra ELEGANTE,
+// usando vetor.forEach:
 jogadores.forEach(passouDeFase);  // 🌟🌟🌟
 ```
 
