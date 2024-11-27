@@ -207,7 +207,7 @@ let jogadores = [
   }
   ```
   - Também podemos usar
-    [`for of`](../js2/#selecionando-vários-elementos-33) e [`vetor.forEach()`](../js2/#argumento-de-evento)
+    [`for of`](../js2/#associando-mesma-callback-para-vários-elementos) e [`vetor.forEach()`](../js2/#selecionando-vários-elementos-33)
     sem problemas!
 
 ---
