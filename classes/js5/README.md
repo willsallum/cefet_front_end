@@ -90,8 +90,8 @@ containerEl.appendChild(novaOvelhaEl);
 # Roteiro
 
 1. [Usando o Web Storage](#usando-o-web-storage)
-   1. Salvando para sempre com o [`localStorage`](#local-storage)
-   1. Salvando temporariamente com o [`sessionStorage`](#session-storage)
+   1. Salvando para sempre com o [`localStorage`](#localstorage-e-sessionstorage)
+   1. Salvando temporariamente com o [`sessionStorage`](#o-web-storage)
 1. [O formato JSON](#o-formato-json)
 
 
