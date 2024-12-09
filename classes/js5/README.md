@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 5
-## Web Storage, JSON e a Lista de Tarefas :notebook: x2
+## Web Storage, JSON 
 
 ---
 <!-- {"layout": "2-column-content-zigzag"} -->
@@ -92,9 +92,7 @@ containerEl.appendChild(novaOvelhaEl);
 1. [Usando o Web Storage](#usando-o-web-storage)
    1. Salvando para sempre com o [`localStorage`](#local-storage)
    1. Salvando temporariamente com o [`sessionStorage`](#session-storage)
-1. Lista de Tarefas :notebook: x2 ([parte 1](#lista-de-tarefas-parte-1))
 1. [O formato JSON](#o-formato-json)
-1. Lista de Tarefas :notebook: x2 ([parte 2](#lista-de-tarefas-parte-2))
 
 
 ---
@@ -125,12 +123,12 @@ containerEl.appendChild(novaOvelhaEl);
 ---
 <!-- {"fullPageElement": "#moodle-video", "playMediaOnActivation": {"selector": "#moodle-video" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/local-storage-moodle.webm" controls id="moodle-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/local-storage-moodle.webm" controls id="moodle-video"></video>
 
 ---
 <!-- {"fullPageElement": "#trello-video", "playMediaOnActivation": {"selector": "#trello-video" }} -->
 
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/local-storage-trello.webm" controls id="trello-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/local-storage-trello.webm" controls id="trello-video"></video>
 
 ---
 ## O Web Storage
@@ -263,8 +261,8 @@ containerEl.appendChild(novaOvelhaEl);
     recuperar quem é o dono da lista de tarefas
     ![](../../images/cefet-front-end-todo-storage-2.jpg) <!-- {.full-width} -->
 
-[codigo-seminal-lista-tarefasx2]: https://github.com/fegemo/cefet-front-end-todo/archive/master-webstorage.zip
-[enunciado-lista-tarefasx2]: https://github.com/fegemo/cefet-front-end-todo/blob/master-webstorage/README.md
+[codigo-seminal-lista-tarefasx2]: https://github.com/willsallum/cefet_front_end_todo/archive/master-webstorage.zip
+[enunciado-lista-tarefasx2]: https://github.com/willsallum/cefet_front_end_todo/blob/master-webstorage/README.md
 
 ---
 ## Atividade, parte 1 (cont.)
