@@ -177,8 +177,9 @@
 ---
 ## A biblioteca jQuery
 
-- ![Logomarca da biblioteca jQuery](../../images/jquery-logo.svg) <!-- {.push-right.small-width.invert-colors-dark-mode} -->
-  Criada em 2006 por John Resig
+![Logomarca da biblioteca jQuery](../../images/jquery-logo.svg) <!-- {.push-right.small-width.invert-colors-dark-mode} -->
+  
+Criada em 2006 por John Resig
   - Pronuncia-se djeiquíulri
 - Objetivos:
   1. Resolver **incompatibilidade entre navegadores**
@@ -266,7 +267,7 @@ el.innerHTML = 'Pikachu';
 ## Funcionamento básico e seletores (3/3)
 
 - Exemplo: na prática da **exploração espacial** (botões '+'/'-') <!-- {ul:.no-padding.no-bullets} -->
-- <!-- {li:.layout-split-2.compact-code-mid.not-centered-pres} -->
+<!-- {li:.layout-split-2.compact-code-mid.not-centered-pres} -->
   ```js
   // versão jQuery
   $('button').click((e) => {
@@ -293,7 +294,7 @@ el.innerHTML = 'Pikachu';
 
 - Usando jQuery, há atalhos para **colocar eventos** em elementos ou
   **em coleções deles (objeto jQuery)**
-- <!-- {li:.code-split-2} -->
+<!-- {li:.code-split-2} -->
   ```js
   $('.ajuda').click(ajuda);
 
@@ -321,7 +322,7 @@ el.innerHTML = 'Pikachu';
 
 - **Objetos jQuery** podem ser estilizados, como em "vanilla js", usando:
   - (a) classes:
-  - <!-- {li:.code-split-2} -->
+<!-- {li:.code-split-2} -->
     ```js
     $('#tutorial').toggleClass('big');
 
@@ -331,7 +332,7 @@ el.innerHTML = 'Pikachu';
           .classList.toggle('big');
     ```
   - (b) propriedades CSS diretamente:
-  - <!-- {li:.code-split-2} -->
+<!-- {li:.code-split-2} -->
     ```js
     $('#tutorial').css('width', '50px');
 
@@ -360,14 +361,14 @@ el.innerHTML = 'Pikachu';
   $colecao.slideToggle();   // alterna slideDown()/slideUp()
   ```
 
-<iframe width="100%" height="160" src="//jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
+<iframe width="100%" height="160" src="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
 
 ---
 <!-- {"hash": "jquery-andando-na-arvore"} -->
 ## Andando na árvore
 
 - A partir do elemento selecionado, é possível chegar até seus parentes: <!-- {ul:.compact-code} -->
-- ```html
+  ```html
   <div class="sanfona">
     <h2>Tópico 1</h2>
     <p>Sobre o tópico 1...</p>
@@ -385,7 +386,7 @@ el.innerHTML = 'Pikachu';
   ```
   <!-- {li:.code-split-2} -->
 
-<iframe width="100%" height="250" src="//jsfiddle.net/fegemo/4podo400/embedded/result,js/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
+<iframe width="100%" height="250" src="https://jsfiddle.net/fegemo/4podo400/embedded/result,js/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
 
 ---
 <!-- {"hash": "jquery-andando-na-arvore-metodos"} -->
