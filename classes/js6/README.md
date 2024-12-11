@@ -361,7 +361,8 @@ el.innerHTML = 'Pikachu';
   $colecao.slideToggle();   // alterna slideDown()/slideUp()
   ```
 
-<iframe width="100%" height="160" src="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
+<a href="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/">Aceese o código aqui!</a>
+<!--<iframe width="100%" height="160" src="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>-->
 
 ---
 <!-- {"hash": "jquery-andando-na-arvore"} -->
