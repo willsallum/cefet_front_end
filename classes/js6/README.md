@@ -361,7 +361,7 @@ el.innerHTML = 'Pikachu';
   $colecao.slideToggle();   // alterna slideDown()/slideUp()
   ```
 
-<a href="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/dark/" target='_blank'>Acesse código e visual aqui!</a>
+<a href="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/result,js,html/dark/" target='_blank'>Acesse código e visual em outra janela AQUI!</a>
 <!--<iframe width="100%" height="160" src="https://jsfiddle.net/fegemo/4L525ow4/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>-->
 
 ---
