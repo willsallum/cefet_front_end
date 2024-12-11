@@ -387,7 +387,8 @@ el.innerHTML = 'Pikachu';
   ```
   <!-- {li:.code-split-2} -->
 
-<iframe width="100%" height="250" src="https://jsfiddle.net/fegemo/4podo400/embedded/result,js/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>
+<a href="https://jsfiddle.net/fegemo/4podo400/embedded/result,js,html/dark/" target='_blank'>Acesse código e visual em outra janela AQUI!</a>
+<!--<iframe width="100%" height="250" src="https://jsfiddle.net/fegemo/4podo400/embedded/result,js/" allowfullscreen="allowfullscreen" frameborder="0" class="bordered rounded"></iframe>-->
 
 ---
 <!-- {"hash": "jquery-andando-na-arvore-metodos"} -->
