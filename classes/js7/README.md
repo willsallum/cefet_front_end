@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **JavaScript** parte 7
-## Ajax e as Guerras Estelares :stars:
+## Ajax
 
 ---
 <!-- {"layout": "centered"} -->
@@ -11,8 +11,6 @@
    - Em _vanilla_ JavaScript
    - Com ajuda de jQuery
    - Usando <code>fetch</code>
-1. [Guerras Estelares](#guerras-estelares) :stars:
-   - Usos típicos de AJAX
 
 ---
 <!-- { "layout": "section-header", "hash": "requisicoes-sincronas"} -->
@@ -97,11 +95,11 @@
 
 ---
 <!-- {"fullPageElement": "#ajax-video", "playMediaOnActivation": {"selector": "#ajax-video" }} -->
-<video src="//fegemo.github.io/cefet-front-end-large-assets/videos/ajax-no-fumaceiro.webm" controls id="ajax-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/ajax-no-fumaceiro.webm" controls id="ajax-video"></video>
 
 [:globe_with_meridians: Exemplo do Fumaceiro][fumaceiro] <!-- {a:.full-page-video-caption target="_blank"} -->
 
-[fumaceiro]: https://fegemo.github.io/cefet-front-end-ajax
+[fumaceiro]: https://willsallum.github.io/cefet_front_end_ajax
 
 ---
 <!-- {"layout": "section-header", "hash": "ajax"} -->
@@ -224,7 +222,7 @@ function callbackMaisTweets() {
 - Ao clicar no botão "Mostrar avaliações", fazemos uma **requisição Ajax
   para pegá-las** e, então, as mostramos
 
-[fumaceiro]: https://fegemo.github.io/cefet-front-end-ajax/
+[fumaceiro]: https://willsallum.github.io/cefet_front_end_ajax/
 
 ---
 <!-- {"classes": "compact-code"} -->
@@ -315,7 +313,7 @@ $('#show-reviews').click(() => {
 });
 ```
 
-[fumaceiro-jquery]: https://fegemo.github.io/cefet-front-end-ajax/index-jquery.html
+[fumaceiro-jquery]: https://willsallum.github.io/cefet_front_end_ajax/index-jquery.html
 
 ---
 <!-- {"hash": "ajax-fetch"} -->
@@ -353,7 +351,7 @@ showReviewsEl.addEventListener('click', () => {
 });
 ```
 
-[fumaceiro-fetch]: https://fegemo.github.io/cefet-front-end-ajax/index-fetch.html
+[fumaceiro-fetch]: https://willsallum.github.io/cefet_front_end_ajax/index-fetch.html
 
 ---
 <!-- {"layout": "section-header", "hash": "guerras-estelares"} -->
@@ -394,7 +392,7 @@ showReviewsEl.addEventListener('click', () => {
   - Disponível em https://swapi.dev/
 - Mais instruções no Moodle ou [na atividade][guerras-estelares]
 
-[guerras-estelares]: https://github.com/fegemo/cefet-front-end-starwars
+[guerras-estelares]: https://github.com/willsallum/cefet_front_end_starwars
 
 ---
 <!-- {"layout": "centered"} -->
