@@ -6,8 +6,8 @@
 <!-- {"layout": "centered"} -->
 # Hoje veremos
 
-1. [Requisições síncronas](#requisicoes-sincronas)
-1. [Ajax](#ajax): requisições assíncronas
+1. [Requisições síncronas](#como-funcionam-as-requisições)
+1. [Ajax](#requisições-assíncronas): requisições assíncronas
    - Em _vanilla_ JavaScript
    - Com ajuda de jQuery
    - Usando <code>fetch</code>
@@ -32,13 +32,13 @@
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin
+
 ![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-:::
+
 
 ---
 <!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']", "backdrop": "oldtimes"} -->
@@ -80,7 +80,7 @@
   resposta chega, uma função JavaScript é chamada
   - O usuário pode **continuar usando a página** enquanto a resposta chega
 
-::: figure .figure-slides.clean.invert-colors-dark-mode top: -3em;
+
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-01.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-02.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-03.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
@@ -91,7 +91,7 @@
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-08.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-09.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
 ![Páginas dinâmicas](../../images/requisicoes-sincronas-assincronas-10.svg) <!-- {.bullet.figure-step.bullet-no-anim.full-width} -->
-:::
+
 
 ---
 <!-- {"fullPageElement": "#ajax-video", "playMediaOnActivation": {"selector": "#ajax-video" }} -->
@@ -354,18 +354,7 @@ showReviewsEl.addEventListener('click', () => {
 [fumaceiro-fetch]: https://willsallum.github.io/cefet_front_end_ajax/index-fetch.html
 
 ---
-<!-- {"layout": "section-header", "hash": "guerras-estelares"} -->
-# Guerras Estelares :stars:
-## Intro nas estrelas
 
-- Usos comuns de Ajax
-- Atividade de hoje
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "starwars"} -->
-
----
 ## Usos comuns de Ajax
 
 - Pegar novas informações depois que a página carregou. Exemplos:
@@ -384,17 +373,7 @@ showReviewsEl.addEventListener('click', () => {
 [swapi-example]: https://swapi.dev/api/films/1/
 
 ---
-# Intro nas Estrelas
 
-- Vamos criar um letreiro Star Wars em JavaScript e CSS \o/
-- Você deve escrever código JavaScript para fazer uma chamada Ajax para
-  uma API pública com informações sobre Star Wars
-  - Disponível em https://swapi.dev/
-- Mais instruções no Moodle ou [na atividade][guerras-estelares]
-
-[guerras-estelares]: https://github.com/willsallum/cefet_front_end_starwars
-
----
 <!-- {"layout": "centered"} -->
 # Referências
 
