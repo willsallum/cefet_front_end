@@ -313,7 +313,7 @@ $('#show-reviews').click(() => {
 - Mais recentemente, foi introduzida nova forma: `fetch(...)` <!-- {ul:.full-width} -->
 - Ele envia uma requisição Ajax e retorna uma **Promessa**
   > **Promessa**: algo que pode dar certo, ou errado.
-  > <cite>Coutinho</cite>
+  > 
 - Formato:
   ```js
   fetch(url, opcoes)
