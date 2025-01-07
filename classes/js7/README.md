@@ -366,7 +366,7 @@ showReviewsEl.addEventListener('click', () => {
 ---
 
 <!-- {"hash": "setup-local-server"} -->
-## Erro ao fazer o AJAX (slide oculto :P)
+## Erro ao fazer o AJAX 
 
 - Os navegadores têm uma política de permissões diferente para quando
   acessamos uma página via o protocolo file:// que proíbe o uso de
