@@ -183,20 +183,20 @@ function callbackMaisTweets() {
 ## Estados de um `XMLHttpRequest`
 
 **0	`UNSENT`**
-  ~ `open()` ainda não foi invocado
+  .. `open()` ainda não foi invocado
 
 **1	`OPENED`**
-  ~ `send()` ainda não foi invocado
+  .. `send()` ainda não foi invocado
 
 **2	`HEADERS_RECEIVED`**
-  ~ `send()` foi invocado e os cabeçalhos da resposta
+  .. `send()` foi invocado e os cabeçalhos da resposta
   já estão disponíveis (chegaram)
 
 **3	`LOADING`**
-  ~ fazendo _download_ da resposta
+  .. fazendo _download_ da resposta
 
 **4	`DONE`**
-  ~ operação finalizada
+  .. operação finalizada
 
 - Basicamente, precisamos de fazer algo apenas quando a requisição chega
   ao estado **4 `DONE`**
