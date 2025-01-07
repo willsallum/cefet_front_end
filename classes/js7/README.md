@@ -365,15 +365,6 @@ showReviewsEl.addEventListener('click', () => {
 
 ---
 
-<!-- {"layout": "centered"} -->
-# Referências
-
-1. Mozilla Developer Network (MDN)
-1. [Artigo que batizou a técnica de Ajax][artigo-ajax], de Jesse James Garret
-
-[artigo-ajax]: http://adaptivepath.org/ideas/ajax-new-approach-web-applications/
-
----
 <!-- {"hash": "setup-local-server"} -->
 ## Erro ao fazer o AJAX (slide oculto :P)
 
@@ -388,3 +379,15 @@ showReviewsEl.addEventListener('click', () => {
      $ python -m SimpleHTTPServer
      ```
   1. Acesse http://localhost:8000 no navegador
+
+---
+
+<!-- {"layout": "centered"} -->
+# Referências
+
+1. Mozilla Developer Network (MDN)
+1. [Artigo que batizou a técnica de Ajax][artigo-ajax], de Jesse James Garret
+
+[artigo-ajax]: http://adaptivepath.org/ideas/ajax-new-approach-web-applications/
+
+---
