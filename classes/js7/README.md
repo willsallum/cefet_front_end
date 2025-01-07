@@ -32,19 +32,10 @@
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-
-![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-
----
-<!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']", "backdrop": "oldtimes"} -->
 ### **Navegador requisita** algo e **Servidor responde**
 
-- ![](../../images/http-diagram-informal.svg) <!-- {.full-width.centered.step-3} --> <!-- {ul:.http-diagram.no-bullets.no-padding.bullet} -->
+
+![](../../images/http-diagram-informal.svg) <!-- {.full-width.centered.step-3} --> <!-- {ul:.http-diagram.no-bullets.no-padding.bullet} -->
   Requisição:
   ```http
   GET /index.html HTTP/1.1
@@ -179,7 +170,7 @@ function callbackMaisTweets() {
   "arrayComNovosTweets": [
     {
       "autor": "Sensacionalista",
-      "texto": "Grupo de feministas pró-Bolsonaro
+      "texto": "Grupo de pessoas que sabem tudo
                 cria novo grupo: Vegetarianos
                 pró carne mal passada",
       "curtidas": 2
