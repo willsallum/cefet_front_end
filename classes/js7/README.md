@@ -375,13 +375,12 @@ showReviewsEl.addEventListener('click', () => {
   Web e acessar a página usando o protocolo HTTP
   1. Navegue até seu diretório com o arquivo index.html **pelo terminal**
   1. Use um servidor http simples em python
+    - **Python versão 2.x**
      ```bash
-     Versão 2.x
-     ==========
      $ python -m SimpleHTTPServer
-     
-     Versão 3.x
-     ==========
+    ```
+    - **Python versão 3.x**
+    ```bash
      $ python -m http.server 8000
      ```
   1. Acesse http://localhost:8000 no navegador
