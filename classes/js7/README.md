@@ -377,8 +377,11 @@ showReviewsEl.addEventListener('click', () => {
   1. Use um servidor http simples em python
      ```bash
      Versão 2.x
+     ==========
      $ python -m SimpleHTTPServer
+     
      Versão 3.x
+     ==========
      $ python -m http.server 8000
      ```
   1. Acesse http://localhost:8000 no navegador
