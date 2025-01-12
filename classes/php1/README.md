@@ -10,7 +10,7 @@
 	 - [O servidor Apache](#servidor-apache)
 1. [PHP: PHP Hypertext Preprocessor](#php)
 1. [Bancos de dados](#bancos-de-dados) e o MySQL
-1. [Piratas e seus Tesouros](#tesouros-de-piratas-dinamicos) :crown: x2
+
 
 *[PHP]: PHP Hypertext Preprocessor*
 
@@ -50,13 +50,11 @@
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-::: figure .http-diagram.flex-align-center.figure-slides.clean.no-margin
 ![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
 
 ![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-:::
 
 ---
 <!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']", "backdrop": "oldtimes"} -->
@@ -90,12 +88,11 @@
 
 
 ---
-::: figure .figure-slides.full-width-slides
+
 ![Carregando uma página com um servidor vs sem](../../images/carregando-pagina-servidor-vs-local-1.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![Carregando uma página com um servidor vs sem](../../images/carregando-pagina-servidor-vs-local-2.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![Carregando uma página com um servidor vs sem](../../images/carregando-pagina-servidor-vs-local-3.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
 ![Carregando uma página com um servidor vs sem](../../images/carregando-pagina-servidor-vs-local-4.png) <!-- {.bullet.figure-step.bullet-no-anim} -->
-:::
 
 ---
 ## O que faz um servidor Web?
@@ -117,17 +114,17 @@
 ## Páginas HTML **estáticas** vs páginas **dinâmicas** <!-- {.alternate-color} -->
 
 Pág. **estáticas**
-	~ O servidor simplesmente entrega um arquivo .html da forma como ele foi
+	-- O servidor simplesmente entrega um arquivo .html da forma como ele foi
 		criado pelo programador
-	~ É o que temos feito
+	-- É o que temos feito
 
 Pág. **dinâmicas** <!-- {.alternate-color} -->
-	~ Podem exibir um conteúdo diferente, dependendo:
+	-- Podem exibir um conteúdo diferente, dependendo:
 		- Usuário que está logado
 		- Parâmetros de entrada
 		- Além disso, elas podem exibir conteúdo que está armazenado
 			em um **banco de dados**
-	~ É o que vamos fazer hoje!
+	-- É o que vamos fazer hoje!
 
 ---
 <!-- {"layout": "2-column-content"} -->
@@ -146,13 +143,11 @@ Pág. **dinâmicas** <!-- {.alternate-color} -->
 ---
 ## Site das ovelhas: páginas **dinâmicas** <!-- {.alternate-color} -->
 
-::: figure .figure-slides.clean
 ![Páginas dinâmicas](../../images/pag-dinamica-1.png) <!-- {.bullet.figure-step.bullet-no-anim style="max-width: 100%"} -->
 ![Páginas dinâmicas](../../images/pag-dinamica-2.png) <!-- {.bullet.figure-step.bullet-no-anim style="max-width: 100%"} -->
 ![Páginas dinâmicas](../../images/pag-dinamica-3.png) <!-- {.bullet.figure-step.bullet-no-anim style="max-width: 100%"} -->
 ![Páginas dinâmicas](../../images/pag-dinamica-4.png) <!-- {.bullet.figure-step.bullet-no-anim style="max-width: 100%"} -->
 ![Páginas dinâmicas](../../images/pag-dinamica-5.png) <!-- {.bullet.figure-step.bullet-no-anim style="max-width: 100%"} -->
-:::
 
 ---
 ## O que é uma **URL**? <small>Unique Resource Locator </small>
@@ -160,16 +155,16 @@ Pág. **dinâmicas** <!-- {.alternate-color} -->
 ![As partes de uma URL](../../images/url-parts.svg) <!-- {.block.full-width} -->
   
 domínio <!-- {dl.bulleted} -->
-~ Em que computador estão os arquivos
+-- Em que computador estão os arquivos
 
 porta
-~ Qual endereço do programa dentro do computador
+-- Qual endereço do programa dentro do computador
 
 caminho
-~ Qual o endereço até o arquivo
+-- Qual o endereço até o arquivo
 
 **_query string_**
-~ Identificar o que se deseja mostrar - por exemplo, o código identificador da ovelha
+-- Identificar o que se deseja mostrar - por exemplo, o código identificador da ovelha
 
 O _back-end_ pode usar a _query string_ para fazer uma busca no
 banco de dados e retornar informações sobre algo específico. <!-- {p:.note.info} -->
@@ -523,19 +518,6 @@ Para interagir com um SGBD, precisamos de uma linguagem...<!-- {p:.note.info} --
   ?>
   ```
 
-
----
-<!-- {"layout": "section-header", "hash": "tesouros-de-piratas-dinamicos"} -->
-# Piratas Dinâmicos
-## Barba-Ruiva + Apache, PHP e MySQL
-
-- Instalando Apache, PHP e MySQL
-- Atividade de hoje
-<!-- {ul:.content} -->
-
----
-<!-- {"backdrop": "piratas-php"} -->
-
 ---
 ## Instalando Apache, PHP e MySQL
 
@@ -573,7 +555,7 @@ Para interagir com um SGBD, precisamos de uma linguagem...<!-- {p:.note.info} --
   o Apache, PHP e um banco de dados MySQL <!-- {ul:.span-columns} -->
 - Veja o [enunciado completo][enunciado-pirates] no Github
 
-[enunciado-pirates]: https://github.com/fegemo/cefet-front-end-pirates/tree/master-php
+[enunciado-pirates]: https://github.com/willsalum/cefet_front_end_pirates/archive/master-php
 
 ---
 <!-- {"layout": "centered"} -->
