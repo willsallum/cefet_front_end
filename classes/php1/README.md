@@ -544,20 +544,7 @@ Para interagir com um SGBD, precisamos de uma linguagem...<!-- {p:.note.info} --
 [xampp]: https://www.apachefriends.org/pt_br/index.html
 
 ---
-<!-- {"layout": "2-column-content"} -->
-## Atividade de hoje
 
-![](../../images/piratas-php-inicial.jpg) <!-- {.full-width} -->
-
-![](../../images/piratas-php.jpg) <!-- {.full-width} -->
-
-- Torne a página dos tesouros do Barba-Ruiva uma página dinâmica usando
-  o Apache, PHP e um banco de dados MySQL <!-- {ul:.span-columns} -->
-- Veja o [enunciado completo][enunciado-pirates] no Github
-
-[enunciado-pirates]: https://github.com/willsalum/cefet_front_end_pirates/archive/master-php
-
----
 <!-- {"layout": "centered"} -->
 # Referências
 
