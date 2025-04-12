@@ -342,7 +342,7 @@ A _tag_ de hiperlink possui um atributo `target="..."` que pode ter
   }
   ```
 
-[outros-seletores]: http://localhost:8080/classes/css2/#outros-seletores
+[outros-seletores]: https://willsallum.github.io/cefet_front_end/classes/css2/#outros-seletores
 
 ---
 
