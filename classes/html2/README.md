@@ -256,9 +256,9 @@ Vamos ver como o navegador faz... <!-- {.bullet} -->
   ```html
   <a href="outra-pagina.html">Outra página</a>
   ```
-- [Link para **enviar um email**](mailto:coutinho@decom.cefetmg.br) para alguém:
+- [Link para **enviar um email**](mailto:william.sallum@cefetmg.br) para alguém:
   ```html
-  <a href="mailto:fegemo@cefetmg.br">Me envie um email</a>
+  <a href="mailto:willam.sallum@cefetmg.br">Me envie um email</a>
   ```
   - Ao clicar no link, o navegador abre o email do usuário
 
