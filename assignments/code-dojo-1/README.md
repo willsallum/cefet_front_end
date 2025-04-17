@@ -193,7 +193,8 @@ digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do 
 ## 9. Adicione texto, título e link à nova página
 
 - Deixe um espaçamento entre a borda e o texto de 10 pixels (use a propriedade `padding`)
-- Crie uma lista não numerada de itens
+- Crie uma lista não numerada de itens (vide o conteúdo da respectiva aula: [como criar listas][listas])
+
 ![Página exibindo o primeiro passo](../../images/coding-dojo-1-passos/passo9.png) <!-- {.bordered.rounded.push-right style="width: 400px;"} -->
 - Cada item da lista contém 1 link:
   - `http://www.devmedia.com.br/o-que-e-o-coding-dojo/30517`
@@ -202,6 +203,8 @@ digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do 
 - Título: cor azul (_blue_) centralizado
 - Parágrafo: fonte "Arial", Justificado
 - Crie o link para voltar para a página anterior
+
+[listas]: https://willsallum.github.io/cefet_front_end/classes/html2/#enumerando-coisas
 
 ---
 ## 10. Retornando à pagina inicial...
