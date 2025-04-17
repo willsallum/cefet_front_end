@@ -72,15 +72,14 @@ Exercício: fazer uma página explicando o que é Coding Dojo
 ---
 ## 0. Criação da Página
 
-- Na pasta `code-dojo`, **crie um arquivo HTML** (ex: `principal.html`)
-- No início do HTML, **especifique a versão do HTML**: `<!DOCTYPE html>`
+- Na pasta `code-dojo`, **crie o arquivo HTML: <u>`principal.html`</u>**
+- No início do HTML, **especifique a versão do HTML**: `<!DOCTYPE html>` 
 - Escreva as **tags principais no arquivo** (html, head  e body)
 - **Coloque o título** (na aba do navegador) `Coding Dojo` <!-- {ul:.bullet} -->
 
 
 **Dikentinha**: no VS Code, dentro de um arquivo já salvo no formato `.html`,
-digite a palavra `html` e selecione a opção `html:5` (ou aperta <kbd>TAB</kbd>)
-para autocompletar com o esqueleto básico de todo arquivo HTML.
+digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do HTML.
 
 
 ---
@@ -92,9 +91,11 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 
 ![Página exibindo o primeiro passo](../../images/coding-dojo-1-passos/passo1.png) <!-- {.bordered.rounded.push-right style="height: 120px;"} -->
 
-  - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png`
+  - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png` (vide como fazer isto, pelo slide da [1ª aula de HTML][tag_link])
   - Salve todas as imagens em uma pasta separada
 - Para **testar**, escreva e exiba a frase `Coding dojo é muito legal` dentro do `<body>...</body>`
+
+[tag_link]: https://willsallum.github.io/cefet_front_end/classes/html1/#a-tag-head
 
 ---
 ## 2. Título (primeiro nível) e estilos da página
@@ -109,7 +110,7 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
   - Cor de fundo: Azul claro (`lightblue`)
   - Margem (esquerda e direita): 20%
 - Abrir a página `Coding Dojo` da Wikipédia
-  - Crie 01 parágrafo utilizando o texto da Wikipedia de "Coding dojo é..." até "grupos de coding dojo surgiram em 2009."
+  - Crie 01 parágrafo copiando o texto da Wikipedia sobre "Coding dojo".
 - Parágrafos: Justificados, com fonte Arial ou sans-serif
 
 ---
@@ -120,8 +121,8 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 	- Texto alinhado à esquerda
   ![Página exibindo o terceiro passo](../../images/coding-dojo-1-passos/passo3.png) <!-- {.bordered.rounded.push-right style="height: 280px;"} -->
 - Da página `Coding Dojo` da Wikipedia:
-  - Primeiro parágrafo: use o texto da Wikipédia de "Dojo é uma palavra..." até "...treinamento de programação."
-  - Segundo parágrafo: use o texto da Wikipédia de "Nessa dinâmica, todas..." até "...dos pilotos anteriores."
+  - Primeiro parágrafo: use um texto de um outro parágrafo da Wikipédia de sua ecolha".
+  - Segundo parágrafo: também, use outro outro texto de um outro parágrafo da Wikipédia de sua ecolha".
 
 ---
 ## 4. Alteração no primeiro parágrafo
@@ -163,13 +164,15 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ---
 ## 7. Links Externos e na Própria Página
 
-- Insira um link, no final da página, para voltar ao topo da página
+- Insira um link, no final da página, para voltar ao topo da página (vide na 1ª aula como [criar links][criar_links]!)
 ![Página exibindo o sétimo passo](../../images/coding-dojo-1-passos/passo7.png) <!-- {.bordered.rounded.bullet.push-right style="width: 300px;"} -->
 - Insira um link para a página da Wikipédia sobre Coding Dojo:
   `https://pt.wikipedia.org/wiki/Coding_Dojo`
 - Para o link interno (1º), será necessário criar um `id` para o primeiro elemento da página (o `<h1>`).
   Que nome seria interessante? Pense em qual função esse elemento exerce. Evite maiúsculas e
   caracteres especiais. Não pode haver espaços. <!-- {li:.note.info.bullet style="width: calc(100% - 300px - 1em); margin-top: 1.5em;"} -->
+
+  [criar_links]: https://willsallum.github.io/cefet_front_end/classes/html1/#tag-de-hyperlink-a-hrefa
 
 ---
 ## 8. Uma Nova Página
@@ -194,8 +197,8 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 ![Página exibindo o primeiro passo](../../images/coding-dojo-1-passos/passo9.png) <!-- {.bordered.rounded.push-right style="width: 400px;"} -->
 - Cada item da lista contém 1 link:
   - `http://www.devmedia.com.br/o-que-e-o-coding-dojo/30517`
-  - `http://flaviosilveira.com/2011/coding-dojo-o-que-e-e-como-participar/`
-  - `http://dojopuzzles.com/`
+  - `https://blog.kaiquegarcia.dev/coding-dojo#ok-entendi-mas-como-funciona`
+  - `https://luaverse.com/coding-dojo-uma-pratica-transformadora-na-computacao/`
 - Título: cor azul (_blue_) centralizado
 - Parágrafo: fonte "Arial", Justificado
 - Crie o link para voltar para a página anterior
