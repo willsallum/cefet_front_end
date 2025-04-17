@@ -89,7 +89,9 @@ para autocompletar com o esqueleto básico de todo arquivo HTML.
 - **Utilize a propriedade charset** da tag `meta` (dentro do `head`) para garantir que o html seja lido da forma correta:
 `<meta charset="utf-8">`
 - Exiba um **ícone** para a página
+
 ![Página exibindo o primeiro passo](../../images/coding-dojo-1-passos/passo1.png) <!-- {.bordered.rounded.push-right style="height: 120px;"} -->
+
   - Ícone pode ser encontrado na pasta `imagens-dojo` e o nome do arquivo é `icone-da-pagina.png`
   - Salve todas as imagens em uma pasta separada
 - Para **testar**, escreva e exiba a frase `Coding dojo é muito legal` dentro do `<body>...</body>`
