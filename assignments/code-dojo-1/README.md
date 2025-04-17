@@ -15,9 +15,6 @@
 **Coding Dojo**
 - Local de treinamento para **codificar**
 
-
----
-# Coding Dojo ![Coding Dojo](../../images/coding-dojo.png)<!-- {.push-left style="height: 100px;"} -->
 Codificação **em grupo**, em que o aluno pode desempenhar um dos três papeis:
 
 **Piloto**:
@@ -49,12 +46,9 @@ Codificação **em grupo**, em que o aluno pode desempenhar um dos três papeis:
 
 ---
 <!-- {"layout": "centered-horizontal"} -->
-# Coding Dojo
+# Exercício
 
-
-![Coding Dojo](../../images/coding-dojo.png)
-
-Exercício: fazer uma página explicando o que é Coding Dojo
+- ## Fazer uma página explicando o que é Coding Dojo
 
 ---
 ## Iniciando
