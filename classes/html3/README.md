@@ -1,6 +1,6 @@
 <!-- {"layout": "title"} -->
 # **HTML** parte 3
-## Tabelas, Tesouros e Piratas
+## Tabelas
 
 ---
 # Na última aula... (1/4)
