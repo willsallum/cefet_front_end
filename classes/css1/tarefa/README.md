@@ -19,7 +19,7 @@
       - Isto criará uma pasta com o nome `cefet-front-end-bees-master` lá
    1. **Renomeie** a pasta criada na área de trabalho para `site-abelhas`
       - Esta é a **pasta raiz** do site - onde devem ficar os arquivos `.html`
-   1. Veja [instruções detalhadas aqui](https://github.com/willsallum/cefet_front_end_bees/blob/master/README.md)
+   1. Veja [instruções detalhadas aqui](https://willsallum.github.io/cefet_front_end_bees/README.md)
 
 ---
 <!-- {"hash": "flutuando-coisas"} -->
