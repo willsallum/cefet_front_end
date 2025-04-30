@@ -7,9 +7,6 @@
 - Pesquisando novas propriedades CSS/elementos HTML
 <!-- {ul:.content} -->
 
---- 
-<!-- {"backdrop": "pratica-abelhas"} -->
-
 ---
 # Abelhas e suas castas
 
