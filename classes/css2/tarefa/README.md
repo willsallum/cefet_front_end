@@ -128,7 +128,7 @@ Seguem algumas sugestões para melhorar o visual das páginas:
 1. Escreva um atributo `alt` bem descritivo para a imagem encontrada
    - Obs: para isso você **precisa alterar o arquivo HTML**
 
-[seletor-negacao]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-negacao
+[seletor-negacao]: https://willsallum.github.io/cefet_front_end/classes/css2/#seletor-nega%C3%A7%C3%A3o
 
 
 
@@ -238,4 +238,4 @@ Seguem algumas sugestões para melhorar o visual das páginas:
          }
          ```
 
-[seletor-estado]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-estado
+[seletor-estado]: https://willsallum.github.io/cefet_front_end/classes/css2/#seletores-de-estado
