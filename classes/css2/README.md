@@ -177,7 +177,8 @@ Vejamos alguns exemplos de como as ferramentas podem ajudar...
 
 1994
 
-      ![Foto de Håkon Wium Lie](../../images/howcome.jpg)
+  ![Foto de Håkon Wium Lie](../../images/howcome.jpg)
+
 
     Håkon Wium Lie propõe uma linguagem com a responsabilidade
     de alterar a aparência de páginas web chamada CSS
