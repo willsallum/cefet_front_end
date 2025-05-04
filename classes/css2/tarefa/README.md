@@ -98,7 +98,7 @@ Aqui estão os itens que precisam ser implementados:
 
        ![](https://willsallum.github.io/cefet_front_end/images/ninjas-exemplo-estilo-passo.png)
 
-[seletores-atributos]: https://willsallum.github.io/cefet_front_end/classes/css2/#desafio-seletor-atributo
+[seletores-atributos]: https://willsallum.github.io/cefet_front_end/classes/css2/#seletores-de-atributo
 
 ### Sugestões
 
