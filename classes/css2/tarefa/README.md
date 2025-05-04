@@ -86,7 +86,7 @@ Aqui estão os itens que precisam ser implementados:
    - Esmaeça (deixe mais "apagadinho") o texto das notas para que não
      chamem tanta atenção quanto o texto principal
      - Isso pode ser feito colocando uma cor do texto (`color`) mais clara ou
-       usando a propriedade [`opacity`]: https://willsallum.github.io/cefet_front_end/classes/css1/#cores-com-opacidade--transpar%C3%AAncia (⬅️ indicação do professor)
+       usando a propriedade [`opacity`][opacity] (⬅️ indicação do professor)
        - `opacity` recebe um número entre 0 e 1 (por exemplo, `opacity: 0.5;`)
          e define a opacidade do elemento: 1 ➡️ 100% opaco, 0 ➡️ transparente.
    - Coloque uma cor de fundo nesses parágrafos
@@ -98,6 +98,7 @@ Aqui estão os itens que precisam ser implementados:
 
        ![](https://willsallum.github.io/cefet_front_end/images/ninjas-exemplo-estilo-passo.png)
 
+[opacity]: https://willsallum.github.io/cefet_front_end/classes/css1/#cores-com-opacidade--transpar%C3%AAncia
 [seletores-atributos]: https://willsallum.github.io/cefet_front_end/classes/css2/#seletores-de-atributo
 
 ### Sugestões
