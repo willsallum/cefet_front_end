@@ -68,7 +68,7 @@
   - Indente o código
   - Lembrem-se de usar mais recursos do editor/navegador:
     - Ao criar um arquivo `.html`, na primeira linha, digite `html` e depois <kbd>tab</kbd>, ou
-      - Digite <kbd>!</kbd> e depois pressione a tecla <kbd>tab</kbd>
+      - Pressione <kbd>!</kbd> e em seguida pressione a tecla <kbd>tab</kbd>
 
 ---
 <!-- {"layout": "2-column-content-zigzag"} -->
