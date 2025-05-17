@@ -444,7 +444,7 @@ Imagem vetorial (SVG) original (pequena) e aumentada (mantém a qualidade)
 ---
 
 <!-- {"hash": "quebra-de-linha"} -->
-# Quebra de linha (tag `<br>`)
+## Quebra de linha (tag `<br>`)
 
 - A _tag_ `<br>` funciona para quebrarmos linha em um parágrafo
   - `<br>` vem de _break line_
