@@ -3,7 +3,7 @@
 ## Fontes, Multimídia
 
 ---
-## Revisão para prova - erros comuns (1/4)
+## Dica para prova - erros comuns (1/4)
 ### Endereço absoluto vs relativo
 
 ![Estrutura de pastas para demonstrar o endereço absoluto e relativo](../../images/dir-absoluto-vs-relativo.png) <!-- {ul:.layout-split-2 style="list-style-type: none; justify-content: space-between;"} -->
@@ -16,7 +16,7 @@
   | /a.jpg                    	| `../../a.jpg`  	|
 
 ---
-## Revisão para prova - erros comuns (2/4)
+## Dica para prova - erros comuns (2/4)
 
 - Escreva uma (única) regra em CSS para colorir de vermelho apenas links
   que estejam dentro de tabelas. Os demais links não devem ser alterados.
@@ -47,7 +47,7 @@
    ```
 
 ---
-## Revisão para prova - erros comuns (3/4)
+## Dica para prova - erros comuns (3/4)
 
 ![Questão exibindo as 4 possíveis alternativas de respostas.](../../images/linha-branca-tabela.png) <!-- {.push-right} -->
 
@@ -58,7 +58,7 @@
 
 
 ---
-## Revisão para prova - erros comuns (4/4)
+## Dica para prova - erros comuns (4/4)
 
 - Lista de item dentro de um parágrafo
   - O parágrafo deve possuir apenas elementos _inline_
