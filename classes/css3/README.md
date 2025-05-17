@@ -67,8 +67,8 @@
   - Sempre que abrir uma `tag`, feche-a
   - Indente o código
   - Lembrem-se de usar mais recursos do editor/navegador:
-    - Ao criar um arquivo, digite `html` e depois <kbd>tab</kbd>, ou
-      - Digite <kbd>!</kbd> e, depois pressione a tecla <kbd>tab</kbd>
+    - Ao criar um arquivo `.html`, na primeira linha, digite `html` e depois <kbd>tab</kbd>, ou
+      - Digite <kbd>!</kbd> e depois pressione a tecla <kbd>tab</kbd>
 
 ---
 <!-- {"layout": "2-column-content-zigzag"} -->
