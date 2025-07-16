@@ -48,7 +48,7 @@ O site deve conter:
          <li>Página do assombrado (cabeçalho, rodapé, miolo e barra lateral)
          <li>Página do coral (idem)</li>
          <li>Site do CEFET-MG</li>
-         <li>Algumas <a href="https://colibriwp.com/blog/website-layout-design-ideas/" target="_blank">ideias de layout</a></li>
+         <li>Algumas ideias bacanas: <a href="https://colibriwp.com/blog/website-layout-design-ideas/" target="_blank">ideias_I</a> <a href="https://www.hostinger.com/br/tutoriais/ideias-de-layout-de-site?utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:BR-t3&utm_medium=ppc&gad_source=1&gad_campaignid=19588998604&gbraid=0AAAAADMy-hYPeGShsThgfQmU8b6LDN3PP&gclid=Cj0KCQjwm93DBhD_ARIsADR_DjHXN7ZTjgc1Q-o0Fl8eKg0kGKhoQawHRlEmAF58I550Yxb3FiGP-KYaAmb0EALw_wcB" target="_blank"> ideias_II</a></li>
       </ul>
    </details>
    <ul>
