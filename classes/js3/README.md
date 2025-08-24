@@ -123,79 +123,12 @@
 <!-- {"layout": "centered"} -->
 # Hoje veremos
 
-1. [História do JavaScript](#como-chegamos-até-aqui)
 1. [Estilizando elementos dinamicamente](#alterando-propriedades-css-de-elementos)
 1. [Eventos de mouse - além do `click`](#acionados-com-o-controle-do-mouse)
 1. [Depurando código](#como-executar-javascript-passo-a-passo)
 
 ---
-<!-- {"layout": "section-header", "hash": "historia-do-javascript"} -->
-# História do JavaScript
-## Como chegamos até aqui
 
-- **História** da linguagem
-- O objeto global: **`window`**
-
-<!-- {ul:.content} -->
-
----
-# História
-
-1989 - 1993 <!-- {.bullet-old} --> <!-- {dl:.full-width} -->
-   Tim Berners-Lee cria a WWW em CERN (*European Organization for
-    Nuclear Research*) e a deixa aberta ao público <!-- {dd:.bullet-old} -->
-
-1994 <!-- {.bullet-old} -->
-   Håkon propõe uma linguagem para dar conta da responsabilidade de
-    alterar a aparência de páginas web chamada CSS <!-- {dd:.bullet-old} -->
-
-1995 (maio)
-
-   ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
-
-    Brendan Eich, funcionário do Netscape, criou (em 10 dias!!) uma
-    linguagem para alterar páginas dinamicamente - o _Mocha_
-
-1995 (setembro)
-   _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
-
-
----
-## História (cont.)
-
-1995 (dezembro)
-   Nome virou JavaScript para aproveitar a fama do Java
-    
-1996 (agosto)
-   Microsoft adota o JavaScript sob o nome de JScript
-
-1996 (novembro)
-   A Netscape submeteu o JavaScript para a
-    _Ecma international_ para padronização. A especificação recebeu o nome de
-     _ECMAScript_
-
-1997
-   A _Ecma International_ publicou a primeira versão
-
-1998
-   Versão 2 do ECMAScript
-
-1999
-   Versão 3 do ECMAScript
-
-2009
-   Versão 5 do ECMAScript
-
-2013 - hoje
-   Versões 6-9+ do ECMAScript, que mudaram de nome para **ES2015**, **ES2016**, **ES2017**, **ES2018**...
-
-   ![](../../images/logo-javascript.svg) <!-- {style="height: 1em;"} -->
-
-*[ECMA]: European Computer Manufacturers Association*
-*[Ecma]: European Computer Manufacturers Association*
-
----
-<!-- {"hash": "o-objeto-global-window"} -->
 # O objeto global: **window**
 
 - O navegador **expõe um único objeto** por janela chamado `window`
