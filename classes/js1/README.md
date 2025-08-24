@@ -328,7 +328,7 @@
 
 ---
 
-<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls id="inclusion-video"></video>
+<video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls="" id="inclusion-video"></video>
 
 ---
 # Mais tipos de dados
