@@ -327,7 +327,7 @@
   - Se atrasar depois que já a desenhou, o usuário nem percebe 👍
 
 ---
-[![Assista ao vídeo](https://willsallum.github.io/cefet_front_end/imagens/Video_js1.png)](https://willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4)
+[![Assista ao vídeo](https://willsallum.github.io/cefet_front_end/images/Video_js1.png)](https://willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4)
 
 <video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls="" id="inclusion-video"></video>
 
