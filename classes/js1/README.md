@@ -327,6 +327,7 @@
   - Se atrasar depois que já a desenhou, o usuário nem percebe 👍
 
 ---
+<iframe width="560" height="315" src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" frameborder="0" allowfullscreen></iframe>
 
 <video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls="" id="inclusion-video"></video>
 
