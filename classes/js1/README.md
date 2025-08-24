@@ -311,29 +311,26 @@
       1. Ao final do `<head>` (logo antes de fechá-lo com `</head>`)
       2. Ao final do `<body>` (logo antes de fechá-lo com `</body>`)
     ```html
-      ...  <!-- dentro do HEAD -->
+      ...  
       <script src="executa-no-inicio.js"></script>
     </head>
     <body>
       ...
-      <!-- última coisa antes de fechar /BODY -->
+
       <script src="executa-no-fim.js"></script>
     </body>
     </html>
-     ```
+    ```
 - Aonde colocar então?
   - Prefira ao final do `<body>`
   - Um arquivo JavaScript pode atrasar o desenho da página
   - Se atrasar depois que já a desenhou, o usuário nem percebe 👍
 
-
 ---
-<!-- {"fullPageElement": "#inclusion-video", "playMediaOnActivation": {"selector": "#inclusion-video" }} -->
 
 <video src="//willsallum.github.io/cefet_front_end_large_assets/videos/pastel-parte-2.mp4" controls id="inclusion-video"></video>
 
 ---
-<!-- {"layout": "section-header", "hash": "mais-tipos-de-dados"} -->
 # Mais tipos de dados
 ## Os primitivos e o complexo
 
