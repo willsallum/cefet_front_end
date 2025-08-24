@@ -150,7 +150,7 @@
 # Hoje veremos...
 
 1. [Resolvendo Equações!](#resolvendo-equa%C3%A7%C3%B5es)
-1. [Inserindo JavaScript na página](#formas-de-insercao-de-js)
+1. [Inserindo JavaScript na página](#inserindo-javascript-na-página)
 1. [Mais tipos de dados](#os-primitivos-e-o-complexo)
 1. [Clicando em um botão](#dando-comportamento-para-a-pagina)
 
