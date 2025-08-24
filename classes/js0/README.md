@@ -73,7 +73,7 @@
     Brendan Eich, funcionário do Netscape, criou (em 10 dias!!) uma
     linguagem para alterar páginas dinamicamente - o _Mocha_
 
-    ![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
+![Foto de Brendan Eich](../../images/brendan-eich.png) <!-- {.portrait.push-right} -->
 
 1995 (setembro)
     _LiveScript_ (novo nome) é lançado com a versão beta do Netscape 2.0
