@@ -341,7 +341,7 @@
   ```
   É o tipo padrão de **variáveis que não foram associadas a nenhum valor** <!-- {li:.push-code-right} -->
 
-[bug-null]:https://2ality.com/2013/10/typeof-null.html#: :text=The%20%E2%80%9Ctypeof%20null%E2%80%9D%20bug%20is,lower%20bits%20of%20the%20units.&text=The%20data%20is%20a%20reference%20to%20an%20object.
+[bug-null]: https://2ality.com/2013/10/typeof-null.html
 
 ---
 <!-- {"classes": "compact-code"} -->
