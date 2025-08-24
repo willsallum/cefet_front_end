@@ -342,10 +342,8 @@
 - `3. String` <!-- {.tipo-js.tipo-string} --> 👀 já vimos
 - `4. Null`  <!-- {.tipo-js} --> ⬅
 - `5. Undefined` <!-- {.tipo-js} --> ⬅
-- `6. Symbol` <!-- {.tipo-js style="color: gray;"} --> [🌐 Symbols? É de comer?][symbol] <!-- {.bullet target="_blank" style="font-size: .75em; color: white"} -->
+- `6. Symbol` <!-- {.tipo-js style="color: gray;"} --> [🌐 Symbols? É de comer?][symbol]
 - `7. Object` <!-- {.tipo-js.tipo-object} --> ⬅
-
-<!-- {ul:.bullet.no-bullets} -->
 
 [symbol]: https://medium.com/trainingcenter/javascript-symbols-decifrando-o-mist%C3%A9rio-383e359e64e3
 ---
