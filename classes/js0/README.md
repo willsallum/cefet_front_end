@@ -1150,7 +1150,7 @@ Toda string possui vários métodos diferentes que podemos invocar
 
 - Pega uma frase e se a última letra de cada palavra (com mais do que 1 letra) terminar em 'a' ou 'o', substitui por 'x' <!-- {ul:.bulleted} -->
   ([no jsfiddle](https://jsfiddle.net/fegemo/Lgwv6yne/)) <!-- {target="_blank"} -->
-- <!-- {.code-split-2} -->
+
   ```js
   function alteraFinalzinhoPalavras(frase) {
     let palavras = frase.split(' ');
