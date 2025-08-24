@@ -1310,50 +1310,27 @@ Toda string possui vários métodos diferentes que podemos invocar
   ```js
   function imprimeMatriz(matriz) {
     let resultado = '';
-  ```
-  ```js
   
-  
-  ```
-- <!-- {.code-split-2} -->
-  ```js
+    // 1. para cada linha
     for (let i = 0; i < matriz.length; i++) {
+      // começou a linha
       resultado += '| ';
       for (let j = 0; j < matriz[i].length; j++) {
-  ```
-  ```js
-  // 1. para cada linha
-  // começou a linha
-  // 2. para cada coluna
-  ```
-- <!-- {.code-split-2} -->
-  ```js
+        // 2. para cada coluna
         resultado += matriz[i][j] + ' ';
       }
       resultado += '|\n';
     }
-  ```
-  ```js
-  // 3. imprime o elemento (i,j)
 
-  // acabou a linha, coloca paredinha |
+    // 3. imprime o elemento (i,j)
+    // acabou a linha, coloca paredinha |
   
-  ```
-- <!-- {.code-split-2} -->
-  ```js
     console.log(resultado);
   }
-  ```
-  ```js
-  // e quebra linha \n
 
-  ```
-- <!-- {.code-split-2} -->
-  ```js
-  
+  // e quebra linha \n
   imprimeMatriz([[1,2],[3,4]])
-  ```
-  ```js
+
   // | 1 2 |
   // | 3 4 |
   ```
