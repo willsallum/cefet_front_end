@@ -39,7 +39,7 @@
     1. Abra o bloco de notas e, com ele vazio,
        salve um novo arquivo, nessa pasta, com o nome `racas-raras.html`
 
-[codigo-seminal-ovelhas]: https://github.com/willsallum/cefet_front_end/tree/main/classes/intro/tarefa/main.zip
+[codigo-seminal-ovelhas]: https://github.com/willsallum/cefet_front_end/raw/refs/heads/main/classes/intro/tarefa/main.zip
 
 ---
 <!-- {"preventSelection": "pre > code", "elementStyles": {"pre": "height: 160px"} } -->
