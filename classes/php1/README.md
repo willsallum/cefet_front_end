@@ -50,13 +50,6 @@
   - É a **"língua falada" pelo navegador e pelo servidor web**
 - Modelo requisição &rarr; resposta
 
-![](../../images/http-diagram-informal.svg) <!-- {.step-1 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-![](../../images/http-diagram-informal.svg) <!-- {.step-2 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
-![](../../images/http-diagram-informal.svg) <!-- {.step-3 style="height: 280px"} --> <!-- {p:.bullet.figure-step.bullet-no-anim} -->
-
----
 <!-- {"layout": "2-column-content", "embedSVG": "img[src$='.svg']", "backdrop": "oldtimes"} -->
 ### **Navegador requisita** algo e **Servidor responde**
 
@@ -239,7 +232,8 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 ## PHP - Sintaxe Básica
 
 1. `echo`: exibe no HTML o que for passado como parametro. Exemplo, arquivo `index.php`:
-```php
+
+```html
 <html>
 <head>...</head>
 <body>
@@ -249,6 +243,7 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 ```
 - O servidor irá ler `index.php`, processá-lo e enviar ao navegador o
 	seguinte código HTML:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -281,6 +276,7 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 ## PHP - **Condicionais**
 
 - Condicionais possuem a sintaxe similar ao JavaScript:
+
   ```php
   <?php
     $a = 1;
@@ -298,6 +294,7 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 ## PHP - Estrutura de repetição - **for**
 
 - Também possui a sintaxe similar ao JavaScript
+
   ```php
   <?php $numero = rand(2,9); 			// aleatório entre 2 e 9 	?>
   <h1>Tabuada do <?php echo $numero ?></h1>
@@ -334,6 +331,7 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 ## PHP - **Vetores** (_Arrays_) <small>(1/2)</small>
 
 - Inicialização:
+
   ```php
   <?php $frutas =  array("kiwi", "morango", "uva"); ?>
   ```
@@ -357,6 +355,7 @@ banco de dados e retornar informações sobre algo específico. <!-- {p:.note.in
 - _Arrays_ em PHP são, na verdade, **mapas ordenados**:
 	- mapeiam uma *chave* a um *valor*
 - Exemplo:
+
   ```php
   <?php
     $personagem = array(nome => "luke",
