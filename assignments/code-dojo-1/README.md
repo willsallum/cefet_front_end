@@ -157,7 +157,9 @@ digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do 
   - Repare que elas estão dentro da pastinha `imagens-dojo`
 - Insira a imagem `foto-de-evento.jpg` após o segundo título
 - Centralize as imagens
+Como inserir imagem: [Exemplo de inserção de imagens][exemplo_img]
 
+[exemplo_img]: https://willsallum.github.io/cefet_front_end/classes/html1/#exemplo-4-imagem-2-pastas-acima
 
 ---
 ## 7. Links Externos e na Própria Página
