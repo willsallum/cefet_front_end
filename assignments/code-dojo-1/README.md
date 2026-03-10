@@ -107,8 +107,9 @@ digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do 
   - Crie 01 parágrafo copiando o texto da Wikipedia sobre "Coding dojo".
 - Parágrafos: Justificados, com fonte Arial ou sans-serif
 
-  Vide exemplo de uso de CSS em:[exemplo de CSS][exemplo]
-  [exemplo]: https://willsallum.github.io/cefet_front_end/classes/html1/#conhecendo-css---cascading-stylesheets
+  Vide exemplo do uso com CSS em:[exemplo de CSS][exemplo]
+  
+[exemplo]: https://willsallum.github.io/cefet_front_end/classes/html1/#conhecendo-css---cascading-stylesheets
   
 ---
 ## 3. Título (segundo nível) e estilos da página
