@@ -159,6 +159,7 @@ digte, antes de qualquer coisa, `'!'` + `tab` para obter a estrutura básica do 
 - Centralize as imagens
   
   Como inserir imagem: [Exemplo de inserção de imagens][exemplo_img]
+
   Como centralizar uma [imagem.][exemplo_centrar]
 
 [exemplo_img]: https://willsallum.github.io/cefet_front_end/classes/html1/#exemplo-4-imagem-2-pastas-acima
