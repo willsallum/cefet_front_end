@@ -192,7 +192,9 @@ Acessibilidade
 
 [`<figcaption></figcaption>`](http://www.w3.org/wiki/HTML/Elements/figcaption)
 ... legenda de imagem, tabela ou gráfico
+---
 
+Exemplo de tela com os componetes semânticos ![tags-semanticas](../../images/Tela_Tags_Semanticas.png)
 ---
 <!-- {"layout": "section-header", "hash": "especificidade-de-seletores"} -->
 # Especificidade de seletores
