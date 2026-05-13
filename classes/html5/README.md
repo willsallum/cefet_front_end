@@ -162,7 +162,9 @@ Acessibilidade
 ## Exemplo de uso - Elementos semânticos
 
   <iframe width="98%" height="600" src="//jsfiddle.net/fegemo/oy82x4tu/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0" class="rounded bordered block centered"></iframe>
+---
 
+# Exemplo de tela com os componetes semânticos ![tags-semanticas](../../images/Tela_Tags_Semanticas.png)
 ---
 ## Elementos semânticos **pré-HTML5**
 
@@ -192,9 +194,6 @@ Acessibilidade
 
 [`<figcaption></figcaption>`](http://www.w3.org/wiki/HTML/Elements/figcaption)
 ... legenda de imagem, tabela ou gráfico
----
-
-Exemplo de tela com os componetes semânticos ![tags-semanticas](../../images/Tela_Tags_Semanticas.png)
 ---
 <!-- {"layout": "section-header", "hash": "especificidade-de-seletores"} -->
 # Especificidade de seletores
